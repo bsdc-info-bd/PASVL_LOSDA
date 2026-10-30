@@ -1,0 +1,56 @@
+# NOTICE
+
+Work:            Acme Scheduler
+Author:          Acme Labs Ltd
+Contact:         licensing@acmelabs.example
+Copyright:       (c) 2024-2026 Acme Labs Ltd
+License:         PASVL-1.0
+License text:    https://github.com/acmelabs/scheduler/blob/main/LICENSE
+Steward:         Bangladesh Software Development Community (BSD C)
+Canonical:       https://github.com/bsdc-info-bd/PASVL_LOSDA
+
+Deployment approval:
+  Required:      Yes
+  Instrument:    Letter of Software Deployment Approval (LOSDA)
+  Issuing agent: Author
+  Request:       https://acmelabs.example/licensing
+  Response time: 20 business days for standard classes
+
+Mode:            S   (30-day private evaluation permitted; see PASVL §6.3)
+
+Classes offered:
+  S  Standard Commercial      from USD 18,000 / year
+  I  Internal Use             from USD 2,400 / year; free below 25 employees
+  H  Hosted Service           revenue share from 2%, floor USD 60,000 / year
+  D  Distribution / OEM       per-device royalty, by negotiation
+  A  Academic                 free
+  G  Government               free
+  P  Public Interest          free, expedited (3 business days)
+  R  Research                 free
+  X  Evaluation Extension     free, up to 90 days
+  M  Machine Learning         by negotiation
+  C  Continuity               via BSD C after 60 days of author unresponsiveness
+
+Machine Learning Use:
+  Requires a Class M LOSDA. Non-commercial research is permitted under PASVL §14.2(a).
+
+Third-party components:
+  See THIRD-PARTY-NOTICES.md. No GPL or AGPL components are included.
+
+Ethics Policy:
+  Incorporated: No. Acme Labs assesses each application against its own published policy.
+
+Trademarks:
+  "Acme Scheduler" and the Acme logo are trademarks of Acme Labs Ltd. Nominative use is
+  permitted. Endorsement must not be implied. See
+  https://github.com/bsdc-info-bd/PASVL_LOSDA/blob/main/TRADEMARK.md
+
+Warranty:
+  THE WORK IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND. See PASVL Article 21.
+
+Additional attribution:
+  Products deploying this Work must display, in their third-party notices:
+  "Acme Scheduler (c) Acme Labs Ltd, used under a Letter of Software Deployment Approval
+  issued under PASVL-1.0."
+
+Confidential terms:  None.

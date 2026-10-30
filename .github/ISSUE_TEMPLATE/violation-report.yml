@@ -1,0 +1,97 @@
+name: Violation report
+description: Report a suspected breach of PASVL-1.0 or of a LOSDA
+title: "[Violation] <work> — <short description>"
+labels: ["enforcement", "needs-triage"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        **Please do not publish personal data, credentials, or material obtained by
+        unauthorised access in this issue.**
+
+        If your report is sensitive, request confidentiality in the field below and we will move
+        it to a private channel. If you believe the conduct is causing harm to persons, say so
+        immediately.
+
+        Read `legal/enforcement-policy.md` before reporting. Good-faith reports are protected;
+        retaliation against a reporter is itself a violation; knowingly false reports are
+        prohibited.
+
+  - type: input
+    id: work
+    attributes:
+      label: Work
+      placeholder: "Acme Scheduler"
+    validations:
+      required: true
+
+  - type: input
+    id: violator
+    attributes:
+      label: Who is allegedly in breach
+      placeholder: "A product name, a company, or a URL"
+    validations:
+      required: true
+
+  - type: textarea
+    id: observed
+    attributes:
+      label: What you observed
+      description: Facts only — dates, URLs, and what you saw.
+    validations:
+      required: true
+
+  - type: dropdown
+    id: provision
+    attributes:
+      label: Suspected provision
+      options:
+        - Deployment without a LOSDA (§5.3)
+        - Exceeding the LOSDA scope (§13.2)
+        - Licence laundering (§13.3)
+        - Fork abuse (§13.4)
+        - Service Bureau Use (§13.5)
+        - Removing notices (§4.2)
+        - Relicensing or sublicensing (§4.4)
+        - Machine Learning Use without a Class M LOSDA (§14.1)
+        - Misuse of badges or marks (§17.3)
+        - Other — see the text field
+    validations:
+      required: true
+
+  - type: textarea
+    id: evidence
+    attributes:
+      label: Evidence
+      description: Public URLs, archived copies, screenshots by reference. Do not attach personal data.
+    validations:
+      required: true
+
+  - type: dropdown
+    id: harm
+    attributes:
+      label: Is anyone at risk of harm?
+      options:
+        - "No"
+        - "Unclear"
+        - "Yes — the report is urgent"
+    validations:
+      required: true
+
+  - type: input
+    id: contact
+    attributes:
+      label: Contact (optional)
+      description: Leave blank to report anonymously.
+
+  - type: checkboxes
+    id: declarations
+    attributes:
+      label: Declarations
+      options:
+        - label: The information I have provided is true to the best of my knowledge.
+          required: true
+        - label: I have not obtained this evidence by unauthorised access.
+          required: true
+        - label: I understand that the author or steward may need to share this report with the accused party in order to act on it.
+          required: true

@@ -1,0 +1,110 @@
+{
+  "losda_id": "LOSDA-ACME-2026-000512",
+  "version": "LOSDA-1.0",
+  "license_version": "1.0",
+  "class": "H",
+  "class_label": "Hosted Service / SaaS",
+  "work": {
+    "name": "Acme Scheduler",
+    "repo_url": "https://github.com/acmelabs/scheduler",
+    "commit": "a1b2c3d4e5f60718293a4b5c6d7e8f9012345678",
+    "version_range": "3.2.x",
+    "notice_url": "https://github.com/acmelabs/scheduler/blob/main/NOTICE"
+  },
+  "issuer": {
+    "legal_name": "Acme Labs Ltd",
+    "issuer_code": "ACME",
+    "capacity": "author",
+    "country": "Bangladesh",
+    "signatory": "R. Chowdhury, Director",
+    "contact": "licensing@acmelabs.example"
+  },
+  "licensee": {
+    "legal_name": "Cloudscale Systems Inc.",
+    "display_name": "Cloudscale",
+    "entity_type": "company",
+    "registration_number": "DE-0000000",
+    "country": "United States",
+    "anonymised": false,
+    "affiliates_covered": ["Cloudscale EMEA Ltd"]
+  },
+  "scope": {
+    "deployment_types": ["hosted_service"],
+    "territory": ["Worldwide"],
+    "field_of_use": "Cloudscale Flow — a managed workflow product exposing scheduling through the Licensee's own interface and API. The Work is not exposed directly as a standalone service.",
+    "scale": {
+      "end_users": 500000,
+      "seats": 0,
+      "instances": 200,
+      "devices": 0,
+      "monthly_api_requests": 250000000,
+      "revenue_threshold_usd": 0,
+      "unlimited": false
+    },
+    "excluded_uses": [
+      "resale_as_standalone_api",
+      "white_labelling_for_another_operator",
+      "distribution_of_source_or_binary",
+      "machine_learning_use"
+    ],
+    "sublicensing_permitted": false,
+    "service_bureau_permitted": false,
+    "modifications_permitted": true
+  },
+  "conditions": {
+    "codes": ["C1", "C2", "C3", "C4", "C5", "C6", "C7", "C8", "C9", "C13", "C15"],
+    "bespoke": [
+      "Publish a status page; notify the Issuer of outages exceeding four hours.",
+      "Maintain SOC 2 Type II or ISO 27001 certification.",
+      "Do not expose the Work's scheduling functionality as a public developer API.",
+      "Data Processing Addendum attached as a confidential annex.",
+      "Request an amendment within 30 days if end users exceed 500,000."
+    ],
+    "ethics_policy_incorporated": false
+  },
+  "fees": {
+    "payable": true,
+    "amount": 60000,
+    "currency": "USD",
+    "basis": "annual",
+    "confidential": true,
+    "refund_policy": "Pro rata refund if the Issuer revokes without cause."
+  },
+  "term": {
+    "start": "2026-11-01",
+    "end": "2028-10-31",
+    "perpetual": false,
+    "renewal": "automatic",
+    "reliance_period_days": 180
+  },
+  "effective_date": "2026-11-01",
+  "status": "active",
+  "status_history": [
+    {
+      "date": "2026-10-30T11:02:44Z",
+      "from": null,
+      "to": "active",
+      "reason_code": "ISSUED",
+      "reference": "LOSDA-ACME-2026-000512",
+      "actor": "BSD C Registry Custodian"
+    }
+  ],
+  "signature": {
+    "method": "qualified_e_signature",
+    "signatory": "R. Chowdhury, Director, Acme Labs Ltd",
+    "date": "2026-10-26",
+    "key_fingerprint": null
+  },
+  "registry": {
+    "record_hash": "0000000000000000000000000000000000000000000000000000000000000000",
+    "previous_hash": null,
+    "recorded_at": "2026-10-30T11:02:44Z",
+    "recorded_by": "BSD C Registry Custodian",
+    "verification_url": "https://github.com/bsdc-info-bd/PASVL_LOSDA/blob/main/registry/losda-registry.json#LOSDA-ACME-2026-000512"
+  },
+  "confidential_annex": {
+    "exists": true,
+    "contents": ["fees", "data_processing", "security_requirements"]
+  },
+  "notes": "Example record. The record_hash value here is a placeholder; in a real record it must be the SHA-256 of the canonical JSON of the record itself, computed with scripts/hash_record.py and printed on the signed letter."
+}

@@ -1,0 +1,21 @@
+{
+  "registry_version": "2026.10.0",
+  "updated_at": "2026-10-30T00:00:00Z",
+  "notes": "Register of works that have adopted the PASVL/LOSDA framework. Adding a work here is a declaration by the author that the work is licensed under PASVL-1.0 and that deployment permission is required. It does not grant any permission. See governance/REGISTRY-POLICY.md.",
+  "works": [
+    {
+      "work_id": "W-2026-000001",
+      "name": "PASVL / LOSDA Framework",
+      "repo_url": "https://github.com/bsdc-info-bd/PASVL_LOSDA",
+      "author": "Bangladesh Software Development Community (BSD C)",
+      "license_version": "1.0",
+      "mode": "U",
+      "classes_offered": ["A", "G", "P", "R", "X"],
+      "licensing_contact": "GOVERNANCE.md#contact",
+      "ethics_policy_incorporated": false,
+      "registered_at": "2026-10-30",
+      "status": "active",
+      "notes": "The framework repository itself. The legal texts may be read, copied, translated, and adapted freely; a LOSDA is required only to deploy software licensed under PASVL."
+    }
+  ]
+}

@@ -1,0 +1,46 @@
+Copyright (c) <YEAR> <AUTHOR NAME>
+Licensed under the Public Availability with Source-Code Visibility License, Version 1.0
+(PASVL-1.0). Source is public. Deployment requires a Letter of Software Deployment
+Approval (LOSDA) from the author.
+License text: https://github.com/bsdc-info-bd/PASVL_LOSDA/blob/main/LICENSE
+Request deployment approval at: <CONTACT OR URL>
+SPDX-License-Identifier: LicenseRef-PASVL-1.0
+
+-------------------------------------------------------------------------------
+PYTHON (place at the top of each file):
+
+# Copyright (c) <YEAR> <AUTHOR>
+# Licensed under PASVL-1.0. Source is public. Deployment requires a LOSDA.
+# SPDX-License-Identifier: LicenseRef-PASVL-1.0
+
+-------------------------------------------------------------------------------
+JAVASCRIPT / TYPESCRIPT:
+
+/*
+ * Copyright (c) <YEAR> <AUTHOR>
+ * Licensed under PASVL-1.0. Source is public. Deployment requires a LOSDA.
+ * SPDX-License-Identifier: LicenseRef-PASVL-1.0
+ */
+
+-------------------------------------------------------------------------------
+JAVA / KOTLIN / C / C++ / C# / GO / RUST:
+
+// Copyright (c) <YEAR> <AUTHOR>
+// Licensed under PASVL-1.0. Source is public. Deployment requires a LOSDA.
+// SPDX-License-Identifier: LicenseRef-PASVL-1.0
+
+-------------------------------------------------------------------------------
+HTML / XML / MARKDOWN:
+
+<!--
+  Copyright (c) <YEAR> <AUTHOR>
+  Licensed under PASVL-1.0. Source is public. Deployment requires a LOSDA.
+  SPDX-License-Identifier: LicenseRef-PASVL-1.0
+-->
+
+-------------------------------------------------------------------------------
+YAML / SHELL / DOCKERFILE / TOML (#):
+
+# Copyright (c) <YEAR> <AUTHOR>
+# Licensed under PASVL-1.0. Source is public. Deployment requires a LOSDA.
+# SPDX-License-Identifier: LicenseRef-PASVL-1.0

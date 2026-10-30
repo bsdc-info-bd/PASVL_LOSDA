@@ -1,0 +1,19 @@
+{
+  "registry_version": "2026.10.0",
+  "updated_at": "2026-10-30T00:00:00Z",
+  "notes": "Register of issuer codes authorised to appear in a LOSDA identifier. An issuer code not listed here cannot appear in a valid LOSDA ID. See legal/losda-specification.md §5 and §8.",
+  "issuers": [
+    {
+      "issuer_code": "BSDC",
+      "legal_name": "Bangladesh Software Development Community (BSD C)",
+      "capacity": "steward",
+      "authorised_classes": ["C", "X"],
+      "authority_basis": "PASVL §9.2 (Continuity LOSDA) and §6.5 (Evaluation Extension) only",
+      "country": "Bangladesh",
+      "status": "active",
+      "registered_at": "2026-01-01",
+      "key_fingerprint": null,
+      "notes": "The Steward does not issue LOSDAs for third-party works generally. Authors issue their own LOSDAs unless they appoint the Steward as issuing agent in their NOTICE."
+    }
+  ]
+}

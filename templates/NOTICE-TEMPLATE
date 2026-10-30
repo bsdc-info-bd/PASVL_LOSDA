@@ -1,0 +1,46 @@
+# NOTICE
+
+This file supplies the additional terms permitted by PASVL §15.2. It may add attribution
+requirements but may not reduce the rights granted by Article 3 of the License.
+
+---
+
+Work:            <name of the work>
+Author:          <legal name of author or entity>
+Contact:         <licensing contact email or URL>
+Copyright:       <year> <author>
+License:         PASVL-1.0 (Public Availability with Source-Code Visibility License)
+License text:    <URL to the LICENSE file in this repository>
+Steward:         Bangladesh Software Development Community (BSD C)
+Canonical:       https://github.com/bsdc-info-bd/PASVL_LOSDA
+
+Deployment approval:
+  Required:      Yes
+  Instrument:    Letter of Software Deployment Approval (LOSDA)
+  Issuing agent: Author  (or: Author and Steward)
+  Request:       <URL or contact for the licensing request>
+  No-fee classes available for: academic, government, public interest, research
+
+Mode:            S   (S = Evaluation Use permitted under §6.3; U = no execution without a LOSDA)
+
+Evaluation period: 30 days per 12 months, unless a longer period is stated here: ________
+
+Machine Learning Use:  Requires a Class M LOSDA  (or: permitted for non-commercial research only)
+
+Third-party components:
+  See THIRD-PARTY-NOTICES.md
+
+Ethics Policy:
+  Incorporated: <Yes/No>. If yes, see legal/ethics-policy.md in the framework repository.
+
+Trademarks:
+  The name "<work name>" and its logo are trademarks of <author>. Nominative use is permitted;
+  endorsement must not be implied. See TRADEMARK.md in the framework repository.
+
+Warranty:
+  THE WORK IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND. See PASVL Article 21.
+
+Additional attribution requirements (optional):
+  <e.g. "Must display: 'Powered by <work name> — used under a BSD C LOSDA'">
+
+Confidential terms:  None.

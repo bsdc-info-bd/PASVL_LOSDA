@@ -1,0 +1,62 @@
+# NOTICE
+
+This NOTICE supplies the additional terms permitted by PASVL §15.2. It does not reduce any right
+granted by Article 3 of the License.
+
+---
+
+Work:            PASVL / LOSDA Framework
+                 (Public Availability with Source-Code Visibility License and Letter of Software
+                 Deployment Approval)
+Author:          Bangladesh Software Development Community (BSD C)
+Contact:         See GOVERNANCE.md#contact
+Copyright:       (c) 2026 Bangladesh Software Development Community
+License:         PASVL-1.0
+License text:    https://github.com/bsdc-info-bd/PASVL_LOSDA/blob/main/LICENSE
+Steward:         Bangladesh Software Development Community (BSD C)
+Canonical:       https://github.com/bsdc-info-bd/PASVL_LOSDA
+
+Deployment approval:
+  Required:      Yes, for software licensed under PASVL-1.0.
+  Instrument:    Letter of Software Deployment Approval (LOSDA)
+  Issuing agent: The Author of each Work. BSD C acts as issuing agent only where it has been
+                 appointed in that Work's NOTICE, or for Continuity and Evaluation Extension
+                 LOSDAs under PASVL §9.2 and §6.5.
+  Request:       https://github.com/bsdc-info-bd/PASVL_LOSDA/blob/main/templates/LOSDA-REQUEST.md
+
+Note on the legal texts:
+  The legal texts (LICENSE, legal/, governance/, templates/) are published under PASVL-1.0 so
+  that anyone may read, copy, translate, and adapt them. Filling in and distributing a template
+  does not constitute Deployment of software and does not require a LOSDA. Deploying software
+  that is licensed under PASVL-1.0 does require one.
+
+Mode:            U  (no execution of this repository's scripts without a LOSDA is intended beyond
+                 what Article 3 and Article 7 permit; the scripts are verification tools intended
+                 to be read and run locally for validation)
+
+Machine Learning Use:
+  Requires a Class M LOSDA, except for non-commercial research under PASVL §14.2(a).
+
+Third-party components:
+  None at the framework level. Adopters must publish their own THIRD-PARTY-NOTICES.
+
+Ethics Policy:
+  Incorporated: No, by default. An Author may incorporate it in the Author's own NOTICE
+  (condition C14). The framework's own activities comply with legal/ethics-policy.md.
+
+Trademarks:
+  "PASVL", "LOSDA", "Letter of Software Deployment Approval", "Public Availability with
+  Source-Code Visibility License", "Bangladesh Software Development Community", and "BSD C" are
+  designations of the framework and its Steward. Nominative use is permitted; endorsement must
+  not be implied. See TRADEMARK.md.
+
+Warranty:
+  THE FRAMEWORK'S TEXTS, SCHEMAS, AND SCRIPTS ARE PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND.
+  See PASVL Article 21. Nothing in this repository is legal advice.
+
+Additional attribution:
+  When adopting PASVL, retain this attribution in your documentation:
+  "Licensed under the Public Availability with Source-Code Visibility License v1.0, a framework
+  of the Bangladesh Software Development Community."
+
+Confidential terms:  None.
