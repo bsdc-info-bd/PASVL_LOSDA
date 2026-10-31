@@ -21,6 +21,7 @@ sys.path.insert(0, str(ROOT / "scripts"))
 
 from check_docs import check_file  # noqa: E402
 from check_links import slugify, strip_code  # noqa: E402
+from check_refs import check as check_refs  # noqa: E402
 
 
 class TestProseLint(unittest.TestCase):
@@ -108,6 +109,47 @@ class TestLinkHelpers(unittest.TestCase):
         self.assertIn("before", body)
         self.assertIn("after", body)
         self.assertNotIn("secret", body)
+
+
+class TestReferenceCheck(unittest.TestCase):
+    """Every citation must resolve against the instrument it names."""
+
+    OUTLINES = {
+        "pasvl": ({"5", "22", "28"}, {"5.2", "22.2", "22.3"}),
+        "losda": ({"6", "13"}, {"6.1", "13.1"}),
+    }
+
+    def resolve(self, body: str) -> list[str]:
+        with tempfile.TemporaryDirectory() as tmp:
+            root = pathlib.Path(tmp)
+            (root / "page.md").write_text(body, encoding="utf-8")
+            return check_refs(root, self.OUTLINES)
+
+    def test_bare_reference_resolves(self) -> None:
+        self.assertEqual(self.resolve("See §5.2 for the rule.\n"), [])
+
+    def test_named_pasvl_reference_resolves(self) -> None:
+        self.assertEqual(self.resolve("See PASVL §22.2.\n"), [])
+
+    def test_named_losda_reference_resolves(self) -> None:
+        self.assertEqual(self.resolve("See LOSDA spec §13.1.\n"), [])
+
+    def test_unknown_article_flagged(self) -> None:
+        problems = self.resolve("See §99 for the rule.\n")
+        self.assertTrue(any("no Article 99" in p for p in problems))
+
+    def test_unknown_section_flagged(self) -> None:
+        problems = self.resolve("See §5.9 for the rule.\n")
+        self.assertTrue(any("no §5.9" in p for p in problems))
+
+    def test_foreign_statute_ignored(self) -> None:
+        self.assertEqual(self.resolve("Germany: BGB §§305 ff.\n"), [])
+
+    def test_external_provision_ignored(self) -> None:
+        self.assertEqual(self.resolve("Fair use; §1201(f) interoperability.\n"), [])
+
+    def test_references_in_code_fences_ignored(self) -> None:
+        self.assertEqual(self.resolve("```\nSee §99.9\n```\n"), [])
 
 
 if __name__ == "__main__":

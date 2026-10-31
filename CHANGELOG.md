@@ -37,9 +37,16 @@ Format: [Keep a Changelog](https://keepachangelog.com/en/1.1.0/). Versioning: se
 
 ### Added
 
+- `scripts/tests/test_docs_lint.py` — 18 tests covering the two new linters, and 8 covering the
+  reference checker.
+
 - `scripts/check_docs.py` — prose lint covering spelling consistency, doubled words, wrong
   articles, unbalanced delimiters, duplicate headings, trailing whitespace, and "shall".
 - `scripts/check_links.py` — link and anchor validation, with optional external probing.
+- `scripts/check_refs.py` — resolves every section citation against the instrument it names.
+  193 citations are checked against the 257 sections of the License and the 63 sections of the
+  LOSDA specification. Citations of foreign statutes, such as `BGB §§305 ff.` or `§1201(f)`,
+  are recognized and skipped.
 - `.codespellrc` — shared spelling configuration with every exemption justified in a comment.
 
 ---

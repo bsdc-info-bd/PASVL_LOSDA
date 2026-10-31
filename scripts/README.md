@@ -12,6 +12,9 @@ Python 3.9+; nothing needs installing.
 | [`hash_record.py`](hash_record.py) | Computes or verifies the canonical SHA-256 record hash |
 | [`new_losda.py`](new_losda.py) | Scaffolds a draft record and prints its hash — it does not issue a permission |
 | [`check_license_headers.py`](check_license_headers.py) | Fails CI when a source file lacks a PASVL license header |
+| [`check_docs.py`](check_docs.py) | Prose lint: one spelling variant, no doubled words, correct articles, balanced delimiters, unique headings |
+| [`check_links.py`](check_links.py) | Resolves every relative link and every heading anchor; `--external` also probes remote URLs |
+| [`check_refs.py`](check_refs.py) | Resolves every `PASVL §x.y` and `LOSDA spec §x.y` citation against the instrument it names |
 
 ## Quick start
 
@@ -39,6 +42,33 @@ python3 scripts/new_losda.py \
 
 # Check license headers across the repository
 python3 scripts/check_license_headers.py --path . --allow-missing README.md
+
+# Prose consistency: spelling variants, doubled words, articles, delimiters
+python3 scripts/check_docs.py
+
+# Internal links and heading anchors
+python3 scripts/check_links.py
+
+# Every section citation resolves to a real clause
+python3 scripts/check_refs.py
+
+# External URLs as well (network; advisory in CI)
+python3 scripts/check_links.py --external
+```
+
+## The full gate
+
+These are the commands CI runs. They need nothing beyond the standard library, except
+`codespell` and `pytest`, which CI installs from pip.
+
+```bash
+python3 -m pytest scripts/tests -q      # unit tests for the validators and linters
+python3 scripts/validate_registry.py    # registry integrity and Merkle root
+python3 scripts/check_docs.py           # prose
+python3 scripts/check_links.py          # links and anchors
+python3 scripts/check_refs.py           # cross-references to numbered clauses
+python3 scripts/check_license_headers.py --path scripts
+codespell                               # spelling; reads .codespellrc
 ```
 
 ## Tests
@@ -94,6 +124,20 @@ detected.
 3. **No network access.** These tools never call home, never phone a license server, and never
    collect telemetry. That would contradict the framework.
 4. **No silent fixes**, except in `--fix` mode for license headers, which is explicit.
+
+## Why the prose checks exist
+
+The License is enforced as a contract, so a sentence that says the wrong thing is a defect, not a
+style preference. The linters catch the classes of error that proofreading misses at scale:
+
+- **One spelling variant.** The instrument is named *License*, so the corpus says "license"
+  throughout. A text that says "licence" in one article and "license" in the next invites an
+  argument about whether two different things were meant.
+- **Cross-references.** A citation to a section that does not exist sends a reader nowhere. Every
+  citation is resolved against `LICENSE` or `legal/losda-specification.md`, so a broken reference
+  fails the build instead of reaching a reader.
+- **Articles and duplicates.** `"a applicable"` and a repeated heading are both small, and both are
+  the kind of detail a counterparty notices.
 
 ## Adding a script
 

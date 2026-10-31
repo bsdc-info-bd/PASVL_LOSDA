@@ -198,7 +198,8 @@ PASVL_LOSDA/
 │   ├── hash_record.py
 │   ├── check_license_headers.py
 │   ├── check_docs.py            ← prose consistency
-│   └── check_links.py           ← links and anchors
+│   ├── check_links.py           ← links and anchors
+│   └── check_refs.py            ← section cross-references
 │
 ├── rfcs/                        ← how the framework changes
 ├── translations/                ← বাংলা and more

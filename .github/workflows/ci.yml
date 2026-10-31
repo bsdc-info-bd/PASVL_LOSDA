@@ -103,6 +103,9 @@ jobs:
       - name: Check internal links and anchors
         run: python scripts/check_links.py
 
+      - name: Check that every section reference resolves
+        run: python scripts/check_refs.py
+
   license-headers:
     name: Check license headers
     runs-on: ubuntu-latest
