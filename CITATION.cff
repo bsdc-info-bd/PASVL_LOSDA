@@ -1,0 +1,46 @@
+cff-version: 1.2.0
+message: "If you use or refer to this framework, please cite it as below."
+title: "Public Availability with Source-Code Visibility License (PASVL-1.0) and Letter of Software Deployment Approval (LOSDA-1.0)"
+abstract: >-
+  A source-available licensing framework in which software source code is permanently public and
+  visible, while the right to deploy the software is granted individually through a Letter of
+  Software Deployment Approval (LOSDA) — a named, scoped, time-limited, publicly registered
+  permission instrument. The framework comprises a license (PASVL-1.0), an instrument
+  specification (LOSDA-1.0), a public registry, governance policies, and templates.
+type: software
+version: "1.0.0"
+date-released: "2026-01-01"
+license: LicenseRef-PASVL-1.0
+license-url: "https://github.com/bsdc-info-bd/PASVL_LOSDA/blob/main/LICENSE"
+repository-code: "https://github.com/bsdc-info-bd/PASVL_LOSDA"
+url: "https://github.com/bsdc-info-bd/PASVL_LOSDA"
+keywords:
+  - licensing
+  - source-available
+  - software licensing
+  - permission-gated deployment
+  - source code visibility
+  - legal framework
+  - LOSDA
+  - PASVL
+authors:
+  - name: "Bangladesh Software Development Community (BSD C)"
+    website: "https://github.com/bsdc-info-bd"
+contact:
+  - name: "BSD C License Council"
+    website: "https://github.com/bsdc-info-bd/PASVL_LOSDA"
+references:
+  - type: standard
+    title: "Letter of Software Deployment Approval: Specification and Operating Rules, Version 1.0"
+    authors:
+      - name: "Bangladesh Software Development Community (BSD C)"
+    version: "1.0"
+    date-released: "2026-01-01"
+    url: "https://github.com/bsdc-info-bd/PASVL_LOSDA/blob/main/legal/losda-specification.md"
+  - type: generic
+    title: "Governance of the PASVL/LOSDA Framework"
+    authors:
+      - name: "Bangladesh Software Development Community (BSD C)"
+    version: "1.0"
+    date-released: "2026-01-01"
+    url: "https://github.com/bsdc-info-bd/PASVL_LOSDA/blob/main/GOVERNANCE.md"

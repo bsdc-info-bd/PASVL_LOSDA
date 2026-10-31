@@ -1,0 +1,101 @@
+name: Framework proposal (RFC)
+description: Propose a change to the license, the LOSDA specification, the schemas, or governance
+title: "[RFC] <short title>"
+labels: ["rfc", "needs-triage"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        This form starts an RFC under `governance/AMENDMENT-PROCESS.md`. Please read that document
+        before submitting — it determines whether your change is editorial, minor, or major.
+
+        **The question that decides the process:** does this change alter what a reader, deployer,
+        contributor, or author may or must do?
+
+        - No → editorial or clarifying.
+        - Yes, it adds permission → minor amendment (30-day comment, simple majority).
+        - Yes, it removes permission → major amendment (45-day comment, two-thirds vote,
+          Assembly ratification).
+
+  - type: dropdown
+    id: target
+    attributes:
+      label: Document affected
+      options:
+        - LICENSE (PASVL-1.0)
+        - legal/losda-specification.md
+        - schemas/
+        - templates/
+        - governance/
+        - docs/
+        - registry/
+        - Other
+    validations:
+      required: true
+
+  - type: dropdown
+    id: class
+    attributes:
+      label: Proposed class of change
+      options:
+        - Editorial (typo, link, formatting)
+        - Clarifying (no change in rights)
+        - Minor (adds a permission or improves a process)
+        - Major (removes or restricts a permission)
+        - Emergency (required by law or security)
+        - I am not sure
+    validations:
+      required: true
+
+  - type: textarea
+    id: problem
+    attributes:
+      label: Problem statement
+      description: What is wrong or missing today? Give concrete examples.
+    validations:
+      required: true
+
+  - type: textarea
+    id: text
+    attributes:
+      label: Proposed text
+      description: Include the exact wording, or a diff.
+    validations:
+      required: true
+
+  - type: textarea
+    id: rationale
+    attributes:
+      label: Rationale
+    validations:
+      required: true
+
+  - type: textarea
+    id: effects
+    attributes:
+      label: Effects
+      description: On authors, licensees, contributors, the registry, and existing LOSDAs.
+    validations:
+      required: true
+
+  - type: textarea
+    id: compatibility
+    attributes:
+      label: Compatibility and migration
+      description: Do existing LOSDAs remain valid? If not, how are they handled?
+
+  - type: textarea
+    id: alternatives
+    attributes:
+      label: Alternatives considered
+      description: Including doing nothing.
+
+  - type: checkboxes
+    id: declarations
+    attributes:
+      label: Declarations
+      options:
+        - label: I have read the amendment process and classified this change honestly.
+          required: true
+        - label: I am willing to engage with the public comment period.
+          required: true

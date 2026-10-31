@@ -1,0 +1,21 @@
+{
+  "registry_version": "2026.10.0",
+  "updated_at": "2026-10-30T00:00:00Z",
+  "notes": "Public redacted record of enforcement actions at Stage 2 and above. Stage 0 and Stage 1 matters are published only in aggregate in the annual transparency report. Personal data is minimised. See legal/enforcement-policy.md and governance/REGISTRY-POLICY.md §10.",
+  "principles": [
+    "No entry without a signed decision from an authorised enforcement authority.",
+    "Entries are append-only; corrections are new entries that reference the original.",
+    "An action overturned on appeal is annotated prominently.",
+    "Reporter identity is never published."
+  ],
+  "entries": [],
+  "statistics": {
+    "reports_received": 0,
+    "stage0_matters": 0,
+    "nnc_issued": 0,
+    "suspensions": 0,
+    "revocations": 0,
+    "appeals_filed": 0,
+    "appeals_allowed": 0
+  }
+}

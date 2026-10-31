@@ -1,0 +1,135 @@
+name: LOSDA request
+description: Request permission to deploy a work licensed under PASVL-1.0
+title: "[LOSDA] <work name> — <your organization>"
+labels: ["licensing", "needs-triage"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thank you for asking before deploying. That is the whole point of the framework.
+
+        **This issue is a request, not a permission.** No deployment may begin until a signed
+        LOSDA is recorded in the registry and its status is `active`.
+
+        Read `docs/for-deployers.md` and `docs/deployment-scopes.md` first.
+
+        If your request contains commercially sensitive information, say so and we will move
+        the discussion to a private channel.
+
+  - type: input
+    id: work
+    attributes:
+      label: Work and version
+      description: The name of the work and the release or commit you want to deploy.
+      placeholder: "Acme Scheduler v3.2.0"
+    validations:
+      required: true
+
+  - type: input
+    id: licensee
+    attributes:
+      label: Legal entity
+      description: The legal name of the entity that will deploy. Not a trading name, not a personal name unless you are a sole trader.
+      placeholder: "Example Corp Ltd"
+    validations:
+      required: true
+
+  - type: dropdown
+    id: country
+    attributes:
+      label: Country of establishment
+      description: Used for sanctions screening and to determine the territory.
+      options:
+        - Bangladesh
+        - India
+        - Pakistan
+        - Nepal
+        - Sri Lanka
+        - United Kingdom
+        - European Union
+        - United States
+        - Canada
+        - Australia
+        - Japan
+        - South Korea
+        - Singapore
+        - United Arab Emirates
+        - Saudi Arabia
+        - Brazil
+        - Nigeria
+        - South Africa
+        - Other — see the free-text field
+    validations:
+      required: true
+
+  - type: dropdown
+    id: class
+    attributes:
+      label: Requested class
+      description: See the class table in the LOSDA specification, section 6.
+      options:
+        - I — Internal Use
+        - S — Standard Commercial
+        - H — Hosted Service / SaaS
+        - D — Distribution / OEM / Embedded
+        - E — Enterprise / Portfolio
+        - M — Machine Learning / AI Data
+        - A — Academic
+        - G — Government
+        - P — Public Interest
+        - R — Research
+        - X — Evaluation Extension
+        - Not sure — please advise
+    validations:
+      required: true
+
+  - type: textarea
+    id: field-of-use
+    attributes:
+      label: Field of use
+      description: What will the deployment do? Be specific — see the good and bad examples in docs/deployment-scopes.md.
+      placeholder: |
+        We will use the work as the scheduling backend of Example Cloud, our multi-tenant
+        analytics product, serving approximately 4,000 business users in the UK and EU.
+    validations:
+      required: true
+
+  - type: textarea
+    id: scale
+    attributes:
+      label: Scale
+      description: Users, seats, instances, devices, or requests — with 24 months of headroom.
+      placeholder: "4,000 users today; 12,000 in 24 months; requesting 15,000."
+    validations:
+      required: true
+
+  - type: textarea
+    id: data
+    attributes:
+      label: Data and security
+      description: Will the deployment process personal data? Where is it hosted? Who is your incident contact?
+    validations:
+      required: true
+
+  - type: input
+    id: contact
+    attributes:
+      label: Contact
+      description: A monitored email address.
+      placeholder: "legal@example.com"
+    validations:
+      required: true
+
+  - type: checkboxes
+    id: declarations
+    attributes:
+      label: Declarations
+      options:
+        - label: I am authorized to make this request on behalf of the entity named above.
+          required: true
+        - label: The entity is not a restricted party and is not subject to sanctions that would prohibit this deployment.
+          required: true
+        - label: I understand that this request is not permission, and that deployment before a recorded LOSDA is a violation of the license.
+          required: true
+        - label: I have read the license, or the plain-language summary, before requesting.
+          required: true

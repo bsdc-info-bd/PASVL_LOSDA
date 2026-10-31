@@ -1,0 +1,14 @@
+blank_issues_enabled: false
+contact_links:
+  - name: Licensing and deployment permission
+    url: https://github.com/bsdc-info-bd/PASVL_LOSDA/blob/main/docs/for-deployers.md
+    about: How to request a Letter of Software Deployment Approval (LOSDA).
+  - name: Frequently asked questions
+    url: https://github.com/bsdc-info-bd/PASVL_LOSDA/blob/main/docs/faq.md
+    about: Sixty-two answers, including the uncomfortable ones.
+  - name: Security vulnerability
+    url: https://github.com/bsdc-info-bd/PASVL_LOSDA/blob/main/SECURITY.md
+    about: Please do not open a public issue for a vulnerability.
+  - name: Code of conduct concern
+    url: https://github.com/bsdc-info-bd/PASVL_LOSDA/blob/main/CODE_OF_CONDUCT.md
+    about: How to report conduct issues confidentially.

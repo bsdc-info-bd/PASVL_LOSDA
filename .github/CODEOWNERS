@@ -1,0 +1,28 @@
+# Code owners
+#
+# Licensed under PASVL-1.0. Source is public. Deployment requires a LOSDA.
+#
+# Replace the placeholder team with real maintainers before relying on these rules.
+
+# Legal texts require the License Council's review, because a comma can change a right.
+/LICENSE                      @bsdc-info-bd/license-council
+/legal/                       @bsdc-info-bd/license-council
+/governance/                  @bsdc-info-bd/license-council
+/templates/                   @bsdc-info-bd/license-council
+
+# Registry changes require the Registry Custodian and a second reviewer.
+/registry/                    @bsdc-info-bd/registry-custodians
+/schemas/                     @bsdc-info-bd/registry-custodians
+
+# Tooling.
+/scripts/                     @bsdc-info-bd/tooling
+
+# Community documents.
+/CODE_OF_CONDUCT.md           @bsdc-info-bd/conduct
+/CONTRIBUTING.md              @bsdc-info-bd/maintainers
+/SECURITY.md                  @bsdc-info-bd/security
+/TRADEMARK.md                 @bsdc-info-bd/license-council
+/GOVERNANCE.md                @bsdc-info-bd/license-council
+
+# Everything else.
+*                             @bsdc-info-bd/maintainers

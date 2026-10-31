@@ -1,0 +1,18 @@
+{
+  "registry_version": "2026.10.0",
+  "framework_version": "1.0",
+  "losda_spec_version": "1.0",
+  "updated_at": "2026-10-30T00:00:00Z",
+  "merkle_root": null,
+  "custodian": "BSD C Registry Custodian (to be appointed)",
+  "notes": "Initial publication. The registry is empty of issued LOSDAs because no LOSDA had been issued at the time of publication. This file is the canonical discovery point: third parties verify a LOSDA by locating its losda_id here and reading its status. Status is authoritative. See governance/REGISTRY-POLICY.md.",
+  "records": [],
+  "statistics": {
+    "total_records": 0,
+    "active": 0,
+    "suspended": 0,
+    "revoked": 0,
+    "expired": 0,
+    "by_class": {}
+  }
+}
