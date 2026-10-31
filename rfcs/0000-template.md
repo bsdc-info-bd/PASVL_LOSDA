@@ -22,7 +22,7 @@ One paragraph a busy reader can understand.
 
 ## 2. Problem statement
 
-What is wrong or missing today? Use concrete examples, real or hypothesised. If the problem is
+What is wrong or missing today? Use concrete examples, real or hypothesized. If the problem is
 speculative, say so.
 
 ## 3. Proposed text

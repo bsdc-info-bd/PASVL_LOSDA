@@ -7,7 +7,7 @@
 **Public Availability with Source-Code Visibility License (PASVL-1.0)**
 **Letter of Software Deployment Approval (LOSDA-1.0)**
 
-[![Licence](https://img.shields.io/badge/licence-PASVL--1.0-blue)](LICENSE)
+[![License](https://img.shields.io/badge/license-PASVL--1.0-blue)](LICENSE)
 [![Deployment](https://img.shields.io/badge/deployment-LOSDA%20required-orange)](legal/losda-specification.md)
 [![Status](https://img.shields.io/badge/status-published%20%C2%B7%20in%20force-brightgreen)](CHANGELOG.md)
 [![Version](https://img.shields.io/badge/version-1.0-0969da)](CHANGELOG.md)
@@ -33,10 +33,10 @@ Two instruments, designed to work together:
 
 | Instrument | What it does | Grants |
 |---|---|---|
-| **[PASVL-1.0](LICENSE)** — the licence | Makes the source public and permanently visible | Read, study, audit, fork, cite, teach, contribute — free, worldwide, forever |
-| **[LOSDA-1.0](legal/losda-specification.md)** — the permission | Authorises a named party to deploy | Run, host, embed, distribute — scoped, term-limited, recorded, revocable only for cause |
+| **[PASVL-1.0](LICENSE)** — the license | Makes the source public and permanently visible | Read, study, audit, fork, cite, teach, contribute — free, worldwide, forever |
+| **[LOSDA-1.0](legal/losda-specification.md)** — the permission | Authorizes a named party to deploy | Run, host, embed, distribute — scoped, term-limited, recorded, revocable only for cause |
 
-The licence is public and identical for everyone. The permission is individual and verifiable.
+The license is public and identical for everyone. The permission is individual and verifiable.
 The **registry** is the memory that makes both enforceable in practice.
 
 ```
@@ -99,10 +99,10 @@ it in seconds.
 
 | I am… | Start with |
 |---|---|
-| **An author** considering this licence | [docs/for-authors.md](docs/for-authors.md) → [docs/quickstart.md](docs/quickstart.md) |
+| **An author** considering this license | [docs/for-authors.md](docs/for-authors.md) → [docs/quickstart.md](docs/quickstart.md) |
 | **A team** that wants to deploy | [docs/for-deployers.md](docs/for-deployers.md) → [templates/LOSDA-REQUEST.md](templates/LOSDA-REQUEST.md) |
 | **A lawyer or auditor** | [LICENSE](LICENSE) → [legal/losda-specification.md](legal/losda-specification.md) → [legal/risk-register.md](legal/risk-register.md) |
-| **A journalist or sceptic** | [docs/why-this-exists.md](docs/why-this-exists.md) → [legal/platform-reality.md](legal/platform-reality.md) |
+| **A journalist or skeptic** | [docs/why-this-exists.md](docs/why-this-exists.md) → [legal/platform-reality.md](legal/platform-reality.md) |
 | **An enterprise** | [docs/for-enterprise.md](docs/for-enterprise.md) |
 | **A public body** | [docs/for-government.md](docs/for-government.md) |
 | **A teacher or researcher** | [docs/for-education.md](docs/for-education.md) |
@@ -116,7 +116,7 @@ it in seconds.
 
 ```
 PASVL_LOSDA/
-├── LICENSE                      ← PASVL-1.0, the full binding licence
+├── LICENSE                      ← PASVL-1.0, the full binding license
 ├── NOTICE                       ← adoption notice for this repository
 ├── GOVERNANCE.md                ← who decides what
 ├── CONTRIBUTING.md              ← how to contribute
@@ -131,8 +131,8 @@ PASVL_LOSDA/
 │   ├── plain-language.md        ← the whole thing in human words
 │   ├── enforcement-policy.md    ← what happens when rules are broken
 │   ├── hierarchy-and-interpretation.md
-│   ├── platform-reality.md      ← what a licence can and cannot do on GitHub
-│   ├── compatibility.md         ← combining with other licences
+│   ├── platform-reality.md      ← what a license can and cannot do on GitHub
+│   ├── compatibility.md         ← combining with other licenses
 │   ├── jurisdiction-matrix.md   ← 17 jurisdictions, honestly assessed
 │   ├── ethics-policy.md         ← prohibited uses
 │   ├── sanctions-and-export.md
@@ -196,7 +196,9 @@ PASVL_LOSDA/
 │   ├── validate_registry.py
 │   ├── new_losda.py
 │   ├── hash_record.py
-│   └── check_license_headers.py
+│   ├── check_license_headers.py
+│   ├── check_docs.py            ← prose consistency
+│   └── check_links.py           ← links and anchors
 │
 ├── rfcs/                        ← how the framework changes
 ├── translations/                ← বাংলা and more
@@ -207,7 +209,7 @@ PASVL_LOSDA/
 
 ## The rules, in one page
 
-### The licence grants (Article 3)
+### The license grants (Article 3)
 
 | Right | Scope |
 |---|---|
@@ -220,7 +222,7 @@ PASVL_LOSDA/
 | Build to verify | Private, non-production |
 | Personal study copy | Not for deployment |
 
-### The licence reserves (§5)
+### The license reserves (§5)
 
 - Deployment, in every form.
 - Hosted service provision.
@@ -246,7 +248,7 @@ PASVL_LOSDA/
 |---|---|---|---|
 | **S** | Standard Commercial | A product or business use | Author's schedule |
 | **E** | Enterprise / Portfolio | Groups of affiliates and works | Negotiated |
-| **I** | Internal Use | Inside one organisation | Often low or zero |
+| **I** | Internal Use | Inside one organization | Often low or zero |
 | **H** | Hosted Service / SaaS | Serving third parties online | Often usage-based |
 | **D** | Distribution / OEM | Devices, binaries, installers | Often per unit |
 | **A** | Academic / Non-Commercial | Universities and colleges | None |
@@ -270,7 +272,7 @@ Every step is documented, proportionate, and appealable.
 ## The ten principles
 
 1. **Visibility is a right. Deployment is a permission.**
-2. **No implied licences.** Permission exists only in writing and in the registry.
+2. **No implied licenses.** Permission exists only in writing and in the registry.
 3. **Cure before escalation.** Most breaches are mistakes.
 4. **Proportionality.** The response matches the harm.
 5. **No retroactive tightening.** Rights already granted stay granted.
@@ -289,29 +291,29 @@ Every step is documented, proportionate, and appealable.
 | The source is public and auditable | ✅ Yes, permanently |
 | Anyone can read, fork, teach, and contribute | ✅ Yes, free |
 | Deployment requires permission | ✅ Yes, in the framework |
-| The licence is enforceable everywhere, perfectly | ❌ No — jurisdiction-dependent, like every licence |
-| The licence is open source | ❌ No — and it must not be described as such |
+| The license is enforceable everywhere, perfectly | ❌ No — jurisdiction-dependent, like every license |
+| The license is open source | ❌ No — and it must not be described as such |
 | The framework guarantees compliance | ❌ No — it provides clear rules, records, and remedies |
 | Enforcement is easy | ❌ No — read [legal/platform-reality.md](legal/platform-reality.md) |
 
-If you need a licence that allows anyone to run your software for any purpose, use MIT or
+If you need a license that allows anyone to run your software for any purpose, use MIT or
 Apache-2.0. This framework is for authors who want visibility to be universal and deployment to
 be deliberate.
 
 ---
 
-## Adopting the licence
+## Adopting the license
 
 ```markdown
 <!-- Put this in your README -->
 
-> **Licence: PASVL-1.0 — source is public, deployment is licensed.**
+> **License: PASVL-1.0 — source is public, deployment is licensed.**
 >
 > ✅ Read, study, audit, fork, teach, and contribute — free, forever.
 > ❌ Deploy, host, embed, or train a model on it without a **Letter of Software Deployment
 >    Approval (LOSDA)**.
 >
-> [Licence](LICENSE) · [Request deployment approval](https://example.com/licensing)
+> [License](LICENSE) · [Request deployment approval](https://example.com/licensing)
 ```
 
 Then follow [templates/ADOPTION-CHECKLIST.md](templates/ADOPTION-CHECKLIST.md).
@@ -349,7 +351,7 @@ Council. Rights already granted cannot be withdrawn.
 ## Stewardship
 
 The framework is stewarded by the **Bangladesh Software Development Community (BSD C)** — a
-community organisation, not a vendor. BSD C publishes the text, operates the registry, holds the
+community organization, not a vendor. BSD C publishes the text, operates the registry, holds the
 marks, and is bound by the [Charter](governance/CHARTER.md) to act in the interests of the
 framework as a whole.
 
@@ -366,7 +368,7 @@ framework as a whole.
 
 | Item | Status |
 |---|---|
-| Licence version | 1.0 |
+| License version | 1.0 |
 | LOSDA specification | 1.0 |
 | In force from | 2026-01-01 |
 | Registry | Open — initial issuer registered |
@@ -376,7 +378,7 @@ framework as a whole.
 
 ---
 
-## Licence of this repository
+## License of this repository
 
 The **legal texts** in this repository (`LICENSE`, `legal/`, `governance/`, `templates/`) are
 published under **PASVL-1.0 itself**, so that anyone may read, copy, translate, and adapt them.

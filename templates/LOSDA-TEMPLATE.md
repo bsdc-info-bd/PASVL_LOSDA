@@ -10,7 +10,7 @@
 
 ## 1. Parties
 
-**Issuer (Author or authorised agent)**
+**Issuer (Author or authorized agent)**
 
 | Field | Value |
 |---|---|
@@ -19,7 +19,7 @@
 | Issuer code | |
 | Country of establishment | |
 | Identity reference | |
-| Capacity to issue | ☐ Author ☐ Co-author ☐ Authorised agent ☐ Steward (Continuity) ☐ Steward (Extension) |
+| Capacity to issue | ☐ Author ☐ Co-author ☐ Authorized agent ☐ Steward (Continuity) ☐ Steward (Extension) |
 | Contact for this LOSDA | |
 | Signatory name and title | |
 
@@ -32,8 +32,8 @@
 | Registration number (if any) | |
 | Country of establishment | |
 | Public display name for the Registry | |
-| Registry listing preference | ☐ Legal name ☐ Anonymised identifier |
-| Authorised contact | |
+| Registry listing preference | ☐ Legal name ☐ Anonymized identifier |
+| Authorized contact | |
 | Compliance officer responsible | |
 | Affiliates covered (if any) | |
 
@@ -178,7 +178,7 @@ subject to PASVL §19.2. Alternative period: __________ days.
 
 ---
 
-## 8. Acknowledgements
+## 8. Acknowledgments
 
 The Licensee acknowledges and agrees that:
 

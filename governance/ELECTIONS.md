@@ -12,7 +12,7 @@ ratified.
 | Seat | Voters |
 |---|---|
 | 1 — Individual authors | Natural-person authors registered as adopters in `registry/works.json` |
-| 2 — Organisational authors | One representative per adopting organisation |
+| 2 — Organisational authors | One representative per adopting organization |
 | 3 — Deployers | Licensees with an active LOSDA, one vote per licensee entity |
 | 4 — Contributors | Contributors with a merged contribution in the previous 24 months |
 | 7 — Bangladesh community | BSD C members in good standing |
@@ -49,7 +49,7 @@ A candidate must:
 
 - offering anything of value for a vote;
 - promising a LOSDA, a refusal, or an enforcement outcome;
-- misrepresenting the Licence or the framework;
+- misrepresenting the License or the framework;
 - campaigning on behalf of a candidate without disclosure;
 - using the BSDC marks to imply endorsement.
 
@@ -94,4 +94,4 @@ two-thirds of those voting, quorum 30%. A recalled member is ineligible to stand
 
 ## 12. Records
 
-Ballots, nominations, and results are retained for 5 years. Personal data is minimised.
+Ballots, nominations, and results are retained for 5 years. Personal data is minimized.

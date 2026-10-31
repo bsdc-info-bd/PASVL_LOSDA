@@ -14,7 +14,7 @@
 
 | Role | Value |
 |---|---|
-| Issuer | OpenLedger Foundation (issuer code `OPENLEDGER`), authorised agent named in the NOTICE |
+| Issuer | OpenLedger Foundation (issuer code `OPENLEDGER`), authorized agent named in the NOTICE |
 | Licensee | University of Dhaka, Department of Computer Science and Engineering |
 | Country | Bangladesh |
 | Public display name | University of Dhaka — CSE |
@@ -78,7 +78,7 @@ read in five minutes. Class A is deliberately minimal.
 **LOSDA ID:** `LOSDA-UNIDHAKA-2026-000013`
 **Status on issue:** ACTIVE
 
-### Parties
+### Parties (Class R)
 
 | Role | Value |
 |---|---|
@@ -87,7 +87,7 @@ read in five minutes. Class A is deliberately minimal.
 | Country | Bangladesh |
 | Contact | dsrg@du.example |
 
-### Scope
+### Scope (Class R)
 
 | Field | Value |
 |---|---|
@@ -115,7 +115,7 @@ read in five minutes. Class A is deliberately minimal.
 | Storage | Encrypted, access-controlled, hosted in Bangladesh |
 | Publication | Aggregate only; no re-identification by combination |
 
-### Conditions
+### Conditions (Class R)
 
 | Code | Applied | Notes |
 |---|---|---|
@@ -126,7 +126,7 @@ read in five minutes. Class A is deliberately minimal.
 | C9 no hostile IP | Yes | |
 | C14 ethics policy | Yes | Prohibited uses apply |
 
-### Bespoke conditions
+### Bespoke conditions (Class R)
 
 1. The testbed must not be advertised as a production service.
 2. The Licensee must publish the study results, including negative results, within 18 months.

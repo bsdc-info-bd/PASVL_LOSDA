@@ -10,7 +10,7 @@ Source-Code Visibility License · Bangladesh Software Development Community · B
 
 ## 1. Why this policy exists
 
-The marks tell the world that a licence, a permission, or a claim about compliance is genuine.
+The marks tell the world that a license, a permission, or a claim about compliance is genuine.
 If anyone can use them freely, they stop meaning anything, and the people who rely on a
 verification badge lose their protection.
 
@@ -31,7 +31,7 @@ You may use the marks to refer accurately to the framework:
 - "This project follows the PASVL/LOSDA framework."
 - "This work is stewarded by the Bangladesh Software Development Community."
 
-### 2.2 Licence and permission statements
+### 2.2 License and permission statements
 
 You may state, accurately, that a work is licensed under PASVL-1.0, and that you hold a LOSDA,
 provided both statements are true at the time.
@@ -47,7 +47,7 @@ You may use the marks in teaching, articles, criticism, and research about licen
 
 ### 2.5 Translations and derivative documents
 
-You may translate and adapt the licence and the framework documents under PASVL-1.0, provided
+You may translate and adapt the license and the framework documents under PASVL-1.0, provided
 you:
 
 - retain the attribution;
@@ -59,7 +59,7 @@ you:
 ## 3. What you may not do
 
 1. **Imply endorsement.** Do not suggest that BSD C endorses your product, your deployment, or
-   your organisation beyond the fact that you hold a permission.
+   your organization beyond the fact that you hold a permission.
 2. **Imply stewardship.** Do not describe yourself as a steward, registrar, or issuer unless you
    are.
 3. **Use the marks in a product name** in a way that suggests origin — for example, "PASVL Cloud"
@@ -67,7 +67,7 @@ you:
 4. **Register confusingly similar marks** — including domain names, social handles, package
    names, and company names.
 5. **Alter the badges** in a way that changes their meaning (see `docs/badge-usage.md`).
-6. **Use the marks to misrepresent a licence.** Describing an MIT-licensed work as "PASVL" or
+6. **Use the marks to misrepresent a license.** Describing an MIT-licensed work as "PASVL" or
    vice versa.
 7. **Use the marks in political advertising**, campaign material, or in a way that suggests the
    community takes a political position.
@@ -113,10 +113,10 @@ Permission, if granted, will be in writing and revocable on notice.
 
 ---
 
-## 7. Relationship to the licence
+## 7. Relationship to the license
 
 This trademark policy is **not** part of PASVL-1.0 and does not vary it. PASVL Article 17 states
-the licence's own position: no trademark rights are granted by the licence, and nominative use is
+the license's own position: no trademark rights are granted by the license, and nominative use is
 permitted. This policy explains how the Steward applies Article 17.
 
 ---

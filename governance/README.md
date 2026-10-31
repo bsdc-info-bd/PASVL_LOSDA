@@ -21,7 +21,7 @@ the procedures of those institutions.
 
 | Policy | Covers |
 |---|---|
-| [`AMENDMENT-PROCESS.md`](AMENDMENT-PROCESS.md) | How the Licence and LOSDA specification may be changed |
+| [`AMENDMENT-PROCESS.md`](AMENDMENT-PROCESS.md) | How the License and LOSDA specification may be changed |
 | [`REGISTRY-POLICY.md`](REGISTRY-POLICY.md) | What is recorded, by whom, and how it is corrected |
 | [`CONFLICT-OF-INTEREST.md`](CONFLICT-OF-INTEREST.md) | Declarations and recusals |
 | [`DISSOLUTION-AND-SUCCESSION.md`](DISSOLUTION-AND-SUCCESSION.md) | What happens if the Steward ceases to exist |
@@ -72,7 +72,7 @@ body holds all four powers.
 ## 5. Meetings and records
 
 - The Council meets at least quarterly; minutes are published within 15 days.
-- Votes are recorded by name, except where the privacy policy requires anonymisation.
+- Votes are recorded by name, except where the privacy policy requires anonymization.
 - All framework documents are versioned in this repository. If it is not in the repository, it
   is not a rule.
 
@@ -83,5 +83,5 @@ See [`../GOVERNANCE.md#contact`](../GOVERNANCE.md) for the current officers and 
 ## 7. Amending governance documents
 
 Governance documents are amended by the License Council under
-[`AMENDMENT-PROCESS.md`](AMENDMENT-PROCESS.md), Section 6. Amendments to the Licence itself
+[`AMENDMENT-PROCESS.md`](AMENDMENT-PROCESS.md), Section 6. Amendments to the License itself
 follow the stricter process in Section 3 of that document.

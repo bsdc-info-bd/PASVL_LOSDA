@@ -10,8 +10,8 @@ contributions that disagree with us.
 
 ### 1.1 Understand what you are licensing
 
-By contributing, you agree to the inbound licence in **PASVL Article 12**: you keep copyright,
-and you grant the Author and BSD C a perpetual, worldwide, royalty-free, irrevocable licence to
+By contributing, you agree to the inbound license in **PASVL Article 12**: you keep copyright,
+and you grant the Author and BSD C a perpetual, worldwide, royalty-free, irrevocable license to
 use, modify, distribute, sublicense, and relicense your contribution.
 
 This is necessary so the framework can be published, translated, and enforced.
@@ -43,12 +43,12 @@ or have your employer sign [`templates/CONTRIBUTOR-AUTHORIZATION.md`](templates/
 |---|---|
 | Fix a typo, link, or formatting | Open a pull request directly |
 | Clarify an ambiguous sentence without changing rights | Pull request + note in the description |
-| Propose a substantive change to the Licence | Open an RFC in [`rfcs/`](rfcs/) |
+| Propose a substantive change to the License | Open an RFC in [`rfcs/`](rfcs/) |
 | Add a translation | See [`translations/`](translations/) |
 | Add an example or template | Pull request + update `templates/README.md` |
 | Report a security issue | **Do not open a PR** — see [`SECURITY.md`](SECURITY.md) |
 | Report a conduct issue | See [`CODE_OF_CONDUCT.md`](CODE_OF_CONDUCT.md) |
-| Report a licence violation elsewhere | Use [`templates/VIOLATION-REPORT.md`](templates/VIOLATION-REPORT.md) |
+| Report a license violation elsewhere | Use [`templates/VIOLATION-REPORT.md`](templates/VIOLATION-REPORT.md) |
 
 ---
 
@@ -79,7 +79,7 @@ If you are unsure, treat it as a change of rights.
 
 ### 3.2 Style
 
-- British spelling in legal text ("licence" as a noun, "license" as a verb); American spelling
+- British spelling in legal text ("license" as a noun, "license" as a verb); American spelling
   in code.
 - One sentence per idea.
 - Define before you use.
@@ -115,7 +115,7 @@ python3 -m pytest scripts/tests -q
 1. Add the field to `schemas/losda-v1.schema.json` as **optional** unless a major version change
    is approved.
 2. Update `templates/LOSDA-TEMPLATE.md`.
-3. Update `legal/losda-specification.md` §7 and Appendix A of the licence if it becomes required.
+3. Update `legal/losda-specification.md` §7 and Appendix A of the license if it becomes required.
 4. Add an example to `examples/`.
 5. Bump the patch or minor version and update `CHANGELOG.md`.
 
@@ -124,9 +124,9 @@ python3 -m pytest scripts/tests -q
 ## 5. Contributing documentation
 
 - Put yourself in the reader's shoes. Most readers are not lawyers.
-- Every claim about the licence must cite the article or section.
+- Every claim about the license must cite the article or section.
 - Do not promise outcomes ("this will protect your code") — describe mechanisms.
-- Do not describe the licence as open source.
+- Do not describe the license as open source.
 - Keep the FAQ answerable: if a question is common, it belongs there.
 
 ---
@@ -145,7 +145,7 @@ python3 -m pytest scripts/tests -q
 
 | Step | Who | Time |
 |---|---|---|
-| Acknowledgement | Maintainer | 5 business days |
+| Acknowledgment | Maintainer | 5 business days |
 | Review | Maintainer + 1 reviewer | 10 business days |
 | Legal review (if rights change) | License Council | 30 days |
 | Merge | Maintainer | After approval |
@@ -159,12 +159,12 @@ is the rule that protects everyone's rights from casual edits.
 
 ## 8. What we will not accept
 
-- Changes that make the licence describe itself as open source.
+- Changes that make the license describe itself as open source.
 - Changes that remove the visibility grant.
 - Changes that make revocation easier without cause.
 - Changes that reduce appeal rights.
-- Content under an incompatible licence.
-- Plagiarised text.
+- Content under an incompatible license.
+- Plagiarized text.
 - Harassment, personal attacks, or legal threats in a discussion.
 - Changes proposed in bad faith to make the framework look absurd.
 
@@ -187,4 +187,4 @@ noted in `CHANGELOG.md`.
 ## 11. Questions
 
 If you are unsure whether a change needs an RFC, open a discussion and ask. Asking is cheap.
-Breaking a licence is not.
+Breaking a license is not.

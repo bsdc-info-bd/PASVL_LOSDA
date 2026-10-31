@@ -2,7 +2,7 @@
 
 **Version:** 1.0 · **Status:** Informational, not legal advice
 
-Licences are drafted internationally but interpreted locally. This document records what the
+Licenses are drafted internationally but interpreted locally. This document records what the
 framework's drafters understand about key jurisdictions and, just as importantly, records what
 is unknown. It is maintained so that authors and deployers can see the assumptions behind the
 drafting.
@@ -10,7 +10,7 @@ drafting.
 ## 1. How to read this document
 
 - **Enforceability of deployment restriction**: whether a condition limiting deployment is
-  likely to be treated as a condition of the copyright licence (infringement if breached) or as
+  likely to be treated as a condition of the copyright license (infringement if breached) or as
   a contractual promise (breach if broken).
 - **Moral rights**: whether the author has rights that cannot be waived.
 - **Interoperability / reverse engineering**: statutory rights that cannot be excluded.
@@ -24,13 +24,13 @@ before it is relied on in a dispute.
 | Jurisdiction | Deployment restriction | Contract basis | Moral rights | Interoperability carve-out | Overall confidence |
 |---|---|---|---|---|---|
 | **Bangladesh** (home jurisdiction) | Likely enforceable as a contractual condition; copyright remedies available | Contract Act 1872; Copyright Act 2000 | Yes — attribution and integrity | Limited | Medium |
-| **India** | Enforceable; courts have treated licence conditions seriously | Indian Contract Act; Copyright Act 1957 | Yes | Limited | Medium |
-| **United States** | Likely enforceable; licence conditions delimiting scope are usually treated as copyright conditions | State contract law; Copyright Act | Limited (VARA for visual art) | Fair use; §1201(f) interoperability | Medium–High |
-| **United Kingdom** | Enforceable as a licence condition; damages and injunction available | Contract; CDPA 1988 | Yes — attribution, integrity; not waivable | Limited | Medium–High |
+| **India** | Enforceable; courts have treated license conditions seriously | Indian Contract Act; Copyright Act 1957 | Yes | Limited | Medium |
+| **United States** | Likely enforceable; license conditions delimiting scope are usually treated as copyright conditions | State contract law; Copyright Act | Limited (VARA for visual art) | Fair use; §1201(f) interoperability | Medium–High |
+| **United Kingdom** | Enforceable as a license condition; damages and injunction available | Contract; CDPA 1988 | Yes — attribution, integrity; not waivable | Limited | Medium–High |
 | **European Union** | Enforceable, subject to consumer and competition rules; software directive allows decompilation for interoperability | National contract law; InfoSoc Directive; Software Directive 2009/24/EC | Varies by member state | Decompilation for interoperability | Medium |
 | **Germany** | Enforceable; careful drafting of AGB (standard terms) required | BGB §§305 ff. | Strong moral rights | §69d UrhG decompilation | Medium |
 | **France** | Enforceable, but moral rights are strong and partially unwaivable | Code de la propriété intellectuelle | Strong | Limited | Medium |
-| **Japan** | Enforceable as a licence condition | Civil Code; Copyright Act | Attribution, integrity | Program analysis for interoperability | Medium |
+| **Japan** | Enforceable as a license condition | Civil Code; Copyright Act | Attribution, integrity | Program analysis for interoperability | Medium |
 | **South Korea** | Enforceable | Civil Act; Copyright Act | Attribution, integrity | Interoperability exception | Medium |
 | **China** | Enforceable in principle; enforcement practice varies | Civil Code; Copyright Law | Yes | Limited | Low–Medium |
 | **Brazil** | Enforceable | Civil Code; Software Law 9.609/98 | Yes | Limited | Medium |
@@ -60,7 +60,7 @@ disproportionate, or unclear may be struck down. The framework mitigates this by
 A consumer deploying software for personal use may have rights that cannot be waived. PASVL does
 not require consumers to obtain a LOSDA for personal, private, non-commercial use within
 Evaluation Use, and it preserves statutory consumer rights expressly (§21.6). Where a consumer
-is entitled by law to use software for personal purposes, that law prevails over the licence.
+is entitled by law to use software for personal purposes, that law prevails over the license.
 
 ### 3.3 Competition law
 

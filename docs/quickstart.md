@@ -12,12 +12,12 @@ Ask yourself one question: *Do I want the source public and the deployment contr
 
 - Yes → continue.
 - No, I want maximum adoption → use MIT or Apache-2.0. PASVL is not for you.
-- No, I want no commercial use at all → use a non-commercial licence instead.
+- No, I want no commercial use at all → use a non-commercial license instead.
 
-## Minute 5–10: add the licence files
+## Minute 5–10: add the license files
 
 ```bash
-# 1. Copy the licence into your repository root
+# 1. Copy the license into your repository root
 cp /path/to/PASVL_LOSDA/LICENSE ./LICENSE
 
 # 2. Create your NOTICE from the template
@@ -35,7 +35,7 @@ cp /path/to/PASVL_LOSDA/templates/NOTICE-TEMPLATE ./NOTICE
 
 ```
 By contributing, you certify the Developer Certificate of Origin 1.1 and agree to the
-inbound licence in PASVL Article 12.
+inbound license in PASVL Article 12.
 Sign off every commit with: git commit -s
 ```
 
@@ -44,20 +44,20 @@ Sign off every commit with: git commit -s
 Add this block to your README, near the top:
 
 ```markdown
-> **Licence: PASVL-1.0 — source is public, deployment is licensed.**
+> **License: PASVL-1.0 — source is public, deployment is licensed.**
 >
 > ✅ You may read, study, audit, fork, teach with, and contribute to this code. Free, forever.
 > ❌ You may **not** run it in production, offer it as a service, ship it in a product, or train
 >    a model on it without a **Letter of Software Deployment Approval (LOSDA)**.
 >
-> [Read the licence](LICENSE) · [Request deployment approval](https://example.com/licensing)
+> [Read the license](LICENSE) · [Request deployment approval](https://example.com/licensing)
 > · [Plain-language summary](https://github.com/bsdc-info-bd/PASVL_LOSDA/blob/main/legal/plain-language.md)
 ```
 
 Add the badge from [`../assets/`](../assets/):
 
 ```markdown
-[![PASVL-1.0](https://img.shields.io/badge/licence-PASVL--1.0-blue)](LICENSE)
+[![PASVL-1.0](https://img.shields.io/badge/license-PASVL--1.0-blue)](LICENSE)
 [![Deployment requires LOSDA](https://img.shields.io/badge/deployment-LOSDA%20required-orange)](https://github.com/bsdc-info-bd/PASVL_LOSDA)
 ```
 
@@ -87,11 +87,11 @@ Do **not** put `"license": "MIT"` anywhere to silence a tool.
 2. Make a copy of `templates/LOSDA-TEMPLATE.md`.
 3. Decide where you will record issued LOSDAs (a `registry/` folder in your repo is enough to
    start, with the same JSON format).
-4. Write your first entry in your changelog: "Licence changed to PASVL-1.0, effective DATE."
+4. Write your first entry in your changelog: "License changed to PASVL-1.0, effective DATE."
 
 ## Done
 
-You now have: a public, auditable codebase; a clear, honest licence; and a documented path for
+You now have: a public, auditable codebase; a clear, honest license; and a documented path for
 anyone who wants to deploy.
 
 ---
@@ -114,7 +114,7 @@ If there is no NOTICE, assume Mode S and contact the author at the address in th
 | Your use | Class |
 |---|---|
 | Internal tool, staff only | I |
-| Customer-facing product, one organisation | S |
+| Customer-facing product, one organization | S |
 | Hosted service for third parties | H |
 | Embedded in a device or distributed installer | D |
 | Training or fine-tuning a model | M |
@@ -136,7 +136,7 @@ The three that matter most:
 
 Email the issuer, or open a licensing request in their tracker. Keep a copy. Ask for:
 
-- an acknowledgement within 3 business days;
+- an acknowledgment within 3 business days;
 - a target decision date;
 - confirmation of any fee.
 
@@ -144,7 +144,7 @@ Email the issuer, or open a licensing request in their tracker. Keep a copy. Ask
 
 Before you deploy, set up:
 
-- [ ] a third-party licences page in your product;
+- [ ] a third-party licenses page in your product;
 - [ ] a record of your permitted scope;
 - [ ] a calendar reminder for scale reporting;
 - [ ] the issuer's security contact in your incident runbook;

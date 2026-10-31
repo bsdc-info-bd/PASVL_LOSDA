@@ -4,7 +4,7 @@
 working through real situations.
 
 **Reminder:** the definition is in PASVL §1.7. If an example here seems to conflict with the
-licence text, the licence wins.
+license text, the license wins.
 
 ---
 
@@ -20,7 +20,7 @@ licence text, the licence wins.
 | 6 | Forking to open a pull request | No | Article 3.6 |
 | 7 | Keeping a copy in an archive for provenance | No | Article 3.3 |
 | 8 | Reproducing a bug in a private container | No, if within Evaluation Use | §6.3 |
-| 9 | Comparing its behaviour with a competitor | No, if Evaluation Use | §6.3 |
+| 9 | Comparing its behavior with a competitor | No, if Evaluation Use | §6.3 |
 | 10 | Reporting a vulnerability | No | Article 8 |
 
 ## B. Private evaluation (no LOSDA if within limits)
@@ -90,13 +90,13 @@ employer. It needs a Class I LOSDA unless it falls within Evaluation Use.
 ### G.2 "It's a development dependency"
 
 A build-time dependency that is only executed during compilation is not deployed in production.
-But if the build produces artefacts distributed to users, the distribution question applies to
-those artefacts.
+But if the build produces artifacts distributed to users, the distribution question applies to
+those artifacts.
 
 ### G.3 "We host it for one customer, privately"
 
 That is a Hosted Service for that customer. Class H or I depending on whether the customer is
-outside your organisation.
+outside your organization.
 
 ### G.4 "We run it for disaster response for a month"
 
@@ -105,7 +105,7 @@ within 14 days.
 
 ### G.5 "We forked it and run our fork"
 
-The fork is a study artefact. Running it is deployment (Class S, I, or H as appropriate), and
+The fork is a study artifact. Running it is deployment (Class S, I, or H as appropriate), and
 §13.4 prohibits using a fork to evade a LOSDA.
 
 ### G.6 "We don't run it; our customers do"
@@ -146,7 +146,7 @@ Is it running, serving, or distributed to someone other than you for a real purp
 │         └─ No  ──► Private evaluation? ──► Under 30 days and Mode S? ──► No LOSDA
 │                                            Otherwise ──► LOSDA needed
 │
-└─ Yes ─► Is anyone outside your organisation involved?
+└─ Yes ─► Is anyone outside your organization involved?
           ├─ No  ──► Class I LOSDA
           └─ Yes ─► Is the work distributed in executable form?
                     ├─ Yes ──► Class D (plus I or H if you also operate it)

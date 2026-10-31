@@ -29,16 +29,16 @@ who have to say yes: engineering leads, procurement, security, and legal.
 
 **"Our policy requires OSI-approved open source."**
 Then you cannot adopt PASVL under your current policy. Ask whether the policy permits
-source-available software with a paid deployment licence — many do, once the risk is documented.
+source-available software with a paid deployment license — many do, once the risk is documented.
 Do not misclassify it.
 
-**"We can't accept a licence that can be revoked."**
+**"We can't accept a license that can be revoked."**
 Revocation requires cause, notice, a 30-day response, a second reviewer, and a 180-day wind-down
 (§18.7–18.8, §19.2). A perpetual LOSDA may be revoked only for breach, fraud, sanctions, a court
 order, or serious harm (§19.4). Compare that with a proprietary vendor's termination rights.
 
 **"We can't accept no warranty."**
-Almost all open-source licences and most SaaS terms disclaim warranty. Mitigate with your own
+Almost all open-source licenses and most SaaS terms disclaim warranty. Mitigate with your own
 testing, insurance, and an optional support agreement.
 
 **"We can't accept the indemnity gap."**
@@ -55,7 +55,7 @@ prevents retroactive tightening.
 ### 2.2 Questions to ask the Author in diligence
 
 1. Who owns the copyright in every file? Are there contributors, and are their grants recorded?
-2. Is any component under an incompatible or unknown licence?
+2. Is any component under an incompatible or unknown license?
 3. Is there an existing exclusive grant that conflicts with our proposed scope?
 4. What is the Author's funding, and does a funder have rights?
 5. Who signs LOSDAs, and what happens if that person is unavailable?
@@ -68,7 +68,7 @@ prevents retroactive tightening.
 ## 3. Your internal process
 
 ```
-Engineering ──► Licence review ──► Security review ──► LOSDA request ──► Contract
+Engineering ──► License review ──► Security review ──► LOSDA request ──► Contract
      │                 │                  │                  │              │
   scope, data    compatibility,     SBOM, CVEs,        scope, term,   fees, indemnity,
   classification  obligations       hardening          scale          support
@@ -81,13 +81,13 @@ Engineering ──► Licence review ──► Security review ──► LOSDA r
 - Classify the deployment type and estimate scale with headroom.
 - Identify hosting locations and sub-processors.
 
-### 3.2 Licence review
+### 3.2 License review
 
 - Check the NOTICE and the LICENSE version.
 - Confirm no incompatible components.
-- Check whether the work is under a dual licence.
+- Check whether the work is under a dual license.
 - Identify obligations: attribution, reporting, incident notice, audit.
-- Map obligations to owners inside your organisation.
+- Map obligations to owners inside your organization.
 
 ### 3.3 Security review
 
@@ -109,24 +109,24 @@ Engineering ──► Licence review ──► Security review ──► LOSDA r
 |---|---|
 | Inventory | Add the LOSDA ID to your SBOM or asset register |
 | Scope monitoring | Alert when a product, region, or scale threshold is exceeded |
-| Attribution | Automate the third-party licences page |
+| Attribution | Automate the third-party licenses page |
 | Incident notification | Include the issuer in your security escalation |
 | Records | Retain compliance evidence for 3 years |
 | Renewal | Calendar reminder 90 days before expiry |
 | Change of control | Include LOSDA assignment in M&A diligence |
-| Audit | Include licence obligations in internal audit scope |
+| Audit | Include license obligations in internal audit scope |
 
 ## 5. Risk register for an enterprise adopter
 
 | Risk | Likelihood | Mitigation |
 |---|---|---|
-| Unenforceability in a key jurisdiction | Low–medium | Legal opinion; the licence remains the agreed standard between the parties |
+| Unenforceability in a key jurisdiction | Low–medium | Legal opinion; the license remains the agreed standard between the parties |
 | Author disappears | Medium | Continuity LOSDA; source escrow; vendor risk |
 | Author's fees rise at renewal | Medium | Multi-year LOSDA; fixed renewal formula |
 | Scope creep triggers a breach | Medium | Automated scope monitoring |
 | Security vulnerability in the work | Medium | Your own review; patch SLAs; monitoring |
 | Reputational risk from the "not open source" label | Medium | Honest communication; explain the trade |
-| Incompatible dependency found later | Low | SBOM and licence scanning in CI |
+| Incompatible dependency found later | Low | SBOM and license scanning in CI |
 
 ## 6. Contracting clauses you may want
 
@@ -152,6 +152,6 @@ Engineering ──► Licence review ──► Security review ──► LOSDA r
 
 PASVL gives you **auditable transparency** — you can see everything — and **contractual
 predictability** — you know exactly what you may do. What it does not give you is a free ride.
-If your organisation's risk appetite cannot accept a paid, revocable, warranty-free permission,
+If your organization's risk appetite cannot accept a paid, revocable, warranty-free permission,
 the honest decision is to choose different software. If it can, the framework is unusually
 well-documented, and the obligations are finite and knowable.

@@ -1,7 +1,7 @@
 # Anti-Patterns
 
 Twenty-five ways to use this framework badly. Each one has been observed or is predictable, and
-each one damages the credibility of every author who adopts the licence honestly.
+each one damages the credibility of every author who adopts the license honestly.
 
 ---
 
@@ -12,7 +12,7 @@ Your README says MIT. Your LICENSE says PASVL. A deployer relies on the README a
 against them. **This is the worst anti-pattern.** Readers trust the README more than the
 LICENSE. Fix every mention, in every repository, in every package, at once.
 
-### 2. The invisible licence
+### 2. The invisible license
 PASVL in a `LICENSE` file, but no NOTICE, no header, no README statement. Users will assume it is
 permissive. **Fix:** make deployment-permission unmistakable at every entry point.
 
@@ -48,24 +48,24 @@ One person holds the signing key, the registry, and the enforcement authority, w
 
 ### 10. The vendetta
 Enforcement used against a critic, a competitor, or a former employee. **Fix:** enforcement is for
-the licence, reviewed by a second person, and appealable.
+the license, reviewed by a second person, and appealable.
 
 ### 11. Overclaiming
-"The most secure licence in the world." "Nobody can use this without our permission." Both are
+"The most secure license in the world." "Nobody can use this without our permission." Both are
 false — evaluation, academic, and public-interest rights exist, and enforcement is not absolute.
-**Fix:** describe the licence as source-available, permission-gated deployment.
+**Fix:** describe the license as source-available, permission-gated deployment.
 
 ### 12. Gating security patches
 Charging for a fix to a vulnerability. **Fix:** never. It is indefensible and it is a
 reputational disaster.
 
-### 13. The licence laundry
-Putting PASVL code into an MIT project and calling the result MIT. **Fix:** keep the licences
+### 13. The license laundry
+Putting PASVL code into an MIT project and calling the result MIT. **Fix:** keep the licenses
 separate and the notices visible.
 
 ### 14. The empty no-fee class
 Advertising an academic class that is refused in practice. **Fix:** if you publish a no-fee
-class, honour it.
+class, honor it.
 
 ---
 
@@ -121,7 +121,7 @@ questions in the FAQ, and change the framework when the criticism is right.
 
 ## The meta-anti-pattern
 
-**Adopting the framework without believing in it.** If you want an open licence, use one. If you
-want a proprietary licence, use one. This framework only works if the author genuinely believes
+**Adopting the framework without believing in it.** If you want an open license, use one. If you
+want a proprietary license, use one. This framework only works if the author genuinely believes
 that visibility should be universal and that deployment should be deliberate. Half-belief
 produces the worst of both worlds: an unenforceable restriction and an untrustworthy promise.

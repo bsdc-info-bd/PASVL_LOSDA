@@ -1,6 +1,6 @@
 name: LOSDA request
 description: Request permission to deploy a work licensed under PASVL-1.0
-title: "[LOSDA] <work name> — <your organisation>"
+title: "[LOSDA] <work name> — <your organization>"
 labels: ["licensing", "needs-triage"]
 body:
   - type: markdown
@@ -125,11 +125,11 @@ body:
     attributes:
       label: Declarations
       options:
-        - label: I am authorised to make this request on behalf of the entity named above.
+        - label: I am authorized to make this request on behalf of the entity named above.
           required: true
         - label: The entity is not a restricted party and is not subject to sanctions that would prohibit this deployment.
           required: true
-        - label: I understand that this request is not permission, and that deployment before a recorded LOSDA is a violation of the licence.
+        - label: I understand that this request is not permission, and that deployment before a recorded LOSDA is a violation of the license.
           required: true
-        - label: I have read the licence, or the plain-language summary, before requesting.
+        - label: I have read the license, or the plain-language summary, before requesting.
           required: true

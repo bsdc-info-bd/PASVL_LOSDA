@@ -30,7 +30,7 @@ enabled on this repository.
 
 - Personal data of third parties.
 - Credentials or tokens.
-- Material obtained by unauthorised access.
+- Material obtained by unauthorized access.
 
 ## 3. Our commitments
 
@@ -43,17 +43,17 @@ enabled on this repository.
 | Public advisory | After the fix, or at 90 days, whichever is sooner |
 | Credit | Offered, unless you prefer anonymity |
 
-## 4. Safe harbour
+## 4. Safe harbor
 
 Good-faith security research conducted under **PASVL Article 8** is protected:
 
-- It is not a licence violation.
+- It is not a license violation.
 - It is not a circumvention of a technical measure.
 - We will not pursue legal action for research that follows the rules below.
 
 ### The rules
 
-1. Access only systems you are authorised to access, or that are provided for testing.
+1. Access only systems you are authorized to access, or that are provided for testing.
 2. Do not degrade, disrupt, or deny service to others.
 3. Do not exfiltrate, retain, or publish personal data or trade secrets.
 4. Report privately and without undue delay, before public disclosure.
@@ -61,7 +61,7 @@ Good-faith security research conducted under **PASVL Article 8** is protected:
 6. Do not use the vulnerability for extortion, advantage, or commercial exploitation.
 7. Comply with applicable law.
 
-If you are unsure whether your research falls inside this safe harbour, ask first.
+If you are unsure whether your research falls inside this safe harbor, ask first.
 
 ## 5. Out of scope
 

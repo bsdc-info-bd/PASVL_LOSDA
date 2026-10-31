@@ -21,20 +21,20 @@ name or handle. Substantive contributions to the legal text are also recorded in
 
 Make a contribution that merges, with a DCO sign-off. Open a pull request adding yourself to the
 table with a one-line description of your contribution. If you prefer not to be listed, say so;
-the licence does not require attribution to the framework, only to the works you contribute to.
+the license does not require attribution to the framework, only to the works you contribute to.
 
 ## Contributor obligations
 
 Every contributor agrees to:
 
-1. the inbound licence in PASVL Article 12;
+1. the inbound license in PASVL Article 12;
 2. the Developer Certificate of Origin 1.1;
 3. the [`CODE_OF_CONDUCT.md`](CODE_OF_CONDUCT.md).
 
-## Acknowledgements
+## Acknowledgments
 
 The framework's structure draws on ideas from the open-source, source-available, and standards
 communities — particularly the discipline of the Open Source Definition (as a standard to be
 honestly measured against), the Developer Certificate of Origin, the Contributor Covenant, and
-RFC 2119's approach to normative language. None of these organisations endorse this framework,
+RFC 2119's approach to normative language. None of these organizations endorse this framework,
 and none is affiliated with it.

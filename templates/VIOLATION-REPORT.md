@@ -64,7 +64,7 @@ Attach or link:
 3. archived copies (Wayback, archive.today);
 4. the deployer's own statements.
 
-Do not include personal data, credentials, or material obtained by unauthorised access.
+Do not include personal data, credentials, or material obtained by unauthorized access.
 
 ## 7. Have you contacted the deployer?
 
@@ -84,7 +84,7 @@ Do not include personal data, credentials, or material obtained by unauthorised 
 ☐ Compliance only ☐ A licensing conversation ☐ Removal of the deployment ☐ Investigation
 ☐ Other: __________
 
-## 10. Acknowledgement
+## 10. Acknowledgment
 
 - ☐ The information I have provided is true to the best of my knowledge.
 - ☐ I understand that knowingly false reports are a Violation.

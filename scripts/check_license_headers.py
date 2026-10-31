@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
-"""Check that source files carry a PASVL licence header.
+"""Check that source files carry a PASVL license header.
 
-A licence header is not a formality: it is the notice that a deployer relies on and that a
+A license header is not a formality: it is the notice that a deployer relies on and that a
 court looks for. This script fails CI when a source file is missing one.
 
 Usage:
@@ -127,7 +127,7 @@ def add_header(path: pathlib.Path, style: str, year: str, author: str) -> None:
 
 
 def main(argv: list[str] | None = None) -> int:
-    parser = argparse.ArgumentParser(description="Check for PASVL licence headers.")
+    parser = argparse.ArgumentParser(description="Check for PASVL license headers.")
     parser.add_argument("--path", type=pathlib.Path, default=pathlib.Path("."))
     parser.add_argument("--exclude", action="append", default=[])
     parser.add_argument("--fix", action="store_true", help="insert missing headers")
@@ -182,7 +182,7 @@ def main(argv: list[str] | None = None) -> int:
             print(f"fixed  {path}")
 
     for path in missing:
-        print(f"missing licence header: {path}")
+        print(f"missing license header: {path}")
 
     print()
     print(f"{checked} file(s) checked, {len(missing)} missing a header")

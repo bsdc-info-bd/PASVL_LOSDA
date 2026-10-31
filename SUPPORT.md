@@ -15,14 +15,14 @@ Most questions are answered in:
 
 | Question | Where | Target response |
 |---|---|---|
-| "May I deploy this?" | The author's licensing contact in the work's `NOTICE` | 3 business days acknowledgement |
+| "May I deploy this?" | The author's licensing contact in the work's `NOTICE` | 3 business days acknowledgment |
 | "How do I adopt this?" | [`docs/quickstart.md`](docs/quickstart.md), then a discussion | 5 business days |
 | "Is this a violation?" | [`templates/VIOLATION-REPORT.md`](templates/VIOLATION-REPORT.md) | 5 business days |
 | "I found a vulnerability" | [`SECURITY.md`](SECURITY.md) — **never a public issue** | 7 days |
 | "I want to appeal" | [`governance/APPEALS.md`](governance/APPEALS.md) | 5 business days |
 | "Someone behaved badly" | [`CODE_OF_CONDUCT.md`](CODE_OF_CONDUCT.md) | 3 business days |
 | "The registry looks wrong" | [`governance/REGISTRY-POLICY.md`](governance/REGISTRY-POLICY.md) §7 | 10 business days |
-| "I want to change the licence" | [`rfcs/README.md`](rfcs/README.md) | 10 business days triage |
+| "I want to change the license" | [`rfcs/README.md`](rfcs/README.md) | 10 business days triage |
 
 ## 3. What support is not included
 
@@ -58,7 +58,7 @@ either language. Other languages are welcome; responses may be slower.
 
 ## 7. What we cannot help with
 
-- Choosing a licence for your project (see [`docs/for-authors.md`](docs/for-authors.md)).
+- Choosing a license for your project (see [`docs/for-authors.md`](docs/for-authors.md)).
 - Legal advice for a dispute in your jurisdiction.
 - Enforcing your rights against a third party on your behalf, unless the Steward is the rights
   holder or the matter concerns framework integrity.

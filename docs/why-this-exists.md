@@ -11,7 +11,7 @@ sustainable funding for the people who create it. Maintainers burn out, projects
 security holes go unpatched, and the companies that depend on them contribute back at a rate
 that would embarrass almost any other industry.
 
-**Model two: closed source.** Keep everything private. You can sell licences, but nobody can
+**Model two: closed source.** Keep everything private. You can sell licenses, but nobody can
 audit you, nobody can fix your bugs, nobody can learn from your craft, and buyers are asked to
 trust a black box with their data, their money, and sometimes their safety.
 
@@ -27,7 +27,7 @@ The two things being traded are not actually the same thing.
 - **Deployment** is the ability to run the software for real — to serve customers, to operate
   infrastructure, to ship devices. It is where most of the commercial value is captured.
 
-Open-source licences bundle these together. Proprietary licences withhold both. Almost nobody
+Open-source licenses bundle these together. Proprietary licenses withhold both. Almost nobody
 separates them.
 
 ## The proposal
@@ -38,7 +38,7 @@ Separate them.
 - Reserve **deployment**, and grant it individually, in writing, with scope, term, and public
   record.
 
-That is what PASVL and the LOSDA do. The licence is the public instrument. The letter is the
+That is what PASVL and the LOSDA do. The license is the public instrument. The letter is the
 private permission. The registry is the memory that makes the permission verifiable.
 
 ## Why a letter, and not a click-through
@@ -61,9 +61,9 @@ The framework needed a steward with three properties: independence from any sing
 familiarity with the realities of software development outside the wealthy world, and a
 commitment to publishing the rules rather than owning them.
 
-The Bangladesh Software Development Community is a community organisation. It does not own the
-licence; it publishes it. The licence is free for anyone to adopt, and its text is in this
-repository for anyone to read, criticise, and improve through the RFC process.
+The Bangladesh Software Development Community is a community organization. It does not own the
+license; it publishes it. The license is free for anyone to adopt, and its text is in this
+repository for anyone to read, criticize, and improve through the RFC process.
 
 The choice of Bangladesh as the default governing law is deliberate: it names a real
 jurisdiction, it is not the default of any large technology company, and it signals that this
@@ -110,8 +110,8 @@ in this repository for someone else to learn from.
 ## A closing thought
 
 Every licensing era began with someone refusing to accept the terms of the previous one. The
-GPL began as a refusal of proprietary control. The Apache licence began as a refusal of
-permissive chaos in a foundation. The Commons Clause and the Business Source Licence began as
+GPL began as a refusal of proprietary control. The Apache license began as a refusal of
+permissive chaos in a foundation. The Commons Clause and the Business Source License began as
 refusals of cloud free-riding.
 
 This framework begins as a refusal of a different trade-off: that public code must be free to

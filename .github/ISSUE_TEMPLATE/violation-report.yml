@@ -48,7 +48,7 @@ body:
       options:
         - Deployment without a LOSDA (§5.3)
         - Exceeding the LOSDA scope (§13.2)
-        - Licence laundering (§13.3)
+        - License laundering (§13.3)
         - Fork abuse (§13.4)
         - Service Bureau Use (§13.5)
         - Removing notices (§4.2)

@@ -16,7 +16,7 @@ of value in order to influence:
 3. a decision to suspend, revoke, or reinstate;
 4. an enforcement decision, appeal outcome, or Registry listing;
 5. the appointment of a Registry Custodian, Council member, or appeal panellist;
-6. the content of an amendment to the Licence.
+6. the content of an amendment to the License.
 
 "Anything of value" includes cash, gifts, hospitality beyond the threshold in Section 2,
 discounts, shares, employment, contracts, referral fees, and favourable public statements.
@@ -42,7 +42,7 @@ Every person who participates in a licensing or enforcement decision must:
 3. recuse themselves from the decision;
 4. record the declaration and recusal.
 
-The register of declarations is maintained in `governance/` and summarised annually.
+The register of declarations is maintained in `governance/` and summarized annually.
 
 ## 4. Facilitation payments
 

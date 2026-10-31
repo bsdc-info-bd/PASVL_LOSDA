@@ -5,7 +5,7 @@ The public, append-only record of who may deploy what.
 ## 1. Why it exists
 
 A permission that cannot be verified is not a permission. The Registry lets anyone — a customer,
-an auditor, a regulator, a competitor — confirm in seconds that a deployment is authorised, for
+an auditor, a regulator, a competitor — confirm in seconds that a deployment is authorized, for
 what scope, and until when.
 
 ## 2. Files
@@ -59,7 +59,7 @@ Full policy: [`../governance/REGISTRY-POLICY.md`](../governance/REGISTRY-POLICY.
 
 The registry publishes the minimum needed to make a permission verifiable. It does not publish
 fees, personal contact details, identity numbers, or confidential annex contents. A licensee may
-request an anonymised listing.
+request an anonymized listing.
 
 See [`../legal/privacy-policy.md`](../legal/privacy-policy.md).
 

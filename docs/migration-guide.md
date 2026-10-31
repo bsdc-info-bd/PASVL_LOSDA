@@ -6,11 +6,11 @@ How to move to PASVL-1.0, and how to move away from it. Both directions are legi
 
 ## Part 1 — Moving to PASVL
 
-### 1.1 From a permissive licence (MIT, BSD, Apache-2.0)
+### 1.1 From a permissive license (MIT, BSD, Apache-2.0)
 
 **Can you?** Yes for future versions, if you hold or have permission from the copyright holders.
 
-**What stays?** The old versions remain under the old licence forever.
+**What stays?** The old versions remain under the old license forever.
 
 | Step | Action |
 |---|---|
@@ -21,13 +21,13 @@ How to move to PASVL-1.0, and how to move away from it. Both directions are legi
 | 5 | Decide the version at which PASVL starts |
 | 6 | Add `LICENSE`, `NOTICE`, headers, README statement |
 | 7 | Update package manifests |
-| 8 | Tag the last version under the old licence |
+| 8 | Tag the last version under the old license |
 | 9 | Announce with a FAQ and a discussion thread |
 | 10 | Offer grandfathering terms to existing commercial users |
 
 **Timeline:** allow six to twelve weeks for a mature project.
 
-**Pitfall:** relicensing without consent. It voids the licence for the affected code and can
+**Pitfall:** relicensing without consent. It voids the license for the affected code and can
 expose you to contributor claims.
 
 ### 1.2 From GPL or AGPL
@@ -52,15 +52,15 @@ Straightforward. You are adding public visibility to an existing restricted mode
 4. Keep your existing customers by issuing them LOSDAs at their current terms.
 5. Publish the fee schedule.
 
-### 1.4 From a source-available licence (BUSL, Elastic, PolyForm)
+### 1.4 From a source-available license (BUSL, Elastic, PolyForm)
 
-Usually straightforward, but check the old licence's change date and any irrevocable grants:
+Usually straightforward, but check the old license's change date and any irrevocable grants:
 
-- BUSL converts to an open licence after its change date; you cannot undo that conversion.
-- Elastic-2.0 and PolyForm have their own restrictions; confirm that a new licence does not
+- BUSL converts to an open license after its change date; you cannot undo that conversion.
+- Elastic-2.0 and PolyForm have their own restrictions; confirm that a new license does not
   conflict with grants already made.
 
-### 1.5 From no licence
+### 1.5 From no license
 
 You already have the strongest possible restriction: nobody may do anything. Adding PASVL gives
 people real permissions while keeping deployment gated.
@@ -72,7 +72,7 @@ people real permissions while keeping deployment gated.
 ### 2.1 You may migrate away at any time
 
 PASVL does not trap you. For your **own** code you may relicense future versions under any
-licence. For **third-party** PASVL code in your project, you must remove or replace it, because
+license. For **third-party** PASVL code in your project, you must remove or replace it, because
 you cannot relicense it.
 
 ### 2.2 What survives
@@ -153,5 +153,5 @@ Always read the `CHANGELOG.md` before upgrading.
 ## Part 5 — Getting help
 
 - Migration questions: open a discussion in the framework repository.
-- Licence-compatibility questions: [`../legal/compatibility.md`](../legal/compatibility.md).
+- License-compatibility questions: [`../legal/compatibility.md`](../legal/compatibility.md).
 - Community guidance: [`../CONTRIBUTING.md`](../CONTRIBUTING.md).

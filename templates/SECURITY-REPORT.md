@@ -72,12 +72,12 @@ What can an attacker do? Who is affected? Is exploitation observed in the wild?
 | Proposed publication date | |
 | Have you shared this with anyone else? | |
 
-The framework's default coordinated-disclosure period is **90 days** from acknowledgement, or
+The framework's default coordinated-disclosure period is **90 days** from acknowledgment, or
 such shorter period as the maintainer agrees.
 
-## 9. Legal acknowledgements
+## 9. Legal acknowledgments
 
-- ☐ I accessed only systems I was authorised to access, or systems the project provides for
+- ☐ I accessed only systems I was authorized to access, or systems the project provides for
   testing.
 - ☐ I did not exfiltrate, retain, or publish personal data.
 - ☐ I did not degrade service or access another person's data.

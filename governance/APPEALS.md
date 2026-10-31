@@ -20,7 +20,7 @@ mentions it. An appeal is not an act of hostility; it is the framework's quality
 | Exclusion from applying | Yes | Appeals Panel + Council ratification |
 | Enforcement sanction (Stage 2+) | Yes | Appeals Panel |
 | Registry record correction | Yes | Appeals Panel |
-| Anonymised-listing refusal | Yes | Appeals Panel |
+| Anonymized-listing refusal | Yes | Appeals Panel |
 | Amendment decisions | Only on procedural grounds | Appeals Panel (procedural review) |
 | Registry data-protection decision | Yes | Appeals Panel + supervisory-authority route |
 | Stage 0/1 informal resolution | No — but the underlying NNC may be challenged | Appeals Panel |
@@ -39,7 +39,7 @@ An appeal may rely on any of:
 
 1. **Procedural unfairness** — no notice, no hearing, wrong reviewer, conflict of interest.
 2. **Factual error** — the decision relies on facts that are wrong or incomplete.
-3. **Wrong application of the instrument** — the Licence, LOSDA specification, or policy does
+3. **Wrong application of the instrument** — the License, LOSDA specification, or policy does
    not say what the decision assumes.
 4. **Disproportionate sanction** — the sanction is excessive relative to the conduct.
 5. **Discrimination or bad faith** — the decision was made on protected grounds or for an
@@ -111,7 +111,7 @@ The Panel may:
 3. **Remit** the matter to the original decision-maker with directions.
 4. **Vary** the scope, term, or conditions of a LOSDA.
 5. **Reduce or set aside** a sanction.
-6. **Recommend** a change to a policy or to the Licence.
+6. **Recommend** a change to a policy or to the License.
 7. **Order** a Registry correction.
 8. **Order** costs only in exceptional cases of bad faith, capped at documented expenses.
 
@@ -127,7 +127,7 @@ duration.
 ## 12. Second and final review
 
 There is no second appeal. The Panel's decision is final within the framework. This does not
-affect any right to a court, arbitration, or supervisory authority under the Licence (Article
+affect any right to a court, arbitration, or supervisory authority under the License (Article
 24) or applicable law.
 
 ## 13. Reinstatement after a sanction

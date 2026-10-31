@@ -1,14 +1,14 @@
 # Platform Reality: What PASVL Can and Cannot Do on GitHub
 
 This document is written for authors considering adoption of PASVL and for deployers who want
-to understand exactly what the licence can and cannot enforce. It is deliberately candid.
+to understand exactly what the license can and cannot enforce. It is deliberately candid.
 A framework that oversells its powers is a framework that will disappoint the people who rely
 on it.
 
 ## 1. The short version
 
-A licence is a legal instrument. GitHub is a hosting platform governed by a separate contract.
-A licence can define rights and obligations under copyright law. It cannot change how GitHub's
+A license is a legal instrument. GitHub is a hosting platform governed by a separate contract.
+A license can define rights and obligations under copyright law. It cannot change how GitHub's
 software behaves, cannot force a fork to be taken down, and cannot prevent all copying.
 
 What PASVL **can** do:
@@ -20,7 +20,7 @@ What PASVL **can** do:
 - give a court or a platform a clear statement of the rules the parties agreed to;
 - support takedown requests, package-registry complaints, and app-store complaints with
   evidence;
-- create a durable public record that makes "I didn't know" a weak defence;
+- create a durable public record that makes "I didn't know" a weak defense;
 - support a professional, non-hostile permission culture around deployment.
 
 What PASVL **cannot** do:
@@ -40,7 +40,7 @@ are the limits of copyright, contract, and platform policy.
 
 ## 2. GitHub's Terms of Service and public repositories
 
-When you make a repository public on GitHub, you grant GitHub a licence to host, display, and
+When you make a repository public on GitHub, you grant GitHub a license to host, display, and
 distribute it, and you grant **other GitHub users** certain rights under GitHub's Terms of
 Service — principally the right to view and to fork the repository within GitHub.
 
@@ -48,31 +48,31 @@ This creates two important consequences:
 
 ### 2.1 Viewing and forking are unavoidable
 
-PASVL therefore **expressly permits** viewing and forking (Article 3), so that the licence and
-the platform are not in conflict. A licence that purported to forbid forking on GitHub would
+PASVL therefore **expressly permits** viewing and forking (Article 3), so that the license and
+the platform are not in conflict. A license that purported to forbid forking on GitHub would
 create a contradiction that the platform, not the author, would resolve.
 
 ### 2.2 Forking is not deploying
 
 A fork on GitHub is a copy of a repository inside GitHub's system. It is not a deployment.
-PASVL treats forks as permitted study artefacts (Article 3.3) and separately prohibits using a
+PASVL treats forks as permitted study artifacts (Article 3.3) and separately prohibits using a
 fork to deploy outside a LOSDA (Article 13.4). The two propositions are consistent.
 
 The Author should read GitHub's current Terms of Service, Acceptable Use Policies, and DMCA
-policy before adopting PASVL. This document summarises them as of the framework's publication
+policy before adopting PASVL. This document summarizes them as of the framework's publication
 date and does not replace them.
 
 ## 3. Repository mechanics that matter legally
 
 | Mechanic | Legal significance | PASVL approach |
 |---|---|---|
-| `LICENSE` file | The licence text GitHub displays | Contains PASVL in full |
-| GitHub licence detection | GitHub matches known licences against its list | PASVL will show as "View license" or "Unknown" — this is expected; PASVL is not OSI-approved and does not claim to be |
+| `LICENSE` file | The license text GitHub displays | Contains PASVL in full |
+| GitHub license detection | GitHub matches known licenses against its list | PASVL will show as "View license" or "Unknown" — this is expected; PASVL is not OSI-approved and does not claim to be |
 | `NOTICE` file | Additional terms and attribution | Required by PASVL Appendix B |
 | `README.md` badge | Communication to users | Use the official PASVL badges in `assets/` |
 | Forks | Copies under platform terms | Permitted; deployment prohibited without a LOSDA |
 | Releases (binaries) | Distribution of executable form | Requires a LOSDA Class D, or an express release permission |
-| GitHub Actions artefacts | Built binaries | Same as releases |
+| GitHub Actions artifacts | Built binaries | Same as releases |
 | GitHub Pages | Hosted content | Hosting documentation is not deployment of software; hosting a running instance is |
 | Packages (GHCR, npm, PyPI) | Distribution | A published package is still governed by PASVL; a LOSDA is required to deploy it |
 | Copilot / code search | Indexing and suggestion | GitHub's own terms govern ingestion; PASVL Article 14 governs a user's deliberate ML use |
@@ -82,15 +82,15 @@ date and does not replace them.
 
 | Attempted workaround | Why it does not work |
 |---|---|
-| "I cloned it, so I own this copy" | Cloning is permitted; deployment is not. Owning a copy is not owning a licence. |
-| "I forked it and changed the licence" | You cannot relicense someone else's code (Article 4.4). The fork remains bound. |
+| "I cloned it, so I own this copy" | Cloning is permitted; deployment is not. Owning a copy is not owning a license. |
+| "I forked it and changed the license" | You cannot relicense someone else's code (Article 4.4). The fork remains bound. |
 | "I'll deploy from a fork" | Forks are for study and contribution. Deploying from one is a Violation (13.4). |
 | "It's an internal tool, not a product" | Internal production use is a Deployment. Class I exists for it. |
 | "Only my team uses it" | Seats count as users. Internal use still needs a LOSDA unless within Evaluation Use. |
-| "I put it in a Docker image" | Containerisation does not change the licence. Distribution or hosting still requires a LOSDA. |
+| "I put it in a Docker image" | Containerization does not change the license. Distribution or hosting still requires a LOSDA. |
 | "I used an AI to rewrite it" | Model laundering is prohibited (13.11, 14.4). |
 | "The author hasn't complained" | Non-enforcement is not permission (§5.2). |
-| "There was no click-through" | The licence applies by the act of use; the repository carries the notice. |
+| "There was no click-through" | The license applies by the act of use; the repository carries the notice. |
 | "The repo says MIT in the README" | The LICENSE file and NOTICE govern; report the discrepancy to the Author. |
 
 ## 5. Taking something down: the realistic routes
@@ -100,26 +100,26 @@ Where a deployment is unlicensed, the Author's realistic escalation path is:
 1. **Contact the deployer.** Most unlicensed deployments are careless, not malicious, and are
    resolved by a letter and a payment.
 2. **Use the framework.** Issue an NNC under `legal/enforcement-policy.md`, offer a cure
-   period, and — where appropriate — offer a retroactive LOSDA to regularise the use.
+   period, and — where appropriate — offer a retroactive LOSDA to regularize the use.
 3. **Platform reports.** For hosted code that infringes: a DMCA notice to the host, if the
    material is genuinely infringing and the requirements are met. For GitHub specifically, the
-   DMCA Takedown Policy and the Copyright Claims Process apply. A licence-violation report that
+   DMCA Takedown Policy and the Copyright Claims Process apply. A license-violation report that
    is not a copyright claim may be handled under GitHub's other policies instead.
 4. **Package registries.** npm, PyPI, NuGet, Maven Central, and app stores have their own
    complaint processes. Each requires the complainant to identify the rightsholder and the
    infringing material.
-5. **Legal action.** Infringement claims, breach-of-licence claims, or both, depending on the
-   jurisdiction. Note the important split: in some jurisdictions a licence breach sounds in
-   contract; in others it is treated as infringement because the licence condition delimits the
+5. **Legal action.** Infringement claims, breach-of-license claims, or both, depending on the
+   jurisdiction. Note the important split: in some jurisdictions a license breach sounds in
+   contract; in others it is treated as infringement because the license condition delimits the
    scope of the grant.
 
 **Reality check:** DMCA is a United States process. Deployers outside the United States, and
 hosts outside the United States, are governed by local copyright law. PASVL does not promise a
 fast takedown. It promises a documented, defensible record.
 
-## 6. The GitHub licence-detection problem
+## 6. The GitHub license-detection problem
 
-GitHub's licence picker lists only OSI-approved and a small set of other licences. PASVL is
+GitHub's license picker lists only OSI-approved and a small set of other licenses. PASVL is
 not on that list. Consequences:
 
 - The repository sidebar will typically show **"View license"** or **"Unknown license"**
@@ -127,19 +127,19 @@ not on that list. Consequences:
 - Package manifests that validate against an SPDX list will not accept `PASVL-1.0`. Use
   `LicenseRef-PASVL-1.0` where the manifest supports custom references, and a comment
   otherwise (Appendix B.3).
-- Some tools will warn or fail on an unrecognised licence. That warning is expected and is not
+- Some tools will warn or fail on an unrecognized license. That warning is expected and is not
   a defect.
 
 **Do not attempt to smuggle PASVL in under a known identifier.** Do not set a manifest to
-`MIT` or `Apache-2.0` to silence a warning. Misrepresenting the licence is itself a Violation
+`MIT` or `Apache-2.0` to silence a warning. Misrepresenting the license is itself a Violation
 (Article 4.3) and destroys the credibility of the framework.
 
 ## 7. What adopters should do to make the framework work
 
-1. Put the full licence in `LICENSE`.
+1. Put the full license in `LICENSE`.
 2. Put the NOTICE in `NOTICE` and repeat the essential terms in the README, in plain language.
-3. Add licence headers to source files (Appendix B.1) and enforce them in CI.
-4. Add a `CONTRIBUTING.md` that requires DCO sign-off and states the inbound licence.
+3. Add license headers to source files (Appendix B.1) and enforce them in CI.
+4. Add a `CONTRIBUTING.md` that requires DCO sign-off and states the inbound license.
 5. Add `SECURITY.md` with a private reporting channel.
 6. Publish a clear "How to get a LOSDA" section with response targets.
 7. Register the Work in `registry/works.json` so the public can find its licensing status.
@@ -150,13 +150,13 @@ not on that list. Consequences:
 Authors who adopt PASVL must never claim that:
 
 - the software is "unusable without permission" in a technical sense;
-- the licence "prevents copying";
-- the licence is "approved" or "certified" by any authority;
-- the licence is open source, free software, or OSI-approved;
+- the license "prevents copying";
+- the license is "approved" or "certified" by any authority;
+- the license is open source, free software, or OSI-approved;
 - a LOSDA is "legally required worldwide" without qualification;
 - the framework guarantees compliance or enforcement.
 
-Overclaiming is a governance offence under the framework's own marketing rules
+Overclaiming is a governance offense under the framework's own marketing rules
 (`governance/CHARTER.md`, Section 7) because it damages the credibility of every author who
 relies on the framework.
 

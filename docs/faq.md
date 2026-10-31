@@ -8,15 +8,15 @@ Honest answers to the questions people actually ask, including the uncomfortable
 
 ### 1. What is PASVL?
 
-A licence that makes source code public and readable by everyone, while reserving the right to
+A license that makes source code public and readable by everyone, while reserving the right to
 **deploy** it to the author, who grants that right individually through a **Letter of Software
 Deployment Approval (LOSDA)**.
 
 ### 2. Is this open source?
 
-No. It is **source-available**. Under the Open Source Definition, a licence must not restrict
+No. It is **source-available**. Under the Open Source Definition, a license must not restrict
 fields of use or require separate permission to run the software. PASVL does both. Saying it is
-open source is a misrepresentation and is prohibited by the licence itself (§28.5).
+open source is a misrepresentation and is prohibited by the license itself (§28.5).
 
 ### 3. Is it free software?
 
@@ -33,15 +33,15 @@ A short, numbered, signed, publicly recorded permission. It says who may deploy,
 deploy, where, how much, for how long, and under what conditions. See
 [`../legal/losda-specification.md`](../legal/losda-specification.md).
 
-### 6. Why not just use a proprietary licence?
+### 6. Why not just use a proprietary license?
 
-Because with a proprietary licence, you cannot read the code, cannot audit it, cannot fork it,
+Because with a proprietary license, you cannot read the code, cannot audit it, cannot fork it,
 cannot teach with it, and cannot fix it yourself. PASVL keeps all of that and only gates
 deployment.
 
 ### 7. Why not MIT or Apache-2.0?
 
-Because those licences give away the right to deploy commercially without asking. If you want
+Because those licenses give away the right to deploy commercially without asking. If you want
 maximum adoption and do not need to fund the project from deployment, use them.
 
 ---
@@ -99,7 +99,7 @@ Yes, with attribution. Quoting source for commentary is permitted under Article 
 
 ### 20. Can I translate it?
 
-Yes. A translation is a derivative work; it must keep the licence and attribution, and deploying
+Yes. A translation is a derivative work; it must keep the license and attribution, and deploying
 the translation requires a LOSDA.
 
 ### 21. Can I use it in a hackathon?
@@ -117,7 +117,7 @@ Yes, usually free under Class P or A — but "non-profit" does not mean "no perm
 
 ### 24. What if I only use it during the build, not at runtime?
 
-A build-time tool that is not distributed or served is not deployed. If it produces artefacts
+A build-time tool that is not distributed or served is not deployed. If it produces artifacts
 you distribute, the distribution question applies.
 
 ### 25. What if my users run it, not me?
@@ -137,7 +137,7 @@ in the work's `NOTICE`, and wait for a decision. Standard classes target 20 busi
 ### 27. Does it cost money?
 
 It depends on the author. Many offer free classes for academia, government, public interest, and
-small organisations. Fees are published.
+small organizations. Fees are published.
 
 ### 28. When can I start deploying?
 
@@ -179,7 +179,7 @@ Only if the LOSDA expressly says so. "We'll let our customers use it" is sublice
 ### 35. What happens if I deploy without permission?
 
 You are in breach. The author will usually start with a friendly message, then a formal notice
-with a cure period. You can usually regularise with a retroactive LOSDA.
+with a cure period. You can usually regularize with a retroactive LOSDA.
 
 ### 36. Will I be sued immediately?
 
@@ -212,29 +212,29 @@ Yes, from Stage 2 upwards, redacted for personal data.
 ### 41. Is this enforceable?
 
 It depends on the jurisdiction, how clearly the restriction is communicated, and how the work is
-distributed. In many jurisdictions a condition limiting the scope of a copyright licence is
-enforceable as a condition; in others it is a contractual promise. The licence is drafted to
+distributed. In many jurisdictions a condition limiting the scope of a copyright license is
+enforceable as a condition; in others it is a contractual promise. The license is drafted to
 survive partial unenforceability: the visibility grant and attribution duties remain even if the
 deployment restriction fails in one place. See
 [`../legal/jurisdiction-matrix.md`](../legal/jurisdiction-matrix.md).
 
 ### 42. Doesn't public availability imply permission?
 
-No. Publication is not a licence. The licence is the licence.
+No. Publication is not a license. The license is the license.
 
 ### 43. What about GitHub's terms — doesn't forking give me rights?
 
 GitHub's terms let you view and fork public repositories within the platform. They do not grant
-a deployment licence, and PASVL expressly permits forking so there is no conflict. See
+a deployment license, and PASVL expressly permits forking so there is no conflict. See
 [`../legal/platform-reality.md`](../legal/platform-reality.md).
 
 ### 44. Can't I just clone it and run it anyway?
 
-Technically, yes — as with any licence. Legally, that is the breach. PASVL's contribution is to
+Technically, yes — as with any license. Legally, that is the breach. PASVL's contribution is to
 make the rules clear and the permission routine, so that most people comply because it is easy
 and fair, not because they are forced to.
 
-### 45. Isn't this just a proprietary licence with extra steps?
+### 45. Isn't this just a proprietary license with extra steps?
 
 It is materially different: the source is public, auditing and teaching are expressly permitted,
 there are broad no-fee classes, revocation requires cause and a wind-down, and rights cannot be
@@ -242,8 +242,8 @@ tightened retroactively. But yes, it reserves deployment — that is its purpose
 
 ### 46. Won't this kill adoption?
 
-It will reduce adoption among organisations that cannot accept a gated deployment. It may
-increase adoption among organisations that want to audit their suppliers and are willing to pay
+It will reduce adoption among organizations that cannot accept a gated deployment. It may
+increase adoption among organizations that want to audit their suppliers and are willing to pay
 for a clear permission. Whether that trade is right depends on the project.
 
 ### 47. What about the "Open Source Definition"? Isn't gating deployment ethically wrong?
@@ -260,7 +260,7 @@ must be disableable for accessibility and testing, and must not be circumvented
 
 ### 49. What about privacy?
 
-The Registry publishes limited, minimised data; anonymised listing is available; the privacy
+The Registry publishes limited, minimized data; anonymized listing is available; the privacy
 policy sets retention limits. See [`../legal/privacy-policy.md`](../legal/privacy-policy.md).
 
 ### 50. What about sanctions and export control?
@@ -287,7 +287,7 @@ control.
 For your own works, a JSON file in your repository in the documented format is enough. The public
 Registry is for works that want to be discoverable and verifiable globally.
 
-### 54. Can I change the licence later?
+### 54. Can I change the license later?
 
 For future versions, yes. You cannot withdraw rights already granted for published versions
 (§19.5), and a major restriction requires the Amendment Process if you are using the framework's
@@ -295,7 +295,7 @@ stewardship.
 
 ### 55. What if a contributor refuses to agree?
 
-Then their code cannot be relicensed. Keep it under the old licence in a separate module, or
+Then their code cannot be relicensed. Keep it under the old license in a separate module, or
 remove it.
 
 ### 56. What happens if I stop maintaining the project?
@@ -314,7 +314,7 @@ not.
 
 ### 58. Who wrote this?
 
-The Bangladesh Software Development Community (BSD C) stewards the framework. The licence was
+The Bangladesh Software Development Community (BSD C) stewards the framework. The license was
 drafted for international use, with Bangladesh as the default governing law, and is published
 openly for review and amendment.
 

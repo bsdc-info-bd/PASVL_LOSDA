@@ -34,7 +34,7 @@ a large one.
 
 ## Versioning
 
-Templates carry their own version number, independent of the Licence. A template update does not
+Templates carry their own version number, independent of the License. A template update does not
 invalidate an instrument issued under an earlier template, provided the earlier instrument
 contained the required elements.
 
@@ -51,7 +51,7 @@ contained the required elements.
 | Security report | SEC-1.0 |
 | Takedown | TD-1.0 |
 | DPA | DPA-1.0 |
-| Contributor authorisation | CA-1.0 |
+| Contributor authorization | CA-1.0 |
 
 ## Machine-readable forms
 

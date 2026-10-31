@@ -11,7 +11,7 @@ Python 3.9+; nothing needs installing.
 | [`validate_registry.py`](validate_registry.py) | Validates the registry: identity, status, hash chain, statistics, Merkle root |
 | [`hash_record.py`](hash_record.py) | Computes or verifies the canonical SHA-256 record hash |
 | [`new_losda.py`](new_losda.py) | Scaffolds a draft record and prints its hash — it does not issue a permission |
-| [`check_license_headers.py`](check_license_headers.py) | Fails CI when a source file lacks a PASVL licence header |
+| [`check_license_headers.py`](check_license_headers.py) | Fails CI when a source file lacks a PASVL license header |
 
 ## Quick start
 
@@ -37,7 +37,7 @@ python3 scripts/new_losda.py \
   --end-users 50000 --fee 60000 \
   --out drafts/example.json
 
-# Check licence headers across the repository
+# Check license headers across the repository
 python3 scripts/check_license_headers.py --path . --allow-missing README.md
 ```
 
@@ -56,8 +56,8 @@ enforce the rules that make an instrument **void** if broken:
 
 1. The identifier format `LOSDA-<ISSUER>-<YYYY>-<NNNNNN>`.
 2. Every element required by PASVL Appendix A.
-3. A recognised class from PASVL §10.14.
-4. A recognised capacity to issue, and the rule that only `BSDC` may issue Continuity or
+3. A recognized class from PASVL §10.14.
+4. A recognized capacity to issue, and the rule that only `BSDC` may issue Continuity or
    Extension LOSDAs.
 5. A signature that is not `none`.
 6. A term that is stated: an end date, or an express perpetual grant — never neither.
@@ -91,9 +91,9 @@ detected.
 
 1. **Standard library only.** A validator you cannot run is not a validator.
 2. **Fail loudly.** An invalid instrument must produce a non-zero exit code.
-3. **No network access.** These tools never call home, never phone a licence server, and never
+3. **No network access.** These tools never call home, never phone a license server, and never
    collect telemetry. That would contradict the framework.
-4. **No silent fixes**, except in `--fix` mode for licence headers, which is explicit.
+4. **No silent fixes**, except in `--fix` mode for license headers, which is explicit.
 
 ## Adding a script
 

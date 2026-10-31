@@ -39,7 +39,7 @@
 | Country | United Kingdom |
 | Public display name | Northwind Analytics |
 | Registry listing preference | Legal name |
-| Authorised contact | legal@northwind.example |
+| Authorized contact | legal@northwind.example |
 | Compliance officer | J. Patel, Head of Engineering |
 | Affiliates covered | Northwind Analytics GmbH (Germany) |
 
@@ -135,8 +135,8 @@ Licensed Work and does not transfer any ownership interest.
 
 | Code | Applied | Notes |
 |---|---|---|
-| C1 Preserve notices | Yes | In source and in shipped artefacts |
-| C2 Display attribution | Yes | "Third-party licences" page in Northwind Pulse |
+| C1 Preserve notices | Yes | In source and in shipped artifacts |
+| C2 Display attribution | Yes | "Third-party licenses" page in Northwind Pulse |
 | C3 Territory and field | Yes | |
 | C4 Scale reporting | Yes | Annual, by 31 January |
 | C5 No sublicensing | Yes | |
@@ -161,7 +161,7 @@ Licensed Work and does not transfer any ownership interest.
 
 ---
 
-## 8. Acknowledgements
+## 8. Acknowledgments
 
 The Licensee acknowledges that the Letter grants only the stated permissions; that the Work
 remains publicly available under PASVL-1.0; that the Issuer retains all rights not granted; that

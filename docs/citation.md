@@ -4,10 +4,10 @@ How to cite the framework in academic work, legal documents, and software metada
 
 ## 1. Academic citation
 
-### 1.1 Licence
+### 1.1 License
 
 > Bangladesh Software Development Community. (2026). *Public Availability with Source-Code
-> Visibility License, Version 1.0 (PASVL-1.0)* [Licence text]. GitHub.
+> Visibility License, Version 1.0 (PASVL-1.0)* [License text]. GitHub.
 > https://github.com/bsdc-info-bd/PASVL_LOSDA/blob/main/LICENSE
 
 BibTeX:
@@ -18,7 +18,7 @@ BibTeX:
   author       = {{Bangladesh Software Development Community}},
   year         = {2026},
   howpublished = {GitHub repository},
-  note         = {Licence text, PASVL-1.0},
+  note         = {License text, PASVL-1.0},
   url          = {https://github.com/bsdc-info-bd/PASVL_LOSDA}
 }
 ```
@@ -36,13 +36,13 @@ When publishing results from a licensed deployment, include the LOSDA ID:
 > Experiments were run on Acme Scheduler v2.1 (licensed under PASVL-1.0, deployment permitted
 > under LOSDA-BSDC-2026-000123).
 
-This makes the use auditable and normalises the instrument in the literature.
+This makes the use auditable and normalizes the instrument in the literature.
 
 ## 2. Machine-readable identification
 
 | Field | Value |
 |---|---|
-| SPDX licence expression | `LicenseRef-PASVL-1.0` |
+| SPDX license expression | `LicenseRef-PASVL-1.0` |
 | Full name | Public Availability with Source-Code Visibility License |
 | Version | 1.0 |
 | Short identifier | PASVL-1.0 |
@@ -55,8 +55,8 @@ This makes the use auditable and normalises the instrument in the literature.
 
 ### 2.1 SPDX note
 
-`LicenseRef-` identifiers are the SPDX mechanism for licences not on the SPDX list. Use
-`LicenseRef-PASVL-1.0` exactly, with the correct capitalisation.
+`LicenseRef-` identifiers are the SPDX mechanism for licenses not on the SPDX list. Use
+`LicenseRef-PASVL-1.0` exactly, with the correct capitalization.
 
 ### 2.2 CycloneDX / SBOM
 
@@ -85,7 +85,7 @@ In a contract or legal document:
 
 Always include:
 
-1. the full licence name and version;
+1. the full license name and version;
 2. the steward;
 3. a stable URL;
 4. the LOSDA ID where one applies;
@@ -93,12 +93,12 @@ Always include:
 
 ## 4. Citing the framework in a paper about licensing
 
-> PASVL is a source-available licence that grants perpetual rights to read, study, audit, fork,
+> PASVL is a source-available license that grants perpetual rights to read, study, audit, fork,
 > teach with, and contribute to software, while reserving the right to deploy. Deployment is
-> authorised through a Letter of Software Deployment Approval (LOSDA), a named, scoped,
+> authorized through a Letter of Software Deployment Approval (LOSDA), a named, scoped,
 > time-limited, publicly registered permission instrument. The framework is distinct from open
-> source licences in that it imposes a field-of-use restriction on execution, and distinct from
-> proprietary licences in that it grants unrestricted visibility rights. See Bangladesh Software
+> source licenses in that it imposes a field-of-use restriction on execution, and distinct from
+> proprietary licenses in that it grants unrestricted visibility rights. See Bangladesh Software
 > Development Community (2026), PASVL-1.0.
 
 ## 5. Citation file
@@ -115,4 +115,4 @@ Cite the English text as authoritative and note the translation:
 ## 7. Attribution for adopters
 
 If your work uses PASVL, you do not need to cite this repository in your software, but you must
-carry the licence notice (PASVL Appendix B). Citation is welcome in academic contexts.
+carry the license notice (PASVL Appendix B). Citation is welcome in academic contexts.

@@ -16,7 +16,7 @@ See PASVL §28.4.
 | Language | Code | Files | Status | Reviewer |
 |---|---|---|---|---|
 | English | `en` | the root documents | **Authoritative** | License Council |
-| Bengali (বাংলা) | `bn` | [summary set](bn/) | Complete for summaries; full licence pending | *seeking reviewer* |
+| Bengali (বাংলা) | `bn` | [summary set](bn/) | Complete for summaries; full license pending | *seeking reviewer* |
 
 ## 3. What gets translated, in priority order
 
@@ -24,7 +24,7 @@ See PASVL §28.4.
 2. **The LOSDA summary** — what permission is, and how to ask for it.
 3. **The FAQ** — the questions people actually ask.
 4. **The code of conduct** — so that participation is safe in the participant's language.
-5. **The licence itself** — a large undertaking; requires legal review.
+5. **The license itself** — a large undertaking; requires legal review.
 6. **The templates** — so that applicants can apply in their own language.
 
 ## 4. Rules for translators

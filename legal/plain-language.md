@@ -1,8 +1,8 @@
 # PASVL-1.0 in Plain Language
 
-> **This page is a human-readable summary. It is not the licence and it has no legal force.**
-> The binding text is [`LICENSE`](../LICENSE). If this page and the licence disagree, the
-> licence wins. Nothing here grants you any right.
+> **This page is a human-readable summary. It is not the license and it has no legal force.**
+> The binding text is [`LICENSE`](../LICENSE). If this page and the license disagree, the
+> license wins. Nothing here grants you any right.
 
 ---
 
@@ -77,7 +77,7 @@ A LOSDA is **10 fields long**, not a contract negotiation:
 - **No implied permission** and **no surprise revocation** — revoking a LOSDA needs grounds,
   notice, a hearing, and a 180-day wind-down (Articles 18–19).
 - If you deploy legally, you get **notice and a cure period** before anything happens.
-- New, stricter licence terms **cannot take back** rights already granted to you.
+- New, stricter license terms **cannot take back** rights already granted to you.
 
 ## What the author does not promise you
 
@@ -90,7 +90,7 @@ A LOSDA is **10 fields long**, not a contract negotiation:
 
 ## The five things that get people into trouble
 
-1. **"It's on GitHub, so it's free."** Not here. Public visibility ≠ public licence to deploy.
+1. **"It's on GitHub, so it's free."** Not here. Public visibility ≠ public license to deploy.
 2. **"I only copied a little."** A Substantial Portion is still covered (§1.35, §4.5).
 3. **"I'm just running it for my startup's internal tool."** That is Internal Use — you need a
    Class I LOSDA.
@@ -114,7 +114,7 @@ A LOSDA is **10 fields long**, not a contract negotiation:
 
 ---
 
-## If you are worried about this licence
+## If you are worried about this license
 
 That is healthy. Read:
 
@@ -125,7 +125,7 @@ That is healthy. Read:
 
 ### Honest limits
 
-This framework is new. It is **not** a licence approved by the Open Source Initiative, and the
+This framework is new. It is **not** a license approved by the Open Source Initiative, and the
 community must never describe it as open source. Whether a court will enforce a deployment
 restriction to the full extent intended depends on the jurisdiction, on how the work is
 distributed, and on how clearly the restriction is communicated. Some rights cannot be
@@ -140,4 +140,4 @@ licensing works.
 
 ---
 
-*Machine-readable identifier: `LicenseRef-PASVL-1.0`. Not an OSI-approved licence.*
+*Machine-readable identifier: `LicenseRef-PASVL-1.0`. Not an OSI-approved license.*

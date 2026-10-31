@@ -14,7 +14,7 @@
 | Role in the matter | ☐ Licensee ☐ Applicant ☐ Author ☐ Contributor ☐ Affected third party ☐ Representative |
 | Country | |
 | Contact email | |
-| Authorised representative (if any) | |
+| Authorized representative (if any) | |
 
 ## 2. Decision being appealed
 
@@ -23,7 +23,7 @@
 | Decision reference | |
 | Date of decision | |
 | Decision-maker | |
-| Type of decision | Refusal / Scope / Suspension / Revocation / Sanction / Registry correction / Anonymisation / Other |
+| Type of decision | Refusal / Scope / Suspension / Revocation / Sanction / Registry correction / Anonymization / Other |
 | Outcome of the decision | |
 
 ## 3. Grounds
@@ -32,7 +32,7 @@ Select all that apply and explain each.
 
 - ☐ Procedural unfairness
 - ☐ Factual error
-- ☐ Wrong application of the Licence or policy
+- ☐ Wrong application of the License or policy
 - ☐ Disproportionate sanction
 - ☐ Discrimination or bad faith
 - ☐ New evidence

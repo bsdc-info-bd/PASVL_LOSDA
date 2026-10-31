@@ -6,15 +6,15 @@ Print this. Work through it before every launch, and review it annually.
 
 ## Pre-deployment
 
-### Licence discovery
+### License discovery
 
 - [ ] I have read the work's `LICENSE` and `NOTICE` in full.
-- [ ] I know the licence version that applies (PASVL-1.0).
+- [ ] I know the license version that applies (PASVL-1.0).
 - [ ] I know the Mode (S or U).
 - [ ] I know whether the Ethics Policy is incorporated.
 - [ ] I know who the issuer is and how to contact them.
 - [ ] I know whether the work is dual-licensed.
-- [ ] I have checked the dependency tree for incompatible licences.
+- [ ] I have checked the dependency tree for incompatible licenses.
 
 ### Classification
 
@@ -50,15 +50,15 @@ Print this. Work through it before every launch, and review it annually.
 - [ ] The `LICENSE` file is retained in the source tree I deploy.
 - [ ] The `NOTICE` file is retained.
 - [ ] Copyright headers are not removed from any file.
-- [ ] Shipped artefacts include the licence and notice files.
-- [ ] Container images carry the correct licence label.
+- [ ] Shipped artifacts include the license and notice files.
+- [ ] Container images carry the correct license label.
 
 ### Attribution
 
-- [ ] A "Third-party licences" or "Credits" page exists in the product.
-- [ ] It names the work, the author, and the licence.
+- [ ] A "Third-party licenses" or "Credits" page exists in the product.
+- [ ] It names the work, the author, and the license.
 - [ ] It links to the canonical repository.
-- [ ] It links to or reproduces the licence text.
+- [ ] It links to or reproduces the license text.
 - [ ] Users can reach it within two clicks from the main interface.
 
 ### Scope controls
@@ -80,7 +80,7 @@ Print this. Work through it before every launch, and review it annually.
 
 - [ ] A DPIA or equivalent has been completed if personal data is processed.
 - [ ] A DPA is in place where required.
-- [ ] Retention and minimisation are implemented.
+- [ ] Retention and minimization are implemented.
 - [ ] Cross-border transfers have a lawful basis.
 
 ---
@@ -98,7 +98,7 @@ Print this. Work through it before every launch, and review it annually.
 
 ---
 
-## Change triggers: re-check the licence if…
+## Change triggers: re-check the license if…
 
 - [ ] You launch a new product.
 - [ ] You enter a new country.
@@ -110,7 +110,7 @@ Print this. Work through it before every launch, and review it annually.
 - [ ] You start training a model.
 - [ ] You rebrand.
 - [ ] The author releases a new major version.
-- [ ] The author changes the licence for future versions.
+- [ ] The author changes the license for future versions.
 - [ ] Your LOSDA is amended, suspended, or expires.
 
 ---
@@ -119,10 +119,10 @@ Print this. Work through it before every launch, and review it annually.
 
 - [ ] Stop the unlicensed deployment or reduce it to Evaluation Use immediately.
 - [ ] Notify your legal team.
-- [ ] Apply for a retroactive LOSDA with a regularisation fee.
+- [ ] Apply for a retroactive LOSDA with a regularization fee.
 - [ ] Preserve records: deployment start date, scale, and what was processed.
 - [ ] Do not conceal; concealment turns a curable breach into a non-curable one.
-- [ ] Record the lesson in your licence-review process.
+- [ ] Record the lesson in your license-review process.
 
 ---
 
@@ -144,9 +144,9 @@ Print this. Work through it before every launch, and review it annually.
 - [ ] All LOSDAs reviewed and renewed as needed.
 - [ ] Scope records updated.
 - [ ] Attribution pages checked for accuracy.
-- [ ] Dependency licences re-scanned.
+- [ ] Dependency licenses re-scanned.
 - [ ] Incident runbook contacts updated.
-- [ ] Training for engineering on licence obligations.
+- [ ] Training for engineering on license obligations.
 - [ ] Report to management on compliance status.
 
 ---

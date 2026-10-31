@@ -17,7 +17,7 @@
 
 ## 1. Summary
 
-Publish a new licensing framework consisting of two instruments: a public licence that makes
+Publish a new licensing framework consisting of two instruments: a public license that makes
 source code permanently visible while reserving the right to deploy (**PASVL-1.0**), and a named,
 scoped, recorded permission instrument that grants deployment individually (**LOSDA-1.0**).
 Publish the framework with registry, governance, templates, tooling, and translations.
@@ -26,7 +26,7 @@ Publish the framework with registry, governance, templates, tooling, and transla
 
 Two licensing models dominate, and both force a trade many authors do not want:
 
-1. **Permissive open source** grants everyone the right to deploy, including large organisations
+1. **Permissive open source** grants everyone the right to deploy, including large organizations
    that capture most of the value. The source is visible, but the author is not funded. The
    predictable result is burnout, abandonment, and unpatched security defects in software that
    the world depends on.
@@ -35,12 +35,12 @@ Two licensing models dominate, and both force a trade many authors do not want:
 
 Three specific gaps follow:
 
-- **No middle instrument.** Source-available licences exist (BUSL, Elastic, PolyForm), but they
+- **No middle instrument.** Source-available licenses exist (BUSL, Elastic, PolyForm), but they
   are almost all framed as time-limited or non-commercial restrictions. None combines permanent
   public visibility with a formal, scoped, per-deployer permission process.
 - **No verifiable permission.** Where source-available authors do grant commercial permission, it
   is usually an email or a private contract. A customer, auditor, or regulator cannot verify it.
-- **No governance.** Licence changes are unilateral. There is no appeal, no register of decisions,
+- **No governance.** License changes are unilateral. There is no appeal, no register of decisions,
   and no separation between the author's interests and the framework's integrity.
 
 ## 3. Proposed text
@@ -50,14 +50,14 @@ The full text of `LICENSE` (28 Articles, 4 Appendices) and `legal/losda-specific
 
 ## 4. Rationale
 
-The framework separates two things that open-source licences bundle together:
+The framework separates two things that open-source licenses bundle together:
 
 - **Visibility** — reading, studying, auditing, teaching, contributing. It costs the author almost
   nothing and creates enormous public value.
 - **Deployment** — running the software to serve customers, operate infrastructure, or ship
   devices. It is where commercial value is captured.
 
-Separating them produces a licence that is more permissive than proprietary (visibility is
+Separating them produces a license that is more permissive than proprietary (visibility is
 unconditional) and more restrictive than open source (deployment is licensed) — and, critically,
 honest about both.
 
@@ -71,7 +71,7 @@ cause and wind-down, and an appeal route.
 |---|---|
 | Authors | Gain a way to publish publicly while funding deployment; gain administration work |
 | Deployers | Gain auditability and a predictable permission; gain a fee and an application |
-| Contributors | Gain visibility of their contributions; accept an inbound licence allowing relicensing |
+| Contributors | Gain visibility of their contributions; accept an inbound license allowing relicensing |
 | Readers, students, researchers | Gain permanent free visibility; lose nothing |
 | The registry | New operational burden: recording, verification, corrections, audits |
 | Existing LOSDAs | None — this is the first version |
@@ -97,18 +97,18 @@ Known incompatibilities:
 | **BUSL-1.1** | Time-limited conversion to open source; not a permanent permission model, and the "eventual open" promise is a different trade |
 | **Elastic-2.0 / PolyForm** | Service-provider restrictions without a formal permission process or a registry |
 | **Proprietary EULA with source access** | Visibility is conditional and revocable; no contribution culture; no public-interest classes |
-| **A CLA-only commercial model on an open licence** | Does not reserve deployment; a competitor may still host it |
-| **A pledge, not a licence** ("fair-code" style) | Unverifiable, unenforceable, and not a licence at all |
+| **A CLA-only commercial model on an open license** | Does not reserve deployment; a competitor may still host it |
+| **A pledge, not a license** ("fair-code" style) | Unverifiable, unenforceable, and not a license at all |
 
 ## 8. Who this hurts
 
 This section is mandatory, and the answer is not "nobody".
 
-1. **Companies that cannot accept gated deployment.** Organisations with an OSI-only procurement
+1. **Companies that cannot accept gated deployment.** Organizations with an OSI-only procurement
    policy will be unable to use PASVL works. That is a real cost, borne by the project's adoption.
 2. **Projects that need ubiquity.** Standards, protocol implementations, and libraries benefit
    from unconditional rights. PASVL is wrong for them.
-3. **Developers who believe all software must be freely runnable.** They will regard the licence
+3. **Developers who believe all software must be freely runnable.** They will regard the license
    as a betrayal of open source, and some will fork. The framework accepts that criticism rather
    than hiding from it.
 4. **Small deployers facing administration.** A sole trader who wants to run a tool must now
@@ -130,7 +130,7 @@ This section is mandatory, and the answer is not "nobody".
 
 ## 10. Implementation plan
 
-1. Publish the licence, specification, governance, templates, schemas, and registry. ✅
+1. Publish the license, specification, governance, templates, schemas, and registry. ✅
 2. Open the RFC process. ✅
 3. Publish the Bengali translation of the summaries. ✅
 4. Obtain and publish ten reference adoptions. ☐
@@ -150,6 +150,6 @@ This section is mandatory, and the answer is not "nobody".
 |---|---|
 | Outcome | **Accepted** |
 | Vote | For: 7 · Against: 0 · Abstain: 0 |
-| Reasons | The framework fills a real gap, is honest about its limits, and provides the governance that source-available licences typically lack |
+| Reasons | The framework fills a real gap, is honest about its limits, and provides the governance that source-available licenses typically lack |
 | Effective date | 2026-01-01 |
 | Review date | 2027-01-01 |

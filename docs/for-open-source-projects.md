@@ -1,6 +1,6 @@
 # For Open-Source Projects
 
-Many projects arrive at PASVL after years under a permissive licence. This guide is about
+Many projects arrive at PASVL after years under a permissive license. This guide is about
 migrating responsibly — and about when not to migrate at all.
 
 ---
@@ -8,7 +8,7 @@ migrating responsibly — and about when not to migrate at all.
 ## 1. The hard truth first
 
 If your project has already been released under MIT, Apache-2.0, BSD, or another permissive
-licence, **you cannot revoke that licence for the versions already released.** Those versions
+license, **you cannot revoke that license for the versions already released.** Those versions
 remain available under their original terms forever. What you can do is license **future
 versions** under PASVL.
 
@@ -29,7 +29,7 @@ remains in the project. Check:
 |---|---|
 | You are the sole copyright holder | ✅ Yes |
 | You have a CLA assigning rights to you or a foundation | ✅ Yes, per the CLA |
-| You have DCO sign-offs only | ✅ For your own code; ⚠️ for others' code, the DCO grants a licence to the project but does not transfer ownership — relicensing a combined work is legally risky |
+| You have DCO sign-offs only | ✅ For your own code; ⚠️ for others' code, the DCO grants a license to the project but does not transfer ownership — relicensing a combined work is legally risky |
 | Contributors hold copyright and there is no CLA | ⚠️ You need permission from each, or you must remove their code |
 | Your project is under a foundation's stewardship | ✅ Only with the foundation's approval |
 
@@ -39,8 +39,8 @@ poisons the project for everyone.
 ## 3. What your contributors agreed to
 
 The DCO (Developer Certificate of Origin 1.1) certifies that the contributor has the right to
-submit the code under the project's existing licence. It does **not** grant a right to change
-that licence. Unless you have a CLA with a relicensing right, you must ask.
+submit the code under the project's existing license. It does **not** grant a right to change
+that license. Unless you have a CLA with a relicensing right, you must ask.
 
 ### 3.1 Asking contributors
 
@@ -59,9 +59,9 @@ Record every consent. Silence is not consent.
 | Option | What happens | Best for |
 |---|---|---|
 | **A. Forward-only relicensing** | Old versions stay open; new versions are PASVL | Projects with a CLA or a single owner |
-| **B. Dual licensing** | Public PASVL + commercial licence for large deployers | Commercial open-core projects |
-| **C. Split licence** | Core under PASVL; SDK and client libraries under Apache-2.0 | Platforms that want wide client adoption |
-| **D. Stay open** | Keep Apache-2.0/MIT; monetise support or hosting | Projects whose value is in operations |
+| **B. Dual licensing** | Public PASVL + commercial license for large deployers | Commercial open-core projects |
+| **C. Split license** | Core under PASVL; SDK and client libraries under Apache-2.0 | Platforms that want wide client adoption |
+| **D. Stay open** | Keep Apache-2.0/MIT; monetize support or hosting | Projects whose value is in operations |
 | **E. Open core** | Open core; PASVL for a commercial module | Vendors with a proprietary product |
 
 Option **C** is often the best compromise: a permissive SDK makes adoption easy, while the
@@ -73,16 +73,16 @@ server component is permission-gated.
 - [ ] Review CLAs and DCO records.
 - [ ] Decide the scope of the change: which directories, which versions.
 - [ ] Contact contributors and record consents.
-- [ ] Check dependencies for incompatible licences.
+- [ ] Check dependencies for incompatible licenses.
 - [ ] Check funder and employer obligations.
-- [ ] Decide whether to keep the old licence for a `legacy/` branch.
+- [ ] Decide whether to keep the old license for a `legacy/` branch.
 - [ ] Update `LICENSE`, `NOTICE`, `README`, and package manifests.
 - [ ] Update source headers.
 - [ ] Update the website and any marketplace listing.
 - [ ] Announce with a clear explanation and a FAQ.
 - [ ] Open a discussion and answer objections honestly.
 - [ ] Set a transition date for any existing commercial users.
-- [ ] Publish the first version under the new licence.
+- [ ] Publish the first version under the new license.
 - [ ] Register the work and start the LOSDA process.
 
 ## 6. The announcement
@@ -111,7 +111,7 @@ Expect:
 - **"We'll fork it."** That is allowed and expected. Compete on quality, not on resentment.
 - **"Our company policy forbids this."** Offer a no-fee class or a permissive SDK.
 - **"You're betraying the community."** Engage, do not lecture. Publish the numbers if you can:
-  how much the project costs, and how the licence funds it.
+  how much the project costs, and how the license funds it.
 
 ## 8. Keeping the project healthy
 
@@ -131,15 +131,15 @@ Expect:
 - Do not claim old versions are withdrawn.
 - Do not describe the project as open source in your README, your package metadata, or your
   conference talks.
-- Do not use the licence as a weapon against a competitor; use it as a permission system.
+- Do not use the license as a weapon against a competitor; use it as a permission system.
 - Do not make the free tiers so narrow that they are a marketing lie.
 
 ## 10. Is this still open source? A fair answer
 
-No. It is source-available. It grants more than a proprietary licence (reading, auditing,
-forking, teaching, contributing) and less than an open-source licence (free deployment). It is
+No. It is source-available. It grants more than a proprietary license (reading, auditing,
+forking, teaching, contributing) and less than an open-source license (free deployment). It is
 honest about the difference, and that honesty is the point.
 
 If your community's core value is "anyone may run this for any purpose," PASVL is the wrong
-licence and you should not adopt it. If your community's core value is "the code is public and
+license and you should not adopt it. If your community's core value is "the code is public and
 the project is sustainable," PASVL is a defensible answer.

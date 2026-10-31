@@ -31,13 +31,13 @@ RFC: <!-- link, or "n/a" -->
 
 - [ ] Commits are signed off (`git commit -s`) under the Developer Certificate of Origin 1.1.
 - [ ] I have the right to contribute this content, and my employer does not own it.
-- [ ] No content under an incompatible licence has been included.
+- [ ] No content under an incompatible license has been included.
 - [ ] Cross-references, numbering, and definitions are consistent.
 - [ ] `python3 -m pytest scripts/tests -q` passes.
 - [ ] `python3 scripts/validate_registry.py` passes (if the registry changed).
 - [ ] `python3 scripts/check_license_headers.py --path scripts` passes (if scripts changed).
 - [ ] `CHANGELOG.md` has been updated for a substantive change.
-- [ ] The change does not describe the licence as open source.
+- [ ] The change does not describe the license as open source.
 
 ## For legal text changes
 

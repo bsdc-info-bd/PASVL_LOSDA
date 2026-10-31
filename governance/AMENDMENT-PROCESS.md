@@ -1,10 +1,10 @@
 # Amendment Process
 
-**Version:** 1.0 · **Applies to:** the Licence, the LOSDA specification, the schemas, and all
+**Version:** 1.0 · **Applies to:** the License, the LOSDA specification, the schemas, and all
 governance documents.
 
-A licence that can be changed by its author at will is not a licence; it is a promise. A licence
-that can never change is not a licence either; it is a fossil. This process is the narrow path
+A license that can be changed by its author at will is not a license; it is a promise. A license
+that can never change is not a license either; it is a fossil. This process is the narrow path
 between the two.
 
 ## 1. Classes of change
@@ -13,7 +13,7 @@ between the two.
 |---|---|---|
 | **Editorial** | Typo, broken link, formatting, example correction | Steward action + changelog entry |
 | **Clarifying** | Adds explanation without changing rights | Steward action + 14-day notice + changelog |
-| **Minor** | Adds a permission, improves a process, fixes a gap that favours licensees | RFC + 30-day comment + Council majority |
+| **Minor** | Adds a permission, improves a process, fixes a gap that favors licensees | RFC + 30-day comment + Council majority |
 | **Major** | Removes or restricts a permission, changes the deployment model, changes the registry | RFC + 45-day comment + two-thirds Council + Assembly ratification |
 | **Emergency** | Required by law, court order, or an imminent security issue | Immediate Council action + 7-day notice + ratification at the next meeting |
 
@@ -110,7 +110,7 @@ Governance documents (this directory) are amended by the Council:
 - Structural (changes to bodies, elections, or separation of powers): two-thirds of the whole
   Council + 30-day comment.
 
-Governance amendments cannot alter the Licence. If they conflict, the Licence prevails.
+Governance amendments cannot alter the License. If they conflict, the License prevails.
 
 ## 7. Schema changes
 
@@ -130,7 +130,7 @@ An emergency change requires:
 
 ## 9. Version numbering
 
-| Change | Licence | LOSDA spec | Schema |
+| Change | License | LOSDA spec | Schema |
 |---|---|---|---|
 | Editorial | 1.0.1 | 1.0.1 | — |
 | Clarifying | 1.0.x | 1.0.x | patch |

@@ -1,4 +1,4 @@
-# Licence Compatibility
+# License Compatibility
 
 **Version:** 1.0 · **Normative summary:** PASVL Appendix C
 
@@ -15,13 +15,13 @@ a PASVL project? This document answers both directions.
 
 ## 2. The golden rule
 
-**PASVL does not grant you rights in anyone else's code, and nobody else's licence grants you
-the right to deploy PASVL code.** Compatibility decisions must satisfy both licences
+**PASVL does not grant you rights in anyone else's code, and nobody else's license grants you
+the right to deploy PASVL code.** Compatibility decisions must satisfy both licenses
 independently. When in doubt, do not combine; use a process boundary instead.
 
 ## 3. Inbound: including permissive code in a PASVL Work
 
-| Licence | Include? | What you must do |
+| License | Include? | What you must do |
 |---|---|---|
 | MIT, BSD-2-Clause, BSD-3-Clause, ISC, 0BSD | ✅ Yes | Retain copyright and permission notices |
 | Apache-2.0 | ✅ Yes | Retain notices, `NOTICE` file, and state changes; comply with patent clause |
@@ -42,7 +42,7 @@ both be satisfied for the same combined work. Including GPL code in a PASVL Work
 Author in breach of the GPL. Including PASVL code in a GPL project would purport to grant GPL
 rights the Author never granted.
 
-This is not a statement that GPL is wrong; it is a statement that the two licences are
+This is not a statement that GPL is wrong; it is a statement that the two licenses are
 incompatible, as Apache-2.0 and GPL-2.0 are incompatible for similar structural reasons.
 
 ### 3.2 Process boundaries
@@ -58,7 +58,7 @@ packaging question. Get advice for high-stakes cases.
 
 ## 4. Inbound: proprietary and source-available code
 
-| Licence | Include? | Notes |
+| License | Include? | Notes |
 |---|---|---|
 | Proprietary with a written permission | ✅ With permission | Keep the written permission on file |
 | BUSL-1.1 | ⚠️ Case-by-case | Check the change date and the additional-use grant |
@@ -70,14 +70,14 @@ packaging question. Get advice for high-stakes cases.
 
 A PASVL Work that includes third-party components must publish:
 
-1. a `THIRD-PARTY-NOTICES` file listing each component, its licence, and its copyright notice;
-2. any source-offer obligations flowing from the third-party licence;
+1. a `THIRD-PARTY-NOTICES` file listing each component, its license, and its copyright notice;
+2. any source-offer obligations flowing from the third-party license;
 3. any additional restrictions the Author has agreed to (for example, attribution text required
    by a CC BY-NC asset).
 
 ## 6. Outbound: using PASVL code in your own project
 
-| Your project's licence | Include PASVL code? | Why |
+| Your project's license | Include PASVL code? | Why |
 |---|---|---|
 | MIT / BSD / Apache-2.0 | ⚠️ Only with separation | You cannot relicense PASVL code; you may link to it as a dependency that users must obtain separately |
 | GPL / AGPL | ❌ No | Incompatible both ways |
@@ -90,7 +90,7 @@ A PASVL Work that includes third-party components must publish:
 The cleanest pattern is:
 
 ```
-your-project/          (your licence)
+your-project/          (your license)
   ├── src/
   └── deps/
         └── pasvl-work/  (not vendored — fetched at build time, with a LOSDA)
@@ -114,7 +114,7 @@ You may not say:
 - "PASVL is open source";
 - "You may deploy this freely" if a LOSDA is required.
 
-## 8. Licence identifiers in manifests
+## 8. License identifiers in manifests
 
 | Ecosystem | Recommended value |
 |---|---|
@@ -126,7 +126,7 @@ You may not say:
 | NuGet | `<license type="file">LICENSE</license>` |
 | Docker labels | `org.opencontainers.image.licenses="LicenseRef-PASVL-1.0"` |
 
-Never use a false recognised identifier to silence a tool.
+Never use a false recognized identifier to silence a tool.
 
 ## 9. Dual licensing
 
@@ -134,19 +134,19 @@ An Author may dual-license a Work, for example under PASVL for the public and un
 commercial agreement for large deployers. If so:
 
 1. the NOTICE must state the dual-licensing arrangement clearly;
-2. the commercial agreement must not grant rights that contradict the public licence for those
+2. the commercial agreement must not grant rights that contradict the public license for those
    who rely on it;
 3. the Author must not use dual licensing as a bait-and-switch: releases already published
    under PASVL remain available under PASVL (§19.5).
 
-## 10. Licence compatibility requests
+## 10. License compatibility requests
 
-If you believe your licence is compatible with PASVL and it is not listed here, open an RFC at
+If you believe your license is compatible with PASVL and it is not listed here, open an RFC at
 [`../rfcs/`](../rfcs/) with:
 
-- the licence text;
+- the license text;
 - the proposed combination pattern;
 - a legal analysis;
-- a description of the obligations each licence imposes.
+- a description of the obligations each license imposes.
 
 The License Council will publish an interpretation within 90 days.

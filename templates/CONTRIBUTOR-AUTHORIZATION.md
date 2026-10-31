@@ -1,7 +1,7 @@
-# Contributor Authorisation
+# Contributor Authorization
 
-**Purpose:** to record a contributor's inbound licence and, where needed, an employer's waiver,
-so that the Author can prove clean title when enforcing the licence.
+**Purpose:** to record a contributor's inbound license and, where needed, an employer's waiver,
+so that the Author can prove clean title when enforcing the license.
 
 **Project:** ______________________________
 **Repository:** ______________________________
@@ -27,10 +27,10 @@ so that the Author can prove clean title when enforcing the licence.
 | Commits / PRs / files | |
 | Date range | |
 
-## 3. Licence grant
+## 3. License grant
 
 By signing this form, I grant the Author and Bangladesh Software Development Community (BSD C)
-a perpetual, worldwide, royalty-free, irrevocable, non-exclusive licence to use, reproduce,
+a perpetual, worldwide, royalty-free, irrevocable, non-exclusive license to use, reproduce,
 modify, adapt, publish, distribute, sublicense, and relicense my Contributions, in any form and
 for any purpose, including commercial licensing under PASVL-1.0 and any LOSDA.
 
@@ -40,20 +40,20 @@ I retain copyright in my Contributions.
 
 I represent that:
 
-1. I am legally entitled to grant the licence in Section 3;
+1. I am legally entitled to grant the license in Section 3;
 2. each Contribution is my original work, or I have the necessary permissions;
 3. the Contribution does not infringe any third party's rights;
 4. no employer or funder holds rights in the Contribution, or their rights have been waived as
    set out in Section 5;
-5. I have not included code under an incompatible licence.
+5. I have not included code under an incompatible license.
 
 ## 5. Employer waiver (if applicable)
 
-To be signed by an authorised representative of the employer where the employer may own rights
+To be signed by an authorized representative of the employer where the employer may own rights
 in the Contribution.
 
 I confirm that ______________________________ (employer) waives any rights it may have in the
-Contributions described above in favour of the Author and BSD C, and consents to the licence in
+Contributions described above in favor of the Author and BSD C, and consents to the license in
 Section 3.
 
 Name: ____________________________ Title: ____________________________
@@ -80,4 +80,4 @@ Contributor signature: ____________________________ Date: ____________
 
 **Note:** this form supplements, and does not replace, the DCO sign-off in commits. It is
 recommended where a contribution is substantial, where the contributor's employer may have
-rights, or where the Author expects to enforce the licence commercially.
+rights, or where the Author expects to enforce the license commercially.

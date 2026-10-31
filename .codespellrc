@@ -1,0 +1,26 @@
+# codespell configuration
+#
+# Shared by the CI "Spellcheck" job and by local runs:
+#     pip install codespell && codespell
+#
+# Every entry in ignore-words-list is a legitimate term that a general-purpose dictionary
+# flags. Each is justified below; nothing is silenced without a reason.
+
+[codespell]
+# Generated, vendored, and machine-readable files are not prose.
+skip = ./.git,*.json,*.svg,*.cff,./VERSION,./templates/LICENSE-HEADER.txt
+
+# Report unknown words only, not stylistic suggestions.
+quiet-level = 2
+
+# Legitimate terms that codespell does not know:
+#
+#   recuse, recusal, recusals  — withdraw from a decision because of a conflict of interest.
+#                                Codespell suggests "recurse", a programming term, which
+#                                would be wrong here.
+#   theses                     — plural of thesis.
+#   expressio, unius, alterius — the Latin maxim "expressio unius est exclusio alterius".
+#   fulfilment                 — appears only in scripts/check_docs.py, as a British spelling
+#                                the linter must detect and reject.
+#   losda, pasvl, bsdc, nnc    — framework identifiers.
+ignore-words-list = recuse,recusal,recusals,theses,expressio,unius,alterius,fulfilment,losda,pasvl,bsdc,nnc

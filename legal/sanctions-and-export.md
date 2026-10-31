@@ -4,7 +4,7 @@
 
 ## 1. Why this document exists
 
-A licence grants rights. Those rights may not be exercised where doing so would violate export
+A license grants rights. Those rights may not be exercised where doing so would violate export
 control or sanctions law. Because the framework is international and its Registry is public,
 the Steward must apply a consistent, documented screening process — and must be transparent
 about its limits.
@@ -13,9 +13,9 @@ about its limits.
 
 ### 2.1 For deployers
 
-You must not exercise rights under the Licence, and must not deploy a Work, where:
+You must not exercise rights under the License, and must not deploy a Work, where:
 
-- you are located in, organised under the laws of, or ordinarily resident in a comprehensively
+- you are located in, organized under the laws of, or ordinarily resident in a comprehensively
   sanctioned territory;
 - you are identified on a restricted-party list (for example, UN Security Council lists, the
   EU Consolidated List, the UK OFSI list, or the US SDN and Entity Lists, as applicable to
@@ -67,10 +67,10 @@ for:
 - determining whether the Work is subject to export classification (for example, ECCN
   classification under the US EAR, or the equivalent under the Wassenaar Arrangement);
 - stating any classification in the NOTICE;
-- obtaining any required licence before distributing the Work publicly;
+- obtaining any required license before distributing the Work publicly;
 - instructing the Steward if the Work must not be listed publicly in the Registry.
 
-The Steward does not perform export classification for Authors. A LOSDA does not authorise any
+The Steward does not perform export classification for Authors. A LOSDA does not authorize any
 export that the Author is not entitled to make.
 
 ## 6. Cryptographic software
@@ -86,7 +86,7 @@ Where the Work includes cryptography:
 ## 7. Change of circumstances
 
 A licensee must notify the issuing authority within 15 days if it becomes subject to a
-restricted-party listing, changes its country of organisation, or becomes aware that its
+restricted-party listing, changes its country of organization, or becomes aware that its
 deployment has a prohibited end-use. Failure to notify is a Violation.
 
 ## 8. Sanctions evasion
@@ -98,7 +98,7 @@ lawful and appropriate to do so.
 
 ## 9. Humanitarianism and licensed exceptions
 
-Where a general licence, humanitarian exemption, or specific authorisation from a competent
+Where a general license, humanitarian exemption, or specific authorization from a competent
 authority permits a transaction, the framework does not obstruct it. An applicant relying on an
 exemption must state the legal basis in the request.
 

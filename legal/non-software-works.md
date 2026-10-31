@@ -25,7 +25,7 @@ deployment concept maps to **inference service provision** and to **distribution
 A LOSDA Class H covers inference; Class D covers distribution; Class M covers training use of
 the underlying data.
 
-**2.2 Additional fields.** A model licence should state in the NOTICE:
+**2.2 Additional fields.** A model license should state in the NOTICE:
 
 - the training data provenance and any restrictions inherited from it;
 - whether outputs may be used commercially;
@@ -38,7 +38,7 @@ third-party rights in the inputs and to the prohibition on output laundering (§
 
 **2.4 Open-weights alternatives.** An Author who wants public weights but permission-gated
 inference can use PASVL with Mode U plus Class H LOSDAs. An Author who wants fully open weights
-should use an open licence, because weights are trivially copyable and a deployment restriction
+should use an open license, because weights are trivially copyable and a deployment restriction
 on weights is nearly impossible to enforce.
 
 ## 3. Datasets
@@ -53,7 +53,7 @@ it does not have. Deployers must comply with their own obligations.
 **3.3 Third-party data.** A dataset assembled from third-party sources may inherit
 restrictions. The NOTICE must list them. PASVL cannot grant more than the Author holds.
 
-**3.4 Recommended structure.** Licence the *compilation* under PASVL, and each underlying
+**3.4 Recommended structure.** License the *compilation* under PASVL, and each underlying
 element under its own terms, with a clear manifest.
 
 ## 4. Hardware designs
@@ -62,7 +62,7 @@ element under its own terms, with a clear manifest.
 licensed under PASVL. "Deployment" maps to **manufacture, sale, and operation**.
 
 **4.2 What PASVL cannot cover.** Patent rights in a hardware invention are separate. A LOSDA is
-not a patent licence. If the Author holds patents, the LOSDA must state whether a patent licence
+not a patent license. If the Author holds patents, the LOSDA must state whether a patent license
 is included.
 
 **4.3 Open-hardware caution.** Hardware is expensive to copy but easy to inspect. The framework
@@ -73,15 +73,15 @@ preventing inspection.
 
 Icons, fonts, illustrations, audio, and video included in a Work are covered as part of the
 Work. An Author who wants different terms for assets should place them in a separate directory
-with their own licence file, and must list them in the NOTICE.
+with their own license file, and must list them in the NOTICE.
 
 ## 6. Derivative and translated works
 
 | Derivative | Permission needed to create? | Permission needed to publish? | Deployment question? |
 |---|---|---|---|
-| Translation of documentation | No | Yes — attribution and licence notice | Not a deployment |
+| Translation of documentation | No | Yes — attribution and license notice | Not a deployment |
 | Port to another language | No — Article 3 permits study-based modification | Publishing the port is a Distribution under PASVL and requires the Author's terms to be retained | Deployment of the port requires a LOSDA |
-| Localisation of a UI | No | Yes | Yes, if deployed |
+| Localization of a UI | No | Yes | Yes, if deployed |
 | Book or course based on the Work | No | Attribute | No, if no software is deployed |
 
 ## 7. Extending the framework: the rule of fit
@@ -89,21 +89,21 @@ with their own licence file, and must list them in the NOTICE.
 Before applying PASVL to a new kind of work, ask:
 
 1. **Is the source meaningfully "visible"?** If not, the visibility grant is empty and the
-   licence is just restrictive.
+   license is just restrictive.
 2. **Is there a coherent notion of "deployment"?** If the work is used by copying it into a
    document, deployment and distribution collapse into one act, and the framework adds little.
 3. **Can deployment be detected?** If not, enforcement is theoretical.
-4. **Is the permission culture plausible?** If everyone will simply ignore the licence, it
+4. **Is the permission culture plausible?** If everyone will simply ignore the license, it
    damages the credibility of the framework.
 5. **Does the existing law already give the Author the control they want?** Sometimes a simple
-   copyright notice and a commercial licence is clearer.
+   copyright notice and a commercial license is clearer.
 
 If the answer to 1–4 is no, use a different instrument.
 
 ## 8. What not to do
 
 - Do not apply PASVL to work you do not own.
-- Do not apply PASVL to work already licensed to the public under an irrevocable open licence.
+- Do not apply PASVL to work already licensed to the public under an irrevocable open license.
 - Do not apply PASVL to a specification you have submitted to a standards body with a FRAND or
   royalty-free commitment.
 - Do not apply PASVL to content that is primarily personal data.

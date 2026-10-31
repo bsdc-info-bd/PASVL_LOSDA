@@ -19,7 +19,7 @@ Framework
 |---|---|---|---|
 | Works registered | | | |
 | Registered authors | | | |
-| Organisations adopting | | | |
+| Organizations adopting | | | |
 | Countries represented | | | |
 
 ## 3. Licensing activity
@@ -58,7 +58,7 @@ Framework
 | Status changes recorded | |
 | Corrections issued | |
 | Registry disputes opened / resolved | |
-| Anonymisation requests / granted | |
+| Anonymization requests / granted | |
 | Verification URL uptime | |
 | Merkle roots published (of 12) | |
 | Independent audit conducted? | Yes / No |
@@ -139,7 +139,7 @@ year. [Confirm or explain.]
 | Governance amendments adopted | |
 | Elections held | |
 
-## 11. Licence amendments
+## 11. License amendments
 
 | RFC | Class | Comment period | Outcome | Effective date |
 |---|---|---|---|---|

@@ -1,13 +1,13 @@
 # Requests for Comments (RFCs)
 
-This is where the framework changes. Every substantive change to the licence, the LOSDA
+This is where the framework changes. Every substantive change to the license, the LOSDA
 specification, the schemas, or the governance goes through an RFC — including changes proposed by
 the Steward.
 
 ## 1. Why RFCs
 
-A licence that can be edited by whoever holds the repository is a promise, not a licence. A
-licence that can never be edited is a fossil. The RFC process is the narrow path between them:
+A license that can be edited by whoever holds the repository is a promise, not a license. A
+license that can never be edited is a fossil. The RFC process is the narrow path between them:
 public, reasoned, time-limited, and recorded.
 
 ## 2. RFC lifecycle
@@ -81,7 +81,7 @@ An RFC may be rejected for:
 - a problem that does not exist;
 - a fix that costs more than the problem;
 - a change that withdraws a right already granted;
-- a change that makes the licence describable as open source when it is not;
+- a change that makes the license describable as open source when it is not;
 - insufficient engagement during the comment period;
 - a conflict with the framework's mission in `governance/CHARTER.md` §4.
 

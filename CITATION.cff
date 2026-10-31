@@ -5,7 +5,7 @@ abstract: >-
   A source-available licensing framework in which software source code is permanently public and
   visible, while the right to deploy the software is granted individually through a Letter of
   Software Deployment Approval (LOSDA) — a named, scoped, time-limited, publicly registered
-  permission instrument. The framework comprises a licence (PASVL-1.0), an instrument
+  permission instrument. The framework comprises a license (PASVL-1.0), an instrument
   specification (LOSDA-1.0), a public registry, governance policies, and templates.
 type: software
 version: "1.0.0"

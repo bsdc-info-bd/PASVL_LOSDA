@@ -15,24 +15,24 @@ deliberate, documented, and fair act rather than an accident or an entitlement.
 
 ## 2. Legal personality and capacity
 
-BSD C acts as a community organisation under the laws of Bangladesh. Its capacity to act as
-Steward — publishing licences, maintaining a registry, holding trademarks, and coordinating
+BSD C acts as a community organization under the laws of Bangladesh. Its capacity to act as
+Steward — publishing licenses, maintaining a registry, holding trademarks, and coordinating
 enforcement — is exercised through the License Council, which is the framework's governing
 body. Where BSD C enters into contracts (hosting, auditing, legal services), the Council
-authorises the signatory and records the authorisation.
+authorizes the signatory and records the authorization.
 
 ## 3. Powers of the Steward
 
 The Steward may:
 
-1. Publish, version, and correct the Licence and the LOSDA specification in accordance with the
+1. Publish, version, and correct the License and the LOSDA specification in accordance with the
    Amendment Process.
 2. Maintain the LOSDA Registry, the issuers register, the key register, and the Enforcement
    Register.
 3. Publish templates, guidance, badges, and educational material.
 4. Appoint the Registry Custodian and constitute appeal panels.
 5. Hold and license the framework's trademarks.
-6. Issue Continuity LOSDAs and Evaluation Extensions where the Licence authorises it.
+6. Issue Continuity LOSDAs and Evaluation Extensions where the License authorizes it.
 7. Investigate framework-integrity matters and coordinate enforcement among Authors.
 8. Publish annual transparency reports and audited statements of Registry costs.
 9. Enter into agreements for hosting, verification, audit, insurance, and legal services.
@@ -47,7 +47,7 @@ The Steward must:
 2. **Publish the text.** No rule may be applied that is not published in advance.
 3. **Keep the Registry true.** Record every LOSDA, every status change, and every enforcement
    action that the policies require.
-4. **Be neutral.** The Steward does not favour large deployers, paying authors, or any
+4. **Be neutral.** The Steward does not favor large deployers, paying authors, or any
    jurisdiction.
 5. **Be solvent and honest.** Publish Registry costs and administrative fees annually.
 6. **Protect the marks.** Prevent the "PASVL", "LOSDA", and BSDC marks from being used to
@@ -60,13 +60,13 @@ The Steward must:
 The Steward must never:
 
 1. Grant a permission that an Author has reserved. Only the Author may issue a LOSDA for the
-   Author's Work, except for Continuity and Extension LOSDAs under the Licence.
+   Author's Work, except for Continuity and Extension LOSDAs under the License.
 2. Revoke an Author's LOSDA except as an issuing authority under Article 18.
 3. Sell, rent, or tier the Registry listing.
 4. Sell or trade enforcement outcomes or appeal outcomes.
 5. Hide the identity of a decision-maker.
-6. Amend the Licence without the Amendment Process.
-7. Claim that the Licence is open source or approved by any body that has not approved it.
+6. Amend the License without the Amendment Process.
+7. Claim that the License is open source or approved by any body that has not approved it.
 8. Use confidential Registry information for commercial advantage.
 9. Discriminate in licensing or enforcement on protected grounds.
 10. Dissolve without a successor plan.
@@ -91,7 +91,7 @@ Authors' Assembly  ──elects──▶  License Council (7 seats)
 | Seat | Representing | Term | Elected by |
 |---|---|---|---|
 | 1 | Authors (individuals and small projects) | 2 years | Authors' Assembly |
-| 2 | Authors (organisations) | 2 years | Authors' Assembly |
+| 2 | Authors (organizations) | 2 years | Authors' Assembly |
 | 3 | Deployers and licensees | 2 years | Licensee forum |
 | 4 | Contributors | 2 years | Contributors |
 | 5 | Open-source and standards community | 2 years | Appointed, ratified by Assembly |
@@ -126,7 +126,7 @@ Breach of this section is a governance violation and may lead to removal.
 2. The Steward may charge a published administrative fee for processing a LOSDA only where the
    Author and the Steward agree, and it must be disclosed.
 3. The Steward must not take a percentage of an Author's licensing fees.
-4. Annual accounts are published, summarised, within 120 days of the financial year end.
+4. Annual accounts are published, summarized, within 120 days of the financial year end.
 5. No officer may receive a bonus linked to the number of refusals, revocations, or fees
    collected.
 
@@ -135,7 +135,7 @@ Breach of this section is a governance violation and may lead to removal.
 1. Council minutes: published, redacted for privacy and legal privilege.
 2. Decision register: every decision with its grounds and reviewer.
 3. Annual transparency report under `TRANSPARENCY-REPORT-TEMPLATE.md`.
-4. Enforcement Register: per Article 20 of the Licence.
+4. Enforcement Register: per Article 20 of the License.
 5. Audit: an independent review of Registry integrity at least every two years.
 
 ## 10. Amendment
@@ -147,4 +147,4 @@ majority of the whole Council.
 ## 11. Dissolution
 
 See [`DISSOLUTION-AND-SUCCESSION.md`](DISSOLUTION-AND-SUCCESSION.md). Dissolution does not and
-cannot withdraw rights already granted under the Licence to the public.
+cannot withdraw rights already granted under the License to the public.

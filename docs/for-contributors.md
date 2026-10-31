@@ -13,13 +13,13 @@ of contributing or studying.
 
 ## 2. What you are agreeing to
 
-By contributing, you agree to **Article 12** of the licence:
+By contributing, you agree to **Article 12** of the license:
 
 - You keep copyright in your Contribution.
-- You grant the Author and BSD C a perpetual, worldwide, royalty-free, irrevocable licence to
+- You grant the Author and BSD C a perpetual, worldwide, royalty-free, irrevocable license to
   use, modify, distribute, sublicense, and relicense your Contribution — including for
   commercial licensing under a LOSDA.
-- This is what allows the Author to enforce the licence and to sell deployment permission. Without
+- This is what allows the Author to enforce the license and to sell deployment permission. Without
   it, the framework cannot work.
 
 If you are not comfortable with that, do not contribute. You are still free to fork and study.
@@ -51,7 +51,7 @@ Section 5.
 
 Before you add a dependency or copy code from elsewhere:
 
-| Source licence | Can you put it in a PASVL work? |
+| Source license | Can you put it in a PASVL work? |
 |---|---|
 | MIT, BSD, ISC, Apache-2.0 | ✅ Yes, with notices |
 | MPL-2.0 | ✅ File-level, with notices |
@@ -67,19 +67,19 @@ See [`../legal/compatibility.md`](../legal/compatibility.md).
 2. **A test that fails before and passes after.**
 3. **A description that explains *why*, not just *what*.**
 4. **No unrelated formatting changes.**
-5. **No licence header removal.**
-6. **No new dependency without a licence check.**
+5. **No license header removal.**
+6. **No new dependency without a license check.**
 7. **No telemetry, tracking, or network calls** unless discussed and documented.
 8. **No generated code** unless the generator is included.
 
 ## 7. What gets rejected
 
 - Malicious or obfuscated code.
-- Code under an incompatible licence.
+- Code under an incompatible license.
 - Code that removes attribution or notices.
 - Code that adds tracking without disclosure.
 - Code that breaks the deployment Gate (see below).
-- Plagiarised code.
+- Plagiarized code.
 - Bulk reformatting that obscures the change.
 
 ## 8. The deployment gate
@@ -99,7 +99,7 @@ resolve it.
 
 ## 9. Documentation contributions
 
-Documentation is as valuable as code. Apply the same rules: sign-off, licence header, no
+Documentation is as valuable as code. Apply the same rules: sign-off, license header, no
 incompatible content. Translations are welcome — see [`../translations/`](../translations/).
 
 ## 10. Code of conduct
@@ -119,7 +119,7 @@ the release notes. The Author must credit contributions "where reasonably practi
 - You do **not** receive deployment rights by contributing. If you want to deploy, apply for a
   LOSDA like everyone else.
 - You retain the right to use your own contribution in your own work, subject to the inbound
-  licence you granted.
+  license you granted.
 
 ## 13. Security issues
 

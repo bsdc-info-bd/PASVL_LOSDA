@@ -13,7 +13,7 @@ not by a single person reacting to a headline.
 
 - **Five to seven members**, serving three-year renewable terms.
 - At least one member with expertise in human rights.
-- At least one member with expertise in security or defence technology.
+- At least one member with expertise in security or defense technology.
 - At least one member with expertise in data protection.
 - At least one member from a low- or middle-income country.
 - At least one member independent of the software industry.
@@ -83,7 +83,7 @@ Opinions may be:
 The Board publishes:
 
 - an annual report of referrals, categories, and outcomes;
-- anonymised opinions where the parties consent;
+- anonymized opinions where the parties consent;
 - aggregate statistics on prohibited-use findings.
 
 ## 8. Independence

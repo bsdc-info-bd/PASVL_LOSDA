@@ -5,7 +5,7 @@
 ## 1. Role
 
 The License Council is the framework's governing body. It does not license software — authors
-do that. It governs the framework the authors rely on: the text of the Licence, the integrity of
+do that. It governs the framework the authors rely on: the text of the License, the integrity of
 the Registry, the fairness of enforcement, the marks, the money, and the succession.
 
 ## 2. Powers
@@ -15,9 +15,9 @@ the Registry, the fairness of enforcement, the marks, the money, and the success
 3. Constitute appeal and reinstatement panels and approve the roster.
 4. Approve the annual transparency report and the audited Registry accounts.
 5. Approve changes to governance documents, templates, and schemas.
-6. Authorise contracts above the published threshold.
+6. Authorize contracts above the published threshold.
 7. Decide framework-integrity matters referred by the Steward.
-8. Interpret the Licence where a genuine ambiguity arises, publishing a reasoned opinion.
+8. Interpret the License where a genuine ambiguity arises, publishing a reasoned opinion.
 9. Approve emergency actions.
 10. Approve dissolution and succession under `DISSOLUTION-AND-SUCCESSION.md`.
 
@@ -30,7 +30,7 @@ The Council must not:
 2. overrule an Author's decision about their own Work, except on procedural grounds through the
    Appeals Panel;
 3. take a share of an Author's fees;
-4. change the Licence except by the Amendment Process;
+4. change the License except by the Amendment Process;
 5. act in a matter where a member has an undisclosed conflict.
 
 ## 4. Composition
@@ -49,7 +49,7 @@ The Council must not:
 
 A member must:
 
-- have read the Licence and the LOSDA specification in full;
+- have read the License and the LOSDA specification in full;
 - have no unresolved conflict of interest;
 - not be the subject of an active Stage 3 enforcement action;
 - be able to attend at least 75% of meetings;
@@ -65,7 +65,7 @@ The nomination committee reports annually on the composition.
 | Officer | Responsibility |
 |---|---|
 | Chair | Chairs meetings, signs decisions, represents the framework |
-| Vice-Chair | Deputises and acts when the Chair has a conflict |
+| Vice-Chair | Deputizes and acts when the Chair has a conflict |
 | Secretary | Keeps minutes, maintains the decision register |
 | Treasurer | Publishes accounts, monitors the budget |
 | Integrity Officer | Receives corruption and misconduct reports |
@@ -127,7 +127,7 @@ filling, the Council may act with the remaining members if quorum is met.
 
 ## 12. Council decisions are public rules
 
-A Council interpretation of the Licence is binding on the Steward and on Registry Custodians,
+A Council interpretation of the License is binding on the Steward and on Registry Custodians,
 but is not binding on a court. It is published in `governance/interpretations/` with an RFC-style
 record, and may be superseded.
 

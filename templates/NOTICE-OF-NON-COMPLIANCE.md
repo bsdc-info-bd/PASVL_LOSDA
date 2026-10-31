@@ -72,7 +72,7 @@ To cure this breach, the addressee must:
 
 If the breach is not cured within the period specified:
 
-- the licence and any LOSDA may be suspended or terminated;
+- the license and any LOSDA may be suspended or terminated;
 - the matter may be recorded in the Enforcement Register;
 - platform, registry, or app-store complaints may be filed;
 - legal proceedings may be commenced;
@@ -89,7 +89,7 @@ You may respond in writing by the deadline. You may:
 - dispute the facts and provide evidence;
 - request an extension of up to 30 days on reasonable grounds;
 - propose a remediation plan;
-- request a retroactive LOSDA to regularise past deployment.
+- request a retroactive LOSDA to regularize past deployment.
 
 Response should be sent to: ______________________________
 
@@ -101,7 +101,7 @@ business days of the reasoned decision.
 ## 11. Confidentiality
 
 This notice is confidential until and unless it results in a Stage 3 action. The issuing
-authority will not publicise it, and expects the same courtesy.
+authority will not publicize it, and expects the same courtesy.
 
 ---
 

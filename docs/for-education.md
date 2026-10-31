@@ -13,7 +13,7 @@ Under Article 3.4 and Article 7.2 you may:
 
 - read, display, and discuss the source in lectures and tutorials;
 - reproduce excerpts in slides, handouts, and textbooks, with attribution;
-- assign students to read, analyse, and critique the code;
+- assign students to read, analyze, and critique the code;
 - have students build and run the software **in the teaching environment** for coursework;
 - use the work as the basis of exercises and exams.
 
@@ -57,7 +57,7 @@ requires an ethics statement and a data-handling plan.
 
 ## 3. Citing the work
 
-When you publish, cite the work **and** the licence. Suggested formats:
+When you publish, cite the work **and** the license. Suggested formats:
 
 **Paper**
 
@@ -70,7 +70,7 @@ When you publish, cite the work **and** the licence. Suggested formats:
 > Source-Code Visibility License v1.0; deployment was permitted under LOSDA-BSDC-2026-000123.
 
 Include the LOSDA ID when you publish results from a licensed deployment. It helps reviewers
-verify that the use was authorised, and it makes the framework visible in the literature.
+verify that the use was authorized, and it makes the framework visible in the literature.
 
 ## 4. Ethics review
 
@@ -87,7 +87,7 @@ for others — it is a deployment and needs a LOSDA.
 
 Advise students to:
 
-1. check the licence before they build a company on it;
+1. check the license before they build a company on it;
 2. apply early; academic spin-out terms are often available;
 3. keep the attribution in their product;
 4. not assume "it was free for my coursework" means "it is free for my startup."
@@ -95,8 +95,8 @@ Advise students to:
 ## 6. Publishing modified versions
 
 You may publish a modification (a patch, a fork, a research variant) with attribution and under
-the same licence. Publishing does not grant deployment rights to anyone, including you. See
-`legal/compatibility.md` before you combine the work with code under another licence.
+the same license. Publishing does not grant deployment rights to anyone, including you. See
+`legal/compatibility.md` before you combine the work with code under another license.
 
 ## 7. Institutional deployment
 
@@ -111,7 +111,7 @@ Librarians and archivists may:
 
 - archive the source for preservation;
 - mirror it for access;
-- index and describe it in catalogues;
+- index and describe it in catalogs;
 - provide access to students and researchers on institutional terminals.
 
 Preservation and access are within Article 3. Running a public service from the archived copy is
@@ -119,14 +119,14 @@ not.
 
 ## 9. Open educational resources
 
-If you want to publish a course based on the work under an open licence, you may do so for your
+If you want to publish a course based on the work under an open license, you may do so for your
 own material. You cannot relicense the work itself, and you must carry its attribution and
-licence notice into your materials.
+license notice into your materials.
 
 ## 10. A teaching note
 
 PASVL is a useful case study in itself: it shows students that "public" and "open" are not the
-same thing, that licences are engineering artefacts, and that a permission framework can be
+same thing, that licenses are engineering artifacts, and that a permission framework can be
 designed deliberately rather than inherited by accident. Several universities use the framework's
 documents in software-engineering ethics and licensing modules. You are welcome to do the same,
 with attribution.

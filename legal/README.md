@@ -8,7 +8,7 @@ courts, and the public can read the same text at the same time.
 
 | Document | Status | Purpose |
 |---|---|---|
-| [`../LICENSE`](../LICENSE) | **Binding** | PASVL-1.0, the public licence |
+| [`../LICENSE`](../LICENSE) | **Binding** | PASVL-1.0, the public license |
 | [`losda-specification.md`](losda-specification.md) | **Binding operating rules** | The LOSDA instrument: classes, issuance, registry |
 | [`plain-language.md`](plain-language.md) | Non-binding summary | The whole framework in human words |
 | [`hierarchy-and-interpretation.md`](hierarchy-and-interpretation.md) | Interpretive | Order of precedence and reading rules |
@@ -18,7 +18,7 @@ courts, and the public can read the same text at the same time.
 | [`ethics-policy.md`](ethics-policy.md) | **Binding for adopters who incorporate it** | Prohibited uses and ethical review |
 | [`sanctions-and-export.md`](sanctions-and-export.md) | Interpretive | Export control and restricted parties |
 | [`anti-corruption.md`](anti-corruption.md) | **Binding policy** | Integrity of the licensing process |
-| [`compatibility.md`](compatibility.md) | Interpretive | Combining PASVL code with other licences |
+| [`compatibility.md`](compatibility.md) | Interpretive | Combining PASVL code with other licenses |
 | [`jurisdiction-matrix.md`](jurisdiction-matrix.md) | Interpretive | Country-by-country notes and open questions |
 | [`non-software-works.md`](non-software-works.md) | Interpretive | Extending the framework to docs, models, data, hardware |
 | [`risk-register.md`](risk-register.md) | Governance | Known legal and operational risks |
@@ -26,7 +26,7 @@ courts, and the public can read the same text at the same time.
 ## 2. How to read this repository
 
 1. **Start with the plain-language summary** if you are new.
-2. **Read the Licence itself** — all of it — before you rely on any summary.
+2. **Read the License itself** — all of it — before you rely on any summary.
 3. **Read the LOSDA specification** if you intend to deploy, issue, or administer.
 4. **Read the enforcement policy** if you are deploying commercially, because that is the
    document that tells you what happens when something goes wrong.
@@ -37,10 +37,10 @@ courts, and the public can read the same text at the same time.
 
 | Kind of text | Binding? |
 |---|---|
-| `LICENSE` | Yes — it is the licence |
+| `LICENSE` | Yes — it is the license |
 | LOSDA letter, signed and registered | Yes — for that licensee only |
 | LOSDA specification, parts marked **Binding** | Yes — as operating rules of the framework |
-| NOTICE file supplied by an Author | Yes — as terms additional to the licence |
+| NOTICE file supplied by an Author | Yes — as terms additional to the license |
 | Governance documents | Yes — for the Steward and its bodies |
 | Guides, FAQs, tutorials, this index | No — explanatory only |
 | Translated texts | No — unless expressly designated authoritative |
@@ -49,7 +49,7 @@ courts, and the public can read the same text at the same time.
 
 The framework is versioned in lock-step:
 
-- **Licence:** `PASVL-<major>.<minor>`
+- **License:** `PASVL-<major>.<minor>`
 - **LOSDA:** `LOSDA-<major>.<minor>`
 - **Schema:** `losda-v<major>.schema.json`
 

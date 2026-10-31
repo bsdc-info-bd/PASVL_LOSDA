@@ -39,7 +39,7 @@ You will be asked for ten things:
 7. **How long** — your intended term.
 8. **What you will change** — modifications, if any.
 9. **Data and security** — whether you process personal data, and how you handle incidents.
-10. **Declarations** — that you are authorised, not sanctioned, and will comply.
+10. **Declarations** — that you are authorized, not sanctioned, and will comply.
 
 Use [`../templates/LOSDA-REQUEST.md`](../templates/LOSDA-REQUEST.md). A complete application gets
 a decision in about **20 business days** for standard classes.
@@ -47,7 +47,7 @@ a decision in about **20 business days** for standard classes.
 ## 3. What happens next
 
 ```
-You apply ──► Acknowledgement (3 days) ──► Triage (5 days) ──► Review (10 days)
+You apply ──► Acknowledgment (3 days) ──► Triage (5 days) ──► Review (10 days)
          ──► Decision (10 days) ──► Letter signed ──► Registry recorded (2 days)
          ──► You receive a LOSDA ID and a verification URL
 ```
@@ -74,7 +74,7 @@ launch, not after.
 1. **"We only use it internally."** Internal use is still deployment. Class I exists for it.
 2. **"We're not selling it, so it's non-commercial."** Saving money or gaining advantage is
    commercial. Read §1.4.
-3. **"We'll get the licence after launch."** That is a Violation from launch. Ask first; it is
+3. **"We'll get the license after launch."** That is a Violation from launch. Ask first; it is
    usually quick.
 4. **"Our contractor will deploy it for us."** Contractors are agents; you remain liable, and
    the scope must cover them.
@@ -88,8 +88,8 @@ launch, not after.
 
 | Obligation | Practical action |
 |---|---|
-| C1 notices preserved | Keep the `LICENSE` and `NOTICE` in your source and in shipped artefacts |
-| C2 attribution to users | Add an "Open source and third-party licences" page to your product |
+| C1 notices preserved | Keep the `LICENSE` and `NOTICE` in your source and in shipped artifacts |
+| C2 attribution to users | Add an "Open source and third-party licenses" page to your product |
 | C3 scope | Keep a one-page record of your permitted scope; check new products against it |
 | C4 scale reporting | Automate a quarterly count of users or instances |
 | C5 no sublicensing | Tell your resellers they cannot pass on rights |
@@ -106,8 +106,8 @@ Use [`checklist-deployer-compliance.md`](checklist-deployer-compliance.md) for t
 
 1. Stop, or scope down to Evaluation Use immediately.
 2. Apply for a LOSDA, and tell the issuer you have been deploying.
-3. Ask for a retroactive LOSDA with a regularisation fee.
-4. Most authors will regularise rather than litigate. Concealment is what turns a mistake into a
+3. Ask for a retroactive LOSDA with a regularization fee.
+4. Most authors will regularize rather than litigate. Concealment is what turns a mistake into a
    dispute.
 
 ### You received a Notice of Non-Compliance
@@ -128,9 +128,9 @@ Use [`checklist-deployer-compliance.md`](checklist-deployer-compliance.md) for t
 
 ## 8. Procurement and legal review
 
-If your organisation requires a legal review, give your lawyers:
+If your organization requires a legal review, give your lawyers:
 
-- the licence text (`LICENSE`);
+- the license text (`LICENSE`);
 - the plain-language summary (`legal/plain-language.md`);
 - the platform reality note (`legal/platform-reality.md`);
 - the risk register (`legal/risk-register.md`);
@@ -145,7 +145,7 @@ where a paid LOSDA says so.
 
 1. What classes do you offer and what do they cost?
 2. What is your response time?
-3. Will you offer a retroactive licence if we discover a past deployment?
+3. Will you offer a retroactive license if we discover a past deployment?
 4. What are your scale thresholds?
 5. Do you incorporate the Ethics Policy?
 6. Who signs, and what is your backup if you are unavailable?

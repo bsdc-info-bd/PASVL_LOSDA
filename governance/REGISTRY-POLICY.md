@@ -33,7 +33,7 @@ Every record conforms to `schemas/losda-v1.schema.json` and contains:
 3. `class`
 4. `work` — name, repo URL, commit or release reference
 5. `issuer` — legal name, issuer code, capacity
-6. `licensee` — legal name, country, public display name or anonymised identifier
+6. `licensee` — legal name, country, public display name or anonymized identifier
 7. `scope` — deployment type, territory, field of use, scale limits
 8. `conditions` — condition codes and any bespoke text
 9. `fees` — present or `none`; amounts may be marked confidential
@@ -65,10 +65,10 @@ Status changes are appended, never overwritten. Each entry records:
 
 | Action | Who | Approval required |
 |---|---|---|
-| Add a LOSDA | Registry Custodian, on receipt of a signed LOSDA from an authorised issuer | Custodian + second Custodian review |
+| Add a LOSDA | Registry Custodian, on receipt of a signed LOSDA from an authorized issuer | Custodian + second Custodian review |
 | Change status (active → expired) | Automated process | None, if deterministic |
 | Change status (suspension, revocation) | Registry Custodian | Issuer's signed decision + second reviewer |
-| Correct an entry | Registry Custodian | Custodian + issuer acknowledgement |
+| Correct an entry | Registry Custodian | Custodian + issuer acknowledgment |
 | Add an issuer | Registry Custodian | License Council |
 | Revoke a key | Registry Custodian | Custodian + issuer notification |
 | Add an enforcement entry | Registry Custodian | Enforcement authority's signed decision |
@@ -110,12 +110,12 @@ making insertion, deletion, or reordering detectable.
 
 ## 8. Deletion
 
-**Nothing is deleted.** A record may be marked `withdrawn`, `void`, or `anonymised`, but the
+**Nothing is deleted.** A record may be marked `withdrawn`, `void`, or `anonymized`, but the
 entry remains. This protects third parties who relied on the record and prevents a licensee
 from erasing a revocation.
 
-**Exception — personal data:** where the privacy policy requires anonymisation, personal data
-fields are replaced with an anonymised identifier, and the change is recorded.
+**Exception — personal data:** where the privacy policy requires anonymization, personal data
+fields are replaced with an anonymized identifier, and the change is recorded.
 
 ## 9. Availability and integrity
 
@@ -130,7 +130,7 @@ fields are replaced with an anonymised identifier, and the change is recorded.
 **10.1 What is published.** Date, reference, class of action, provision breached, stage,
 outcome, appeal status, and a redacted party identifier.
 
-**10.2 What is withheld.** Personal data beyond a name or anonymised identifier, confidential
+**10.2 What is withheld.** Personal data beyond a name or anonymized identifier, confidential
 evidence, information that would endanger a person, and information subject to legal privilege.
 
 **10.3 Duration.** Stage 0–1 matters are aggregated, not listed. Stage 2 and above are listed
@@ -169,7 +169,7 @@ listed.
 An independent auditor verifies, at least every two years:
 
 1. a sample of LOSDAs against their signed letters;
-2. that every revocation decision is properly authorised;
+2. that every revocation decision is properly authorized;
 3. access logs and change history;
 4. the Merkle root chain;
 5. that no record was silently deleted.

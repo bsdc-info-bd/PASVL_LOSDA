@@ -16,7 +16,7 @@ returned; the clock stops until the missing information arrives.
 | Country of establishment | |
 | Registered address | |
 | Website | |
-| Authorised contact name | |
+| Authorized contact name | |
 | Contact email | |
 | Contact role | |
 | Is the applicant a natural person? | ☐ Yes ☐ No |
@@ -79,10 +79,10 @@ the commercial context. Two paragraphs is usually enough.
 Please confirm each statement. A false declaration voids any LOSDA issued and may result in a
 12-month exclusion from reapplying.
 
-- ☐ I am authorised to bind the applicant entity.
+- ☐ I am authorized to bind the applicant entity.
 - ☐ The applicant is not a restricted party and is not subject to sanctions that would prohibit
   this deployment.
-- ☐ The deployment will comply with the licence and with applicable law in the territories
+- ☐ The deployment will comply with the license and with applicable law in the territories
   requested.
 - ☐ The deployment will not be used for any use prohibited by the applicable Ethics Policy.
 - ☐ The applicant has not had a LOSDA revoked for this Work.
@@ -104,7 +104,7 @@ Please confirm each statement. A false declaration voids any LOSDA issued and ma
 | Reason (launch, regulatory deadline, humanitarian need) | |
 | Target date | |
 
-## J. Fee acknowledgement
+## J. Fee acknowledgment
 
 | Field | Answer |
 |---|---|

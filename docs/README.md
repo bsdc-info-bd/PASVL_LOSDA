@@ -13,7 +13,7 @@ Start here, then pick the path that matches who you are.
 | **A public body** | [`for-government.md`](for-government.md) | [`../legal/plain-language.md`](../legal/plain-language.md) |
 | **A teacher or researcher** | [`for-education.md`](for-education.md) | [`../legal/plain-language.md`](../legal/plain-language.md) |
 | **An open-source maintainer** | [`for-open-source-projects.md`](for-open-source-projects.md) | [`../legal/compatibility.md`](../legal/compatibility.md) |
-| **Curious, confused, or sceptical** | [`faq.md`](faq.md) | [`why-this-exists.md`](why-this-exists.md) |
+| **Curious, confused, or skeptical** | [`faq.md`](faq.md) | [`why-this-exists.md`](why-this-exists.md) |
 
 ## Reference
 
@@ -23,8 +23,8 @@ Start here, then pick the path that matches who you are.
 | [`losda-guide.md`](losda-guide.md) | The permission process from the requester's point of view |
 | [`badge-usage.md`](badge-usage.md) | Which badge to display and how |
 | [`glossary.md`](glossary.md) | Every term in the framework |
-| [`versioning.md`](versioning.md) | How the framework, the licence, and the schema are versioned |
-| [`migration-guide.md`](migration-guide.md) | Moving from another licence to PASVL |
+| [`versioning.md`](versioning.md) | How the framework, the license, and the schema are versioned |
+| [`migration-guide.md`](migration-guide.md) | Moving from another license to PASVL |
 | [`anti-patterns.md`](anti-patterns.md) | Ways adopters get this wrong |
 | [`roadmap.md`](roadmap.md) | Where the framework is going |
 | [`citation.md`](citation.md) | How to cite the instruments |

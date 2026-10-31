@@ -1,5 +1,5 @@
 name: Framework proposal (RFC)
-description: Propose a change to the licence, the LOSDA specification, the schemas, or governance
+description: Propose a change to the license, the LOSDA specification, the schemas, or governance
 title: "[RFC] <short title>"
 labels: ["rfc", "needs-triage"]
 body:

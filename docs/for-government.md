@@ -14,7 +14,7 @@ rights. PASVL is designed to serve both.
 | Value for money | No fee for Class G; you pay only for the deployment permission, if at all |
 | Vendor independence | The source is available to you; you are not locked into a black box |
 | Sovereignty and continuity | A Continuity LOSDA protects essential services if a supplier disappears |
-| Procurement clarity | The permission is a written instrument with defined scope, not an ambiguous "free" licence |
+| Procurement clarity | The permission is a written instrument with defined scope, not an ambiguous "free" license |
 | Public-interest uses | Article 9 grants emergency and public-interest pathways |
 | Accountability | The Registry and the Enforcement Register are public |
 
@@ -29,7 +29,7 @@ rights. PASVL is designed to serve both.
 | Continuous service where the author is gone | C | None; requires evidence |
 | Training for staff | A (if academic) or I | Depends on the author |
 
-**Class G** requires an authorising officer and a statement of public purpose. It is granted
+**Class G** requires an authorizing officer and a statement of public purpose. It is granted
 for public service delivery, not for onward commercial exploitation.
 
 ## 3. Procurement compatibility
@@ -72,7 +72,7 @@ The License and the Registry support transparency. A public body that deploys PA
 - may publish its LOSDA (it contains no confidential information by default);
 - should record the LOSDA ID in its asset register and, where appropriate, in its publication
   scheme;
-- may receive a request for the licence terms under freedom-of-information law — the answer is
+- may receive a request for the license terms under freedom-of-information law — the answer is
   that the terms are public.
 
 ## 5. Accessibility, security, and data protection
@@ -90,7 +90,7 @@ your own obligations — use them.
 
 ## 6. Emergency use
 
-Article 9.1 permits a public body or humanitarian organisation to deploy without a prior LOSDA
+Article 9.1 permits a public body or humanitarian organization to deploy without a prior LOSDA
 during a declared emergency for up to 90 days, provided it:
 
 1. notifies the author or the Steward within 14 days;
@@ -112,7 +112,7 @@ supports an essential service, the Steward may issue a Continuity LOSDA on the a
 
 ## 8. Model contract language
 
-> **Software licence.** The Supplier shall deliver a Letter of Software Deployment Approval
+> **Software license.** The Supplier shall deliver a Letter of Software Deployment Approval
 > (LOSDA) issued under version 1.0 of the Public Availability with Source-Code Visibility
 > License (PASVL-1.0), recorded in the LOSDA Registry, permitting the Authority to deploy the
 > Software in [territory] for [purpose] at a scale of [limits] for a term of [term]. The LOSDA
@@ -132,21 +132,21 @@ supports an essential service, the Steward may issue a Continuity LOSDA on the a
 |---|---|
 | Supplier unable to issue the LOSDA (not the copyright owner) | Require proof of ownership in diligence |
 | LOSDA scope too narrow for a growing service | Negotiate headroom; review annually |
-| Political controversy over a non-open licence | Publish an honest explanation; the code is still public |
-| Audit finding on licence compliance | Register the LOSDA and record it in asset management |
+| Political controversy over a non-open license | Publish an honest explanation; the code is still public |
+| Audit finding on license compliance | Register the LOSDA and record it in asset management |
 | Supplier dissolution | Continuity LOSDA + escrow |
 | Data protection breach | Your DPA and incident process; use condition C6 and C13 |
 
-## 10. When to choose an open licence instead
+## 10. When to choose an open license instead
 
-Use an OSI-approved licence when:
+Use an OSI-approved license when:
 
 - the software is a standard that public bodies must all be able to adopt without a vendor;
 - the procurement model is "buy support, not permission";
 - your national policy mandates open source;
 - the software is small and the permission overhead exceeds its value.
 
-PASVL is a tool, not a doctrine. The right licence depends on the public purpose.
+PASVL is a tool, not a doctrine. The right license depends on the public purpose.
 
 ## 11. Contacts and templates
 

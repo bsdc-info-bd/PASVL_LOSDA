@@ -13,13 +13,13 @@ unacceptable failure mode. This document plans for it in advance.
 The following survive any dissolution, transfer, or insolvency of the Steward, and cannot be
 withdrawn:
 
-1. the rights granted to the public under Article 3 of the Licence, in respect of works already
+1. the rights granted to the public under Article 3 of the License, in respect of works already
    released;
 2. the rights granted under an active or perpetual LOSDA for its stated term;
-3. the obligation of any party to comply with the Licence for works they already received;
+3. the obligation of any party to comply with the License for works they already received;
 4. the public's right to read, study, audit, and fork.
 
-A dissolved steward cannot revoke a licence that has already been granted. Dissolution is not a
+A dissolved steward cannot revoke a license that has already been granted. Dissolution is not a
 ground for revocation under PASVL §18.7.
 
 ## 3. Succession triggers
@@ -49,7 +49,7 @@ On succession, the outgoing steward must transfer:
 1. the canonical Registry and its full history;
 2. the issuer, key, and works registers;
 3. the Enforcement Register;
-4. the trademarks, or a licence to use them;
+4. the trademarks, or a license to use them;
 5. the domain names and verification URLs;
 6. this repository, including all versions and tags;
 7. the escrow copy and the Merkle root archive;
@@ -75,7 +75,7 @@ The transfer must be public and must be recorded in the Registry itself.
 2. Existing LOSDAs remain valid for their stated terms.
 3. **No new LOSDAs may be issued** by the trustee except Continuity LOSDAs, and only where an
    essential service would otherwise fail.
-4. The Licence continues to govern existing works. It cannot be amended by a trustee.
+4. The License continues to govern existing works. It cannot be amended by a trustee.
 5. The Registry is published as a static archive, with the Merkle roots, and permanently
    mirrored.
 
@@ -91,7 +91,7 @@ Authors keep all rights in their works and may continue to license them independ
 may:
 
 - continue issuing LOSDAs directly and publish them in their own repositories;
-- adopt a different licence for future versions, subject to §19.5 of the Licence;
+- adopt a different license for future versions, subject to §19.5 of the License;
 - participate in any successor framework.
 
 The dissolution of the Steward does not terminate an author's obligations to existing licensees

@@ -38,15 +38,15 @@ processor and this Addendum applies to that service.
 The processor must:
 
 1. process only on documented instructions, including for transfers;
-2. ensure authorised personnel are bound by confidentiality;
+2. ensure authorized personnel are bound by confidentiality;
 3. implement appropriate technical and organisational security measures (Annex II);
 4. assist the controller with data-subject requests;
 5. assist with security, breach notification, and impact assessments;
 6. delete or return data at the end of the term, subject to legal retention;
 7. make available information necessary to demonstrate compliance, and allow audits;
 8. notify the controller without undue delay, and within 72 hours where required, of a breach;
-9. not engage a sub-processor without prior written authorisation;
-10. impose the same obligations on any authorised sub-processor.
+9. not engage a sub-processor without prior written authorization;
+10. impose the same obligations on any authorized sub-processor.
 
 ## 4. Sub-processors
 
@@ -94,7 +94,7 @@ A transfer risk assessment is attached at Annex III where required.
 ## 8. Audit
 
 The controller may audit once per year on 30 days' notice, or more often after a breach, using a
-recognised certification or an independent auditor where available.
+recognized certification or an independent auditor where available.
 
 ## 9. Liability
 

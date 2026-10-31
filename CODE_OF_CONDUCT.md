@@ -18,9 +18,9 @@ appearance, race, religion, or sexual identity and orientation.
 
 ---
 
-## 2. Expected behaviour
+## 2. Expected behavior
 
-1. **Argue with the argument.** Attack the licence, the clause, the analysis — not the person.
+1. **Argue with the argument.** Attack the license, the clause, the analysis — not the person.
 2. **Assume good faith first.** Most people who disagree with you have a reason.
 3. **Be precise.** "This clause is unenforceable in Germany because of §307 BGB" beats "this is
    nonsense".
@@ -38,7 +38,7 @@ appearance, race, religion, or sexual identity and orientation.
 
 ---
 
-## 3. Unacceptable behaviour
+## 3. Unacceptable behavior
 
 1. Harassment, intimidation, stalking, or following a person across spaces.
 2. Discriminatory comments or jokes about protected characteristics.
@@ -51,7 +51,7 @@ appearance, race, religion, or sexual identity and orientation.
    or refuses to participate in a violation.
 8. Spam, brigading, or coordinated disruption of discussions.
 9. Legal threats used to silence discussion rather than to resolve a genuine dispute.
-10. Knowingly false reports of licence violations or code-of-conduct breaches.
+10. Knowingly false reports of license violations or code-of-conduct breaches.
 11. Sustained disruption of a discussion after being asked to stop.
 12. Advocating or encouraging any of the above.
 
@@ -94,7 +94,7 @@ you decide whether to proceed.
 
 | Step | Target |
 |---|---|
-| Acknowledgement | 3 business days |
+| Acknowledgment | 3 business days |
 | Initial assessment | 10 business days |
 | Investigation (if needed) | 30 business days |
 | Decision and communication | 45 business days |
@@ -117,7 +117,7 @@ Sanctions are graduated:
 removal from the role is available at Level 3 and above and requires a hearing.
 
 **Should a sanction affect a LOSDA?** No. A code-of-conduct sanction is not a licensing sanction.
-Only the grounds in PASVL §18.7 can affect a LOSDA. Conduct that is also a licence violation may
+Only the grounds in PASVL §18.7 can affect a LOSDA. Conduct that is also a license violation may
 be pursued separately under the Enforcement Policy.
 
 ---
@@ -127,7 +127,7 @@ be pursued separately under the Enforcement Policy.
 1. The accused is told the substance of the allegation and given a chance to respond.
 2. The decision-maker must not have a conflict of interest.
 3. The decision and reasons are communicated to both parties.
-4. Sanctions are recorded in a confidential register, summarised in the annual transparency report.
+4. Sanctions are recorded in a confidential register, summarized in the annual transparency report.
 5. A sanction of Level 2 or above may be appealed within 20 business days to a person who did not
    make the decision.
 

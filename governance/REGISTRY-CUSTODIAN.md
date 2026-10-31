@@ -10,13 +10,13 @@ permitted, right now, from a public record that cannot be quietly rewritten.
 
 ## 2. Duties
 
-1. Record every LOSDA received from an authorised issuer within 2 business days.
+1. Record every LOSDA received from an authorized issuer within 2 business days.
 2. Maintain status: expiry, suspension, revocation, supersession, withdrawal.
 3. Compute and publish record hashes and the monthly Merkle root.
 4. Maintain the issuer register and the public key register.
 5. Process corrections and Registry disputes.
 6. Publish the Enforcement Register entries supplied by enforcement authorities.
-7. Operate the anonymised-listing process under the privacy policy.
+7. Operate the anonymized-listing process under the privacy policy.
 8. Run quarterly access reviews and the biennial independent audit.
 9. Maintain mirrors and the escrow copy.
 10. Report quarterly to the License Council.
@@ -34,11 +34,11 @@ permitted, right now, from a public record that cannot be quietly rewritten.
 The Custodian must not:
 
 1. invent, alter, or delete a LOSDA;
-2. change a status without a signed decision from an authorised person;
+2. change a status without a signed decision from an authorized person;
 3. publish confidential annexes;
 4. accept payment from a licensee to change a status;
 5. disclose applicant data except as permitted;
-6. act as an issuing authority for any class other than those the Licence allows.
+6. act as an issuing authority for any class other than those the License allows.
 
 ## 5. Independence and conflicts
 
@@ -84,9 +84,9 @@ The Custodian must not:
 4. Records signed with a revoked key remain valid only if signed before the revocation date and
    the issuer confirms.
 
-## 10. Anonymised listing
+## 10. Anonymized listing
 
-The Custodian decides anonymisation requests under the privacy policy. The decision must:
+The Custodian decides anonymization requests under the privacy policy. The decision must:
 
 1. be in writing, with reasons;
 2. be recorded without the personal data;
@@ -97,7 +97,7 @@ The Custodian decides anonymisation requests under the privacy policy. The decis
 
 The Custodian acts as a record-keeper. The Custodian is not liable for a deployment made in
 reliance on a record that was accurate at the time, except in cases of the Custodian's own fraud
-or gross negligence, and subject to the liability limits of the Licence.
+or gross negligence, and subject to the liability limits of the License.
 
 ## 12. Removal
 

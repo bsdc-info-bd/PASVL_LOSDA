@@ -4,9 +4,9 @@
 **Binding when:** an Author incorporates this policy by reference into the NOTICE, or a LOSDA
 applies condition C14.
 
-Ethics clauses in software licences are controversial, and for good reasons: they can be vague,
+Ethics clauses in software licenses are controversial, and for good reasons: they can be vague,
 they can make compliance unpredictable, and they can be used to discriminate. This policy is
-written to be narrow, specific, reviewable, and appealable. It is modelled on the principle that
+written to be narrow, specific, reviewable, and appealable. It is modeled on the principle that
 an author may refuse to be the tool of serious harm without thereby becoming the arbiter of
 everyone else's morality.
 
@@ -25,7 +25,7 @@ An adopter that incorporates this policy must not permit its Work to be used for
 - Mass, indiscriminate surveillance of a population, including pervasive biometric
   identification of persons in public spaces.
 - Social scoring systems that allocate benefits, penalties, or access to services to persons
-  based on unrelated behaviour.
+  based on unrelated behavior.
 - Systems whose primary purpose is to identify, track, or suppress political dissent, religious
   practice, or membership in a protected group.
 - Predictive policing that directs enforcement action at individuals based on protected
@@ -33,7 +33,7 @@ An adopter that incorporates this policy must not permit its Work to be used for
 
 ### 1.3 Coercion of individuals
 
-- Systems that facilitate human trafficking, forced labour, or sexual exploitation.
+- Systems that facilitate human trafficking, forced labor, or sexual exploitation.
 - Systems whose purpose is to facilitate coercive control, stalking, or intimate-image abuse.
 - Emotion-recognition systems used to make decisions about a person's employment, education,
   access to credit, or liberty.
@@ -49,7 +49,7 @@ An adopter that incorporates this policy must not permit its Work to be used for
 - Fraud, ransomware, or the operation of criminal markets.
 - Circumvention of safety systems where the foreseeable result is serious harm.
 - Systems whose purpose is to defeat the security of another person's systems, except as
-  permitted by Article 8 of the Licence.
+  permitted by Article 8 of the License.
 
 ### 1.6 Evasion of accountability
 
@@ -77,7 +77,7 @@ review requirements is in `governance/ETHICS-REVIEW-BOARD.md`.
 
 ## 3. What this policy does not do
 
-- It does not restrict lawful defence forces from using the Work for defensive, logistics,
+- It does not restrict lawful defense forces from using the Work for defensive, logistics,
   medical, or administrative purposes that fall outside Section 1.
 - It does not restrict journalism, academic research, security research, or documentation of
   harms.
@@ -97,14 +97,14 @@ special features:
 2. **Expert review.** The License Council may appoint two independent reviewers with subject
    expertise before a final decision. The reviewers advise; they do not decide.
 
-A licence termination for an ethics violation must state the prohibited use, the evidence, and
+A license termination for an ethics violation must state the prohibited use, the evidence, and
 the reasoning. It must be appealable to the appeals panel.
 
 ## 5. Anti-discrimination in licensing
 
 The framework prohibits refusing a LOSDA on the basis of: nationality, ethnicity, religion,
 sex, gender identity, sexual orientation, disability, age, caste, political opinion, or
-membership of a marginalised group, except where:
+membership of a marginalized group, except where:
 
 - refusal is required by sanctions or export control law;
 - the applicant is a restricted party;
@@ -126,7 +126,7 @@ The Steward commits to:
 4. **Publish the money.** Annual financial disclosure of Registry operation costs and any
    administrative fees.
 5. **No surveillance of the Registry's users.** The Registry does not track readers.
-6. **No secret licences.** No LOSDA may be issued with secret terms that contradict the
+6. **No secret licenses.** No LOSDA may be issued with secret terms that contradict the
    public Register.
 7. **No political endorsement.** The framework does not endorse candidates, parties, or
    campaigns, and the BSDC name must not be used in political advertising.

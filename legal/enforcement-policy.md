@@ -22,8 +22,8 @@ the goodwill the framework depends on has failed, even if it wins.
    recorded.
 4. **Transparency.** Enforcement statistics and the Enforcement Register are public.
 5. **Fair hearing.** No sanction without notice and an opportunity to respond, except in
-   urgent cases, which must be regularised within five business days.
-6. **No vendettas.** Enforcement is for the licence, not for personal disputes, competition, or
+   urgent cases, which must be regularized within five business days.
+6. **No vendettas.** Enforcement is for the license, not for personal disputes, competition, or
    inconvenience.
 7. **Protection of reporters.** Retaliation is itself a Violation.
 
@@ -54,7 +54,7 @@ the goodwill the framework depends on has failed, even if it wins.
 
 Enforcement must never rely on:
 
-- unauthorised access to a system;
+- unauthorized access to a system;
 - social engineering of a deployer's staff;
 - purchase or use of stolen data;
 - surveillance of individuals;
@@ -77,8 +77,8 @@ Every enforcement file must record the evidence and the standard applied.
 ### Stage 0 — Informal resolution
 
 **When:** first contact, low harm, likely ignorance, non-commercial party.
-**Action:** a private, courteous message identifying the Work, the conduct, the licence term,
-and how to regularise.
+**Action:** a private, courteous message identifying the Work, the conduct, the license term,
+and how to regularize.
 **Time limit:** 14 days to respond.
 **Record:** internal only; the Enforcement Register records only aggregated counts.
 **Escalation:** if ignored or refused, proceed to Stage 1.
@@ -122,7 +122,7 @@ representation.
 **Action:** complaints to hosting providers, package registries, app stores, cloud providers,
 payment processors where the conduct is fraudulent, and domain registrars where a confusingly
 similar domain is used.
-**Evidence pack:** the NNC, the Registry state, the licence, the proof of authorship, and a
+**Evidence pack:** the NNC, the Registry state, the license, the proof of authorship, and a
 description of the specific infringing material.
 **Caveat:** platform processes are independent. Outcomes are not guaranteed, and deadlines
 (e.g. counter-notice periods) must be respected.
@@ -131,7 +131,7 @@ description of the specific infringing material.
 
 **When:** material commercial harm, refusal to engage, repeat infringement, or a need to
 establish a precedent.
-**Action:** civil proceedings for infringement, breach of licence conditions, or both, together
+**Action:** civil proceedings for infringement, breach of license conditions, or both, together
 with injunctive relief where available.
 **Requirements before filing:** documented attempts at resolution, an assessment of costs and
 recoverability, compliance with pre-action protocols, and a proportionality review by the
@@ -144,11 +144,11 @@ campaign.
 | Conduct | Baseline severity | Typical entry stage | Cure available |
 |---|---|---|---|
 | Accidental evaluation use beyond 30 days | Low | 0 | Yes, 60 days |
-| Internal deployment without a LOSDA, small organisation | Low–Medium | 1 | Yes, 30–60 days |
+| Internal deployment without a LOSDA, small organization | Low–Medium | 1 | Yes, 30–60 days |
 | Commercial deployment without a LOSDA | Medium | 1 | Yes, 30 days |
 | Hosted service without a LOSDA | Medium–High | 1 | Yes, 30 days |
 | Distribution in a product without a LOSDA | High | 2 | Yes, if stopped promptly |
-| Removing licence notices | High | 2 | Yes, restore notices |
+| Removing license notices | High | 2 | Yes, restore notices |
 | Relicensing or sublicensing | High | 2–3 | Yes, cease and correct |
 | Repo-laundering or model laundering | High | 3 | Limited; requires cessation and disclosure |
 | Forged or altered LOSDA | Critical | 3 | No |
@@ -161,12 +161,12 @@ Aggravating factors: repeat conduct, concealment, commercial gain, harm to perso
 misrepresentation, targeting a small author.
 
 Mitigating factors: self-report, prompt cure, good faith, small capacity, public-interest use,
-cooperation, first offence.
+cooperation, first offense.
 
 ## 5. Sanctions available
 
 1. A written warning and a compliance plan.
-2. A retroactive LOSDA with a regularisation fee, where the Author consents.
+2. A retroactive LOSDA with a regularization fee, where the Author consents.
 3. Suspension of the LOSDA.
 4. Revocation of the LOSDA.
 5. Exclusion from applying for new LOSDAs for a period (12–36 months for severe cases).
@@ -214,7 +214,7 @@ reinstatement (PASVL §18.12), provided the party did not conceal the breach.
 
 1. Pre-Stage-3 communications are confidential.
 2. Stage 3 entries are public and redacted to minimum necessary detail.
-3. A party may request that its identity be anonymised where disclosure would create a safety
+3. A party may request that its identity be anonymized where disclosure would create a safety
    risk; the Steward decides, recording the reason.
 4. The framework does not engage in "name and shame" for Stage 0–1 matters.
 5. The Steward publishes annual statistics under `governance/TRANSPARENCY-REPORT-TEMPLATE.md`.
@@ -239,17 +239,17 @@ party.
 > months.
 >
 > **Stage 0.** The author sends a private message. The startup's CTO responds within two days,
-> apologises, and explains it believed the repository was MIT-licensed because the README said
+> apologizes, and explains it believed the repository was MIT-licensed because the README said
 > so.
 >
 > **Assessment.** The README was indeed stale — the author's own fault in part. Severity is
 > reduced. The conduct is a commercial deployment without a LOSDA, but was not concealed.
 >
 > **Resolution.** The author offers a Class H LOSDA backdated to the start of the deployment,
-> at a regularisation fee equal to six months of standard fees. The startup accepts, records
+> at a regularization fee equal to six months of standard fees. The startup accepts, records
 > the LOSDA in the Registry, and fixes its dependency audit process.
 >
-> **Record.** Enforcement Register: one Stage 0 matter, resolved by regularisation, no public
+> **Record.** Enforcement Register: one Stage 0 matter, resolved by regularization, no public
 > entry naming the party. Annual transparency report: counted in aggregate.
 >
 > **Lesson for authors:** keep your README accurate. A stale README weakens your enforcement

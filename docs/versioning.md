@@ -6,7 +6,7 @@ Three things are versioned in this repository, and confusing them causes real pr
 
 | Thing | Format | Example | Meaning |
 |---|---|---|---|
-| **Licence** | `PASVL-<major>.<minor>[.<patch>]` | `PASVL-1.0` | The legal text |
+| **License** | `PASVL-<major>.<minor>[.<patch>]` | `PASVL-1.0` | The legal text |
 | **LOSDA specification** | `LOSDA-<major>.<minor>[.<patch>]` | `LOSDA-1.0` | The permission instrument's operating rules |
 | **Schema** | `losda-v<major>.schema.json` | `losda-v1.schema.json` | The machine-readable record format |
 | **Templates** | `<NAME>-<major>.<minor>` | `LOSDA-TEMPLATE-1.0` | The forms |
@@ -24,7 +24,7 @@ A major change **may alter rights**. Examples:
 - changing the governing law;
 - changing the required fields of a LOSDA.
 
-A major licence change applies only to **new releases** and **new LOSDAs** (§26.3). Existing
+A major license change applies only to **new releases** and **new LOSDAs** (§26.3). Existing
 grants are unaffected unless the licensee opts in.
 
 ### 2.2 Minor
@@ -32,7 +32,7 @@ grants are unaffected unless the licensee opts in.
 A minor change **adds** something without altering existing rights:
 
 - a new no-fee class;
-- a clarification that resolves an ambiguity in favour of the licensee;
+- a clarification that resolves an ambiguity in favor of the licensee;
 - a new process with a longer deadline;
 - a new optional condition code.
 
@@ -45,7 +45,7 @@ Editorial only: typos, links, examples, formatting. No change in meaning.
 ```
 Read the work's NOTICE
         │
-        ├─ States a licence version? ──► That version governs your use of that release
+        ├─ States a license version? ──► That version governs your use of that release
         │
         └─ Silent? ──► The version published when your copy of the release was made
 ```
@@ -106,7 +106,7 @@ losda_version: "1.0"
 
 | Document | Review | Typical change |
 |---|---|---|
-| Licence | Annual, or on a Major RFC | Patch most years; Major rarely |
+| License | Annual, or on a Major RFC | Patch most years; Major rarely |
 | LOSDA specification | Annual | Minor |
 | Schema | With the specification | Additive |
 | Templates | As needed | Editorial |
@@ -114,7 +114,7 @@ losda_version: "1.0"
 
 ## 8. Registry versioning
 
-The Registry is a dataset, not a licence. Its releases are tagged:
+The Registry is a dataset, not a license. Its releases are tagged:
 
 ```
 registry-2026.10.0

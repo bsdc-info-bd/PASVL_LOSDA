@@ -43,7 +43,7 @@ The conflict register records:
 - the decision (no action / recusal / referred);
 - the affected matter.
 
-The register is available to the independent auditor and is summarised annually.
+The register is available to the independent auditor and is summarized annually.
 
 ## 5. Standing declarations
 

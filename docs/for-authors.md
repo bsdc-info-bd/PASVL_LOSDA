@@ -18,7 +18,7 @@ up, and how to do it properly.
 | Credibility | The source can be audited by anyone, including your customers |
 | A no-fee public-good channel | Academic, government, research, and public-interest classes |
 | Protection against predatory relicensing | Nothing you grant can be taken back (§19.5) |
-| A defence against "it's public so it's free" | Clear, repeated notices plus a registry |
+| A defense against "it's public so it's free" | Clear, repeated notices plus a registry |
 
 ## 2. What you give up
 
@@ -35,7 +35,7 @@ up, and how to do it properly.
 
 > "Because I want the code to be public and the deployment to be deliberate. MIT gives away the
 > right to run it commercially without asking. I want readers, auditors, and students to have
-> everything they need, and I want organisations that build a business on it to talk to me
+> everything they need, and I want organizations that build a business on it to talk to me
 > first. That is a fair trade, and it is transparent."
 
 If that is not your position — if you want maximum adoption above all — use MIT or Apache-2.0.
@@ -119,7 +119,7 @@ conversations per year for a mid-sized project; far fewer for a small one.
 You will need:
 
 - a template NNC (`templates/NOTICE-OF-NON-COMPLIANCE.md`);
-- a decision about whether to offer retroactive licences;
+- a decision about whether to offer retroactive licenses;
 - a line in your budget for occasional legal advice;
 - patience.
 
@@ -131,18 +131,18 @@ You will need:
 3. Setting fees but never publishing them.
 4. Refusing without reasons.
 5. Never recording LOSDAs, so no one can verify.
-6. Overclaiming ("nobody can use this without paying") when the licence grants evaluation and
+6. Overclaiming ("nobody can use this without paying") when the license grants evaluation and
    academic rights.
 
 ## 10. When PASVL is the wrong choice
 
-Use a different licence if:
+Use a different license if:
 
 - you want maximum adoption and do not care about commercial licensing;
 - your funder requires OSI-approved open source;
 - your project is a standard that needs universal, unconditional implementation rights;
 - you cannot commit to answering licensing requests;
-- your main goal is to prevent any commercial use at all (use a non-commercial licence, which is
+- your main goal is to prevent any commercial use at all (use a non-commercial license, which is
   a different instrument with different trade-offs).
 
 ## 11. Next steps

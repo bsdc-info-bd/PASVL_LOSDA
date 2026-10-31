@@ -85,7 +85,7 @@ reason an application is returned.
 
 | Step | What happens | Time |
 |---|---|---|
-| Acknowledgement | You get a reference number | 3 business days |
+| Acknowledgment | You get a reference number | 3 business days |
 | Triage | Class, completeness, sanctions screening | 5 business days |
 | Review | Identity, use case, scale, risk | 10 business days |
 | Decision | Approve, approve with conditions, or refuse | 10 business days |
@@ -172,7 +172,7 @@ your rights need the issuer's signature; amendments that restrict them need your
 | Record your scope on one page | Everyone knows the boundary |
 | Automate scale reporting | No quarterly scramble |
 | Put the issuer in your incident runbook | C6 compliance without thinking |
-| Add a third-party licences page | C1/C2 compliance by default |
+| Add a third-party licenses page | C1/C2 compliance by default |
 | Review the LOSDA at each product launch | No accidental scope creep |
 | Keep the signed letter in your contract system | Audit-ready |
 
@@ -216,13 +216,13 @@ your rights need the issuer's signature; amendments that restrict them need your
 >
 > Hello,
 >
-> During a licence review we discovered that we have been running [Work] in [context] since
-> [date]. We believe this was outside the licence and we want to correct it.
+> During a license review we discovered that we have been running [Work] in [context] since
+> [date]. We believe this was outside the license and we want to correct it.
 >
 > We have [describe immediate action] and would like to apply for a retroactive LOSDA covering the
-> period since [date]. We are happy to pay a regularisation fee.
+> period since [date]. We are happy to pay a regularization fee.
 >
-> We apologise for the oversight and would like to put the relationship on a proper footing.
+> We apologize for the oversight and would like to put the relationship on a proper footing.
 >
 > Best regards,
 > [Name]

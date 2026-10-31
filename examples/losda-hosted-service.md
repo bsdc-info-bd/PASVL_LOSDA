@@ -110,7 +110,7 @@ European Union (Ireland, Frankfurt) and the United States (Virginia, Oregon).
 1. **Availability.** The Licensee must publish a status page and notify the Issuer of any outage
    exceeding four hours.
 2. **Security baseline.** The Licensee must maintain SOC 2 Type II or ISO 27001 certification, or
-   an equivalent audited programme.
+   an equivalent audited program.
 3. **No competitive scheduling API.** The Licensee may not expose the Work's scheduling
    functionality as a public developer API competing with Acme Scheduler's own hosted offering.
 4. **Data protection.** A Data Processing Addendum is attached as a confidential annex.
@@ -131,7 +131,7 @@ technical contact for the first 90 days of any wind-down that it initiates witho
 | Escalation contact | Named engineer, business hours (UTC+6) |
 | Fee | Included in the base fee |
 
-## 9. Acknowledgements
+## 9. Acknowledgments
 
 As per the standard template, plus:
 

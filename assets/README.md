@@ -7,7 +7,7 @@ The official marks and badges of the PASVL/LOSDA framework.
 | File | What it is | Who may use it |
 |---|---|---|
 | [`logo.svg`](logo.svg) | The framework mark: an open brace enclosing a keyhole, inside a shield | BSD C, and works it stewards |
-| [`badge-pasvl.svg`](badge-pasvl.svg) | "licence: PASVL-1.0" | Any author of a PASVL work |
+| [`badge-pasvl.svg`](badge-pasvl.svg) | "license: PASVL-1.0" | Any author of a PASVL work |
 | [`badge-losda-required.svg`](badge-losda-required.svg) | "deployment: LOSDA required" | Any author of a PASVL work |
 | [`badge-source-available.svg`](badge-source-available.svg) | "status: source-available" | Any author of a PASVL work |
 | [`badge-losda-active.svg`](badge-losda-active.svg) | "LOSDA: active" | A licensee with an active LOSDA |
@@ -24,12 +24,12 @@ The mark means three things:
 - **The shield is closed** — the author's rights are protected, and the registry records who holds
   a key.
 
-Colours: Bangladesh green (`#006a4e`) and red (`#f42a41`), with white linework. The mark works on
+Colors: Bangladesh green (`#006a4e`) and red (`#f42a41`), with white linework. The mark works on
 light and dark backgrounds; use the SVG version, not a raster export.
 
 ## 3. Rules
 
-1. Do not alter the colours, proportions, or elements of the logo.
+1. Do not alter the colors, proportions, or elements of the logo.
 2. Do not place the logo inside another shape or combine it with another mark.
 3. Do not use the logo to imply endorsement of a product.
 4. Do not display a "LOSDA active" badge while the permission is suspended, expired, or revoked.
@@ -48,8 +48,8 @@ For rendering on a hosted page, use the plain-text shields.io form described in
 
 ## 5. Creating derivatives
 
-You may translate badge **text** while preserving the meaning and colour convention. You may not
-create a badge that implies a licence status the work does not have.
+You may translate badge **text** while preserving the meaning and color convention. You may not
+create a badge that implies a license status the work does not have.
 
 ## 6. Requests
 

@@ -16,7 +16,7 @@ document, and it does not replace a platform's own form.
 | Field | Value |
 |---|---|
 | Legal name | |
-| Relationship to the work | ☐ Author ☐ Owner of exclusive rights ☐ Authorised agent |
+| Relationship to the work | ☐ Author ☐ Owner of exclusive rights ☐ Authorized agent |
 | Address | |
 | Email | |
 | Telephone (where required) | |
@@ -30,7 +30,7 @@ document, and it does not replace a platform's own form.
 | Repository URL | |
 | First publication date | |
 | Copyright registration (if any) | |
-| Licence | PASVL-1.0 |
+| License | PASVL-1.0 |
 
 ## 3. The infringing material
 
@@ -49,8 +49,8 @@ Common bases:
 
 - [ ] The material is a verbatim or near-verbatim copy of the Work, distributed or deployed
       without a LOSDA.
-- [ ] The material removes or replaces the copyright and licence notices.
-- [ ] The material is presented under a different licence without authority.
+- [ ] The material removes or replaces the copyright and license notices.
+- [ ] The material is presented under a different license without authority.
 - [ ] The material is a derivative work that reproduces protected expression.
 - [ ] The material is a distribution of an executable form without a Class D LOSDA.
 
@@ -67,7 +67,7 @@ Explanation:
 | 1 | | | |
 | 2 | | | |
 
-Include: archived copies, differential comparison, the licence notice, and proof of authorship
+Include: archived copies, differential comparison, the license notice, and proof of authorship
 (commit history, signed tags, prior publication).
 
 ## 6. Prior contact
@@ -93,10 +93,10 @@ Include: archived copies, differential comparison, the licence notice, and proof
 
 ## 9. Statements by the complainant
 
-- ☐ I have a good-faith belief that the use described is not authorised.
+- ☐ I have a good-faith belief that the use described is not authorized.
 - ☐ The information in this request is accurate.
 - ☐ I understand that I may be liable for damages if I knowingly misrepresent.
-- ☐ I am authorised to act on behalf of the rights holder.
+- ☐ I am authorized to act on behalf of the rights holder.
 
 Signature: ____________________________ Date: ____________
 

@@ -7,7 +7,7 @@
 | Instrument | Letter of Software Deployment Approval (LOSDA) |
 | Version | LOSDA-1.0 |
 | Operates within | PASVL-1.0 (Public Availability with Source-Code Visibility License) |
-| Issued by | The Author, or the Steward where authorised under PASVL §10.2 |
+| Issued by | The Author, or the Steward where authorized under PASVL §10.2 |
 | Steward | Bangladesh Software Development Community (BSD C) |
 | Formal template | [`templates/LOSDA-TEMPLATE.md`](../templates/LOSDA-TEMPLATE.md) |
 | Machine-readable schema | [`schemas/losda-v1.schema.json`](../schemas/losda-v1.schema.json) |
@@ -31,14 +31,14 @@ prevails.
 ## 2. What a LOSDA is
 
 A LOSDA is a **written, identified, individually granted, scope-limited permission instrument**
-by which the Author authorises a named person or entity to deploy a specific Work within a
+by which the Author authorizes a named person or entity to deploy a specific Work within a
 specific scope, for a specific term, under stated conditions.
 
 A LOSDA is:
 
 - **an instrument, not a contract of sale** — it grants permission, never ownership;
 - **individually granted** — it is issued to a named licensee, not to the world;
-- **scoped** — it authorises only what it states, no more (PASVL §10.5);
+- **scoped** — it authorizes only what it states, no more (PASVL §10.5);
 - **recorded** — it has no effect until it exists in the Registry;
 - **verifiable** — any third party can confirm its current status without contacting the
   licensee;
@@ -58,7 +58,7 @@ A LOSDA is **not**:
 | A sublicence | Sublicensing requires express permission (PASVL §10.8) |
 | An open-source grant | PASVL is source-available, not open source (PASVL §28.5) |
 | A warranty or SLA | Support is only what the LOSDA states (PASVL §21.1) |
-| A trademark licence | Brand use is governed separately (PASVL Article 17) |
+| A trademark license | Brand use is governed separately (PASVL Article 17) |
 | A permanent entitlement | It runs for its term, and it can be revoked for cause |
 | A waiver of compliance duties | The licensee remains bound by the whole License |
 
@@ -68,7 +68,7 @@ The framework separates **what everyone may do** from **who may deploy**.
 
 ```
                     ┌──────────────────────────────────────────┐
-                    │  PASVL-1.0  —  the public licence        │
+                    │  PASVL-1.0  —  the public license        │
                     │  Grants: read, study, audit, fork, cite, │
                     │  teach, contribute.                      │
                     │  Reserves: the right to deploy.          │
@@ -100,7 +100,7 @@ expired, suspended, or revoked.
 |---|---|---|
 | The Author | Any class, for its own Work | Full authority |
 | A co-Author | Any class, for the joint Work | Must act jointly unless the NOTICE names an issuing agent |
-| An authorised agent named in the NOTICE | Classes named in the NOTICE | Within the stated delegation only |
+| An authorized agent named in the NOTICE | Classes named in the NOTICE | Within the stated delegation only |
 | The Steward as Continuity Issuer | Class C only | After 60 days of Author unresponsiveness (PASVL §9.2) |
 | The Steward as Extension Issuer | Class X only | Only where the Author has not objected in writing (PASVL §6.5) |
 | Anyone else | Nothing | Purported issuance is fraudulent under PASVL §13.8 |
@@ -121,7 +121,7 @@ Issuer records it.
 
 ### 6.1 Class S — Standard Commercial
 
-For a single organisation deploying a Work in its own commercial operations or products,
+For a single organization deploying a Work in its own commercial operations or products,
 within stated scale limits. Default term: one year, renewable. Default conditions: C1–C9.
 Review depth: standard. Fee: set by the Author.
 
@@ -133,7 +133,7 @@ Review depth: enhanced. Fee: negotiated.
 
 ### 6.3 Class I — Internal Use
 
-For deployment inside one organisation, not exposed to persons outside it. Default term: one
+For deployment inside one organization, not exposed to persons outside it. Default term: one
 year. Scale limits expressed in seats. Review depth: standard. Fee: set by the Author,
 frequently reduced.
 
@@ -160,7 +160,7 @@ use. Default term: two years. Review depth: light.
 ### 6.7 Class G — Government / Public Sector
 
 For public bodies deploying a Work in public service delivery. Fee: none by default.
-Requires an authorising officer and a statement of public purpose. Default term: two years.
+Requires an authorizing officer and a statement of public purpose. Default term: two years.
 Review depth: standard, with procurement compatibility review.
 
 ### 6.8 Class P — Public Interest
@@ -191,7 +191,7 @@ essential service and of unresponsiveness. Review depth: enhanced, with legal si
 
 For Machine Learning Use under PASVL Article 14. Must state: the permitted use (training,
 fine-tuning, evaluation, embedding), the model families, whether outputs may be released, and
-whether the resulting model may be monetised. Requires provenance records, model-card
+whether the resulting model may be monetized. Requires provenance records, model-card
 attribution, and an output-laundering prohibition. Review depth: enhanced. Fee: negotiated.
 
 ### 6.13 Class O — Open Deployment
@@ -238,7 +238,7 @@ LOSDA-OSM-2027-000002
 revoked LOSDA remains visible in the Registry with status `revoked` so that third parties can
 detect forged or stale instruments.
 
-**8.2 No reuse across Works.** One LOSDA authorises one Work (or one expressly listed set of
+**8.2 No reuse across Works.** One LOSDA authorizes one Work (or one expressly listed set of
 Works in a Class E instrument). It cannot be stretched across unrelated Works.
 
 ## 9. Issuance procedure
@@ -284,8 +284,8 @@ modified, but modifications must be written out in full in the LOSDA.
 
 | Code | Condition | Default for |
 |---|---|---|
-| C1 | Preserve all copyright, licence, and attribution notices in source and in product documentation | All |
-| C2 | Present licence identification and attribution to end users in an accessible location | H, D, O |
+| C1 | Preserve all copyright, license, and attribution notices in source and in product documentation | All |
+| C2 | Present license identification and attribution to end users in an accessible location | H, D, O |
 | C3 | Deploy only within the stated Territory and Field of Use | All |
 | C4 | Do not exceed the stated scale limits; report scale annually | S, H, E, D |
 | C5 | No sublicensing, resale, or Service Bureau Use without express written permission | All |
@@ -310,7 +310,7 @@ may deploy only as agents of, and on systems controlled by, the licensee, and on
 same scope; the licensee remains fully liable.
 
 **11.3 Territory.** "Worldwide" means all territories except those excluded by sanctions.
-A named territory includes the licensee's own personnel travelling temporarily.
+A named territory includes the licensee's own personnel traveling temporarily.
 
 **11.4 Field of Use.** Field-of-use limits are interpreted by the described purpose, not by
 the licensee's internal labelling. Re-labelling a product to fit an existing Field of Use is a
@@ -416,7 +416,7 @@ licensee must use reasonable efforts to notify affected customers of the change.
 
 ## 16. Registry obligations
 
-**16.1 What is published.** LOSDA ID, Work, class, licensee display name (or anonymised
+**16.1 What is published.** LOSDA ID, Work, class, licensee display name (or anonymized
 identifier if permitted), country, Effective Date, term, territory, scale band, status, and
 the record hash.
 
@@ -450,7 +450,7 @@ Validation is performed in CI by [`scripts/validate_losda.py`](../scripts/valida
 signature, platform-issued signature, or PGP/GPG detached signature over the canonical record
 hash.
 
-**18.2 Signatory.** The Author or an authorised signatory. The authority basis must be stated
+**18.2 Signatory.** The Author or an authorized signatory. The authority basis must be stated
 in the LOSDA.
 
 **18.3 Verification.** A third party verifies by (a) checking the Registry entry, (b) checking
@@ -458,7 +458,7 @@ the record hash on the letter, and (c) where present, verifying the detached sig
 the issuer's published key in `registry/keys/`.
 
 **18.4 Fraud.** Forging a LOSDA, altering a letter, or misrepresenting Registry status is a
-Violation under PASVL §13.8 and may be a criminal offence. The Steward will report credible
+Violation under PASVL §13.8 and may be a criminal offense. The Steward will report credible
 fraud to the relevant platform and, where appropriate, to authorities.
 
 **18.5 Key compromise.** An Issuer whose key is compromised must notify the Steward within
@@ -479,7 +479,7 @@ only for issues within the Council's competence.
 | Applications, including refused applications | 5 years |
 | Due-diligence material | 5 years after end of term |
 | Enforcement files | 7 years, or longer if litigation is reasonably anticipated |
-| Personal data in Registry | Minimised; reviewed annually |
+| Personal data in Registry | Minimized; reviewed annually |
 
 ## 21. Fees
 
@@ -499,7 +499,7 @@ Registry operation, which must be disclosed in `GOVERNANCE.md`.
 non-refundable once the term begins, except where the Issuer revokes without cause, in which
 case the unexpired portion is refunded pro rata.
 
-**21.6** Hardship. An Issuer may reduce or waive fees for small organisations, non-profits,
+**21.6** Hardship. An Issuer may reduce or waive fees for small organizations, non-profits,
 and public-interest uses, and must do so consistently with its published policy.
 
 ## 22. Forms and templates

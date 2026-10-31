@@ -29,7 +29,7 @@ location data.
 | LOSDA ID | Personal email addresses |
 | Work name and repository URL | Negotiated fee amounts |
 | Class | Personal identity numbers |
-| Licensee display name, or an anonymised identifier on request | Bank and payment details |
+| Licensee display name, or an anonymized identifier on request | Bank and payment details |
 | Country | Confidential annex content |
 | Effective date, term, territory, scale band | Security contact details |
 | Status and status history | Investigation files before Stage 3 |
@@ -45,17 +45,17 @@ Where the GDPR or comparable law applies, the Steward relies on:
   (6(1)(f)), balanced against data-subject rights;
 - **Consent** — where we publish a display name that is a natural person's name, and for
   optional communications (6(1)(a)). Consent may be withdrawn; withdrawal does not affect the
-  validity of the LOSDA, which can use an anonymised identifier instead.
+  validity of the LOSDA, which can use an anonymized identifier instead.
 
 ## 4. Visibility and automated search
 
 The Registry is a public document. Data published in it may be indexed by search engines and
 copied by others. The Steward cannot recall copies made by third parties. This is why
-minimisation matters at the point of collection.
+minimization matters at the point of collection.
 
-**Anonymised listing.** A sole trader, a private individual, or a licensee in a vulnerable
-position may request that its public listing show an anonymised identifier (for example,
-`L-2026-000123 (anonymised)`) instead of a name. The request is granted where:
+**Anonymized listing.** A sole trader, a private individual, or a licensee in a vulnerable
+position may request that its public listing show an anonymized identifier (for example,
+`L-2026-000123 (anonymized)`) instead of a name. The request is granted where:
 
 1. the licensee is a natural person or the disclosure would reveal a home address or a
    personal identity;
@@ -76,7 +76,7 @@ The Registry Custodian decides within 15 business days and records the decision 
 | Due-diligence material | 5 years after the end of the term |
 | Enforcement files | 7 years, or until the limitation period for related litigation expires |
 | Correspondence | 5 years |
-| Anonymisation requests | 5 years after the request is decided |
+| Anonymization requests | 5 years after the request is decided |
 | Keys and key histories | Permanent, annotated with revocation dates |
 
 ## 6. Security
@@ -104,7 +104,7 @@ Data subjects may request:
   by an append-only correction referencing the original;
 - **Erasure**, only to the extent compatible with the append-only integrity of the Registry
   and with legal-record obligations — in practice, erasure usually takes the form of
-  anonymisation rather than deletion;
+  anonymization rather than deletion;
 - **Restriction** of processing while a dispute is resolved;
 - **Portability** of data the subject provided;
 - **Objection** to processing based on legitimate interests;
